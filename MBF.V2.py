@@ -232,7 +232,7 @@ def mbfv2():
                          os.system("rm -rf cookies")
                          print("\n\x1b[1;97m [\x1b[1;92m√\x1b[1;97m]\x1b[1;92m Deleted Successfully!")
                          milzu()
-                         elif kentang == '1' or kentang =='01':
+                   elif kentang == '1' or kentang =='01':
                          url = parser(ses.get(mbasic.format('/me'),cookies=kuki).content,'html.parser').find('a',string='Teman')
                          username = getid(mbasic.format(url["href"]))
                    elif kentang == '2' or kentang =='02':
