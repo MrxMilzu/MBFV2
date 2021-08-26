@@ -5,6 +5,10 @@
 #fb = MÎŁŽÛ ŤČ
 #JANGAN DI RECODE YA NGENTOD
 
+import os,sys,re,time,json,random,requests
+from bs4 import BeautifulSoup as parser
+from concurrent.futures import ThreadPoolExecutor
+
 def mulai():
     os.system("git pull")
 def lupo_lupo_milzu():
@@ -52,6 +56,7 @@ def mbfv2():
     print(" \033[97m [\033[91m00\033[97m] ĶÊŁÛÂŘ ")
     print(" \x1b[1;94m────────────────────────────────────────────────────")
     time.sleep(0.1)
+
     milzu=input("\x1b[1;97m [\x1b[1;94m•\x1b[1;91m•\x1b[1;97m] \033[90m►\033[1;93m ")
     if milzu== "1" or milzu =="01":
          mbasic = 'https://mbasic.facebook.com{}'
