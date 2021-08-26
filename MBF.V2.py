@@ -268,7 +268,7 @@ def mbfv2():
                                  exit("\033[00m[\033[91m!\033[00m] \033[97mUser/ID Wrong!")
                    elif kentang == '6' or kentang =='06':
                          try:
-                         file1 = open("cp.txt").read()
+                                 file1 = open("cp.txt").read()
                                  file2 = open("ok.txt").read()
                                  a = file1 + file2
                                  final = a.strip().split("\n")
