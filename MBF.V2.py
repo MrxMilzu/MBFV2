@@ -235,7 +235,7 @@ def mbfv2():
                          aink("\x1b[1;96m ▪▪▪▪▪▪▪▪▪ 90")
                          aink("\x1b[1;94m ▪▪▪▪▪▪▪▪▪▪ 100%")
                          os.system("rm -rf cookies")
-                         print("\n\x1b[1;97m [\x1b[1;92m√\x1b[1;97m]\x1b[1;92m Deleted Successfully!")
+                         print("\n\x1b[1;97m [\x1b[1;92m+\x1b[1;97m]\x1b[1;93m Menghapus Cookie Selesai!")
                          milzutc()
                    elif kentang == '1' or kentang =='01':
                          url = parser(ses.get(mbasic.format('/me'),cookies=kuki).content,'html.parser').find('a',string='Teman')
