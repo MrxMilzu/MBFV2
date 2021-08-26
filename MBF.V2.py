@@ -298,7 +298,7 @@ def mbfv2():
                    print('\x1b[1;95m   ■───────MEMBUAT-PASSWORD────────■')
                    print('\x1b[1;97m           Total ID\x1b[1;91m :\x1b[1;92m ' + str(len(id)) + "\n\x1b[1;95m     ■───────MEMBUKA-PASSWORD────────■ \n",end="")       
                    expass = input("\n\033[1;97m [\033[1;96m?\033[1;97m] + Password1 \033[1;91m: \033[1;92m")
-                   expass = input("\033[1;97m [\033[1;96m?\033[1;97m] + Password2 \033[1;91m: \033[1;92m
+                   expass = input("\033[1;97m [\033[1;96m?\033[1;97m] + Password2 \033[1;91m: \033[1;92m")
                    aink('\x1b[1;94m────────────────────────────────────────────────────\n')
                    krik_krik_milzu()
                    peak()
