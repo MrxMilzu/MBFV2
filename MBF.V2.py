@@ -350,7 +350,7 @@ def mbfv2():
          os.system("xdg-open https://youtube.com/channel/UCqHIxnz-uxVzLXARplFzzqQ")
          exit()
          
- if __name__=="__main__":
+if __name__=="__main__":
      krik_krik_milzu()
      mulai()
      krik_krik_milzu()
