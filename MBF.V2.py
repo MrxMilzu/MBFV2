@@ -31,12 +31,12 @@ def peak():
 \033[35m» |  />/__\/__\<\  |
 \033[35m» |_____| || |_____|
 ────────────────────────────────────────────────────
-•FACEBOOK: MÎŁŽÛ ŤČ   Subscribe:MILZU-TC TUTORIAL77
+•FACEBOOK: MÎŁŽÛ ŤČ  Subscribe:MILZU-TC TUTORIAL77
 ────────────────────────────────────────────────────
 ────────────────────────────────────────────────────
-\x1b[1;97m [\x1b[1;92m+\x1b[1;97m] xAuthor     : Milzu TC
-\x1b[1;97m [\x1b[1;92m+\x1b[1;97m] Instagram : 
-\x1b[1;97m [\x1b[1;92m+\x1b[1;97m] Facebook  : https://www.facebook.com/milestone.gota
+\x1b[1;97m[\x1b[1;92m+\x1b[1;97m] xAuthor  : Milzu TC
+\x1b[1;97m[\x1b[1;92m+\x1b[1;97m] Instagram: 
+\x1b[1;97m[\x1b[1;92m+\x1b[1;97m] Facebook : https://www.facebook.com/milestone.gota
 ───────────────────────────────────────────────────── """)
 
 def milzutc():
