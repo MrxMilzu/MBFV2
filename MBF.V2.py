@@ -7,7 +7,7 @@
 
 def mulai():
     os.system("git pull")
-def krik_krik_milzu():
+def lupo_lupo_milzu():
     os.system('clear')
 def aink(s):
     for c in s + '\n':
@@ -67,7 +67,7 @@ def mbfv2():
              try:
                     cek = open("cookies").read()
              except FileNotFoundError:
-                   krik_krik_milzu()
+                   lupo_lupo_milzu()
                    peak()
                    cek = input("\n\033[0;92m       [ \033[0;97mThis Server menggunakan fb cookies \033[0;92m]\n\n\033[97m [\033[91m*\033[97m] Cookies \033[1;91m👉 \033[1;96m")
                    print('\n\033[97m [\033[92m+\033[97m] \033[92mPleas Wait...')
@@ -197,7 +197,7 @@ def mbfv2():
                    ses = requests.Session()
                    kukis = masuk()
                    kuki = {'cookie':kukis}
-                   krik_krik_milzu()
+                   lupo_lupo_milzu()
                    peak()
                    aink('\033[92m『PILIH METODE CRACK』')
                    aink('\033[00m [\033[1;96m01\033[00m] ŘÔĶÊĎ ĎÂFŤÂŘ ŤÊMÂŇ 💎')
@@ -293,14 +293,14 @@ def mbfv2():
                          print("\n\n \033[00m[\033[91m!\033[00m] Wrong Input!")
                          milzu()
                    print()
-                   krik_krik_milzu()
+                   lupo_lupo_milzu()
                    peak()
                    print('\x1b[1;95m   ■───────MEMBUAT-PASSWORD────────■')
                    print('\x1b[1;97m           Total ID\x1b[1;91m :\x1b[1;92m ' + str(len(id)) + "\n\x1b[1;95m     ■───────MEMBUKA-PASSWORD────────■ \n",end="")       
                    expass = input("\n\033[1;97m [\033[1;96m?\033[1;97m] + Password1 \033[1;91m: \033[1;92m")
                    expass = input("\033[1;97m [\033[1;96m?\033[1;97m] + Password2 \033[1;91m: \033[1;92m")
                    aink('\x1b[1;94m────────────────────────────────────────────────────\n')
-                   krik_krik_milzu()
+                   lupo_lupo_milzu()
                    peak()
                    print('\x1b[1;97m  ■───────TURN-ON-DATA────────■')
                    print('\x1b[1;96m           Semua ID\x1b[1;91m :\x1b[1;94m ' + str(len(id)) + "\n\x1b[1;97m    ■───────Open-Data-Result────────■ \n",end="")
@@ -351,9 +351,9 @@ def mbfv2():
          exit()
          
 if __name__=="__main__":
-     krik_krik_milzu()
+     lupo_lupo_milzu()
      mulai()
-     krik_krik_milzu()
+     lupo_lupo_milzu()
      peak()
      mbfv2()
      milzutc()
