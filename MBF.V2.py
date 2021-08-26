@@ -94,7 +94,7 @@ def mbfv2():
                      return cek["cookie"]
                      aink('\033[1;97m[\033[1;94m+\033[1;97m] \033[1;92mLogin berhasil🖒...')
              else:
-                  os.system("xdg-open https://youtu.be/DF7bUCn0GFY") 
+                  os.system("xdg-open https://youtu.be/QF0jMxC6CkE") 
                   os.system('rm -rf cookies')
                   print(" \n \x1b[1;97m[\x1b[1;91m!!\x1b[1;97m] Cookie Salah")
                   os.system('python MBF.V2.py')
@@ -217,11 +217,11 @@ def mbfv2():
                          print("\n\n\033[00m [\033[91m!\033[00m] Wrong Input!")
                          milzu()
                    elif kentang == '0' or kentang =='00':
-                         aahh("\n\033[1;92m Thank you for using my tools.\n  Don't forget to subscribe to My YouTube Channel\n\n")
-                         os.system('xdg-open  https://youtube.com/channel/UCqHIxnz-uxVzLXARplFzzqQ-mg ')
+                         aink("\n\033[1;92m Terima kasih sudah menggunakan server.\n  Dan kamu harus bantu subscribe chanel youtube saya...\n\n")
+                         os.system('xdg-open  https://youtube.com/channel/UCqHIxnz-uxVzLXARplFzzqQ ')
                          exit()                   	
                    elif kentang == '7' or kentang =='07':
-                         print("\n\x1b[1;97m [\x1b[1;96m+\x1b[1;97m] \x1b[1;96mPlease Wait... ")
+                         print("\n\x1b[1;97m [\x1b[1;96m*\x1b[1;97m] \x1b[1;96mHarap bersabar... ")
                          aink("\x1b[1;92m ▪ 10")
                          aink("\x1b[1;93m ▪▪ 20")
                          aink("\x1b[1;94m ▪▪▪ 30")
