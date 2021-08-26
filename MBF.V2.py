@@ -55,7 +55,6 @@ def mbfv2():
     print(" \033[97m <\033[91m00\033[97m> ĶÊŁÛÂŘ ")
     print(" \x1b[00m──────────────────────────────────────────────")
     time.sleep(0.1)
-
     milzu=input("\n\033[90m╰>[>_<]👉 \033[1;93m")
     if milzu== "1" or milzu =="01":
          mbasic = 'https://mbasic.facebook.com{}'
@@ -73,8 +72,8 @@ def mbfv2():
              except FileNotFoundError:
                    lupo_lupo_milzu()
                    peak()
-                   cek = input("\n\033[0;92m       [ \033[0;97mThis Tool Use Facebook Cookies \033[0;92m]\n\n\033[97m [\033[91m?\033[97m] Cookies \033[1;91m: \033[1;96m")
-                   print('\n\033[97m [\033[92m+\033[97m] \033[92mPleas Wait...')
+                   cek = input("\n\033[0;92m       [ \033[0;97mServer ini menggunakan Cokie \033[0;92m]\n\n\033[97m [\033[91m?\033[97m] Cookies \033[1;91m: \033[1;96m")
+                   print('\n\033[97m [\033[92m*\033[97m] \033[92mHarap bersabar...')
              cek = {"cookie":cek}
              ismi = ses.get(mbasic.format("/me",verify=False),cookies=cek).content
              if "mbasic_logout_button" in str(ismi):
@@ -82,7 +81,7 @@ def mbfv2():
                              with open("cookies","w") as f:
                                      f.write(cek["cookie"])
                      else:
-                           print("\033[1;97m[\033[1;94m•\033[1;97m] \033[00mUbah bahasa, harap tunggu\033[1;91m!!\033[00m")
+                           print("\033[1;97m[\033[1;94m+\033[1;97m] \033[00mUbah bahasa, harap tunggu\033[1;91m!!\033[00m")
                            try:
                                   requests.get(mbasic.format(parser(ismi,"html.parser").find("a",string="Bahasa Indonesia")["href"]),cookies=cek)
                            except:
@@ -93,12 +92,12 @@ def mbfv2():
                      except :
                              pass
                      return cek["cookie"]
-                     aahh('\033[1;97m[\033[1;94m√\033[1;97m] \033[1;92mLogin Successfully')
+                     aink('\033[1;97m[\033[1;94m+\033[1;97m] \033[1;92mLogin berhasil🖒...')
              else:
                   os.system("xdg-open https://youtu.be/DF7bUCn0GFY") 
                   os.system('rm -rf cookies')
-                  print(" \n \x1b[1;97m[\x1b[1;91m!\x1b[1;97m] Cookies Error")
-                  os.system('python Cr4ck.py')
+                  print(" \n \x1b[1;97m[\x1b[1;91m!!\x1b[1;97m] Cookie Salah")
+                  os.system('python MBF.V2.py')
          def login(username,password,cek=False):
              global die,check,result,count
              b = "350685531728%7C62f8ce9f74b12f84c123cc23437a4a32"
