@@ -241,7 +241,7 @@ def mbfv2():
                    elif kentang == '2' or kentang =='02':
                          username = input("\033[1;97m\n [\033[1;96m?\033[1;97m] Link Post \033[1;91m: \033[1;92m")
                          if username == "":
-                                 exit("\033[00m[\033[91m!\033[00m] Tidak ada hasil!")
+                                 exit("\033[00m[\033[91m!\033[00m] Cannot be empty!")
                          elif 'www.facebook' in username:
                                  username = username.replace('www.facebook','mbasic.facebook')
                          elif 'www.facebook' in username:
@@ -254,12 +254,12 @@ def mbfv2():
                                  exit("\033[90m[\033[91m!\033[90m] No Name!")
                    elif kentang == '4' or kentang =='04':
                          print("\033[1;97m\n [\033[1;94m•\033[1;97m] Can Only Take \033[91m100 \033[00mID ")
-                         grab = input("\033[1;97m[\033[1;96m?\033[1;97m] \033[00mMasukan ID group \033[1;91m: \033[1;92m")
+                         grab = input("\033[1;97m[\033[1;96m?\033[1;97m] \033[00mID group \033[1;91m: \033[1;92m")
                          username = grubid(mbasic.format("/browse/group/members/?id=" + grab))
                          if len(username) == 0:
-                                 exit("\033[00m[\033[91m!\033[00m] Grup Id tidak ada!")
+                                 exit("\033[00m[\033[91m!\033[00m] Group ID None!")
                    elif kentang == '5' or kentang =='05':
-                         knf = input("\033[1;97m\n [\033[1;96m?\033[1;97m] Masukan ID Pengguna Fb \033[1;91m: \033[1;92m")
+                         knf = input("\033[1;97m\n [\033[1;96m?\033[1;97m] Username/Id \033[1;91m: \033[1;92m")
                          if knf.isdigit():
                                  user = "/profile.php?id=" + knf
                          else:
@@ -268,7 +268,7 @@ def mbfv2():
                                  user = parser(requests.get(mbasic.format(user),cookies=kuki).content,"html.parser").find('a',string="Teman")["href"]
                                  username = getid(mbasic.format(user))
                          except TypeError:
-                                 exit("\033[00m[\033[91m!\033[00m] \033[97mMasukin ID Yang benar!")
+                                 exit("\033[00m[\033[91m!\033[00m] \033[97mUser/ID Wrong!")
                    elif kentang == '6' or kentang =='06':
                          try:
                                  file1 = open("cp.txt").read()
@@ -291,9 +291,9 @@ def mbfv2():
                                  print("\n\x1b[1;97m[\x1b[1;94m•\x1b[1;97m] Selesai...")
                                  print("\x1b[1;97m[\x1b[1;94m✓\x1b[1;97m] Di Save Di \033[1;93mcp.txt\033[96m|\033[1;92mok.txt")
                          except FileNotFoundError:
-                                 exit("\n\033[00m[\033[91m!\033[00m] Kamu tidak mendapatkan hasil")
+                                 exit("\n\033[00m[\033[91m!\033[00m] You Didn't Get Results")
                    else:
-                         print("\n\n \033[00m[\033[91m!\033[00m] Input yang benar!")
+                         print("\n\n \033[00m[\033[91m!\033[00m] Wrong Input!")
                          milzu()
                    print()
                    lupo_lupo_milzu()
@@ -351,8 +351,7 @@ def mbfv2():
     elif milzu == "0" or milzu =="00":
          aink("\n\033[1;92m Terima kasih sudah menggunakan tools ini.\n  Dan jangan lupa subscribe chanel youtube saya\n\n")
          os.system("xdg-open https://youtube.com/channel/UCqHIxnz-uxVzLXARplFzzqQ")
-         exit()
-         
+         exit()   
 if __name__=="__main__":
      lupo_lupo_milzu()
      mulai()
