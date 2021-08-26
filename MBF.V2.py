@@ -12,7 +12,7 @@ def mulai():
     os.system("git pull")
 def lupo_lupo_milzu():
     os.system("clear")
-def keluar()
+def keluar():
     os.system("exit")
 def aink(s):
     for c in s + '\n':
