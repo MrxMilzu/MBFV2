@@ -33,9 +33,9 @@ def peak():
 •FACEBOOK: Mîłžû Ťč  Subscribe:MILZU-TC TUTORIAL77
 ────────────────────────────────────────────────────
 \033[00m────────────────────────────────────────────────────
-\x1b[1;97m[\x1b[1;92m+\x1b[1;97m]xAuthor  : Milzu TC
-\x1b[1;97m[\x1b[1;92m+\x1b[1;97m]Instagram: -
-\x1b[1;97m[\x1b[1;92m+\x1b[1;97m]Facebook : facebook.com/Mîłžû Ťč
+\033[97m[\033[1;95m+\033[97m]xAuthor  : Milzu TC
+\033[97m[\033[1;95m+\033[97m]Instagram: -
+\033[97m[\033[1;95m+\033[97m]Facebook : facebook.com/Mîłžû Ťč
 ───────────────────────────────────────────────────── """)
 
 def milzutc():
