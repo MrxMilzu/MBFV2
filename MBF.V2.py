@@ -39,7 +39,7 @@ def peak():
 ───────────────────────────────────────────────────── """)
 
 def milzutc():
-    milzu=input(" \n\033[00m\t   [\033[96m Press Enter To Return\033[97m ] ")
+    milzu=input("\n\033[00m\t   [\033[96m Press Enter To Return\033[97m ] ")
     if milzu == "": 
        os.system("python MBF.V2.py")
     else:
