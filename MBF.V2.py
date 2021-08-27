@@ -44,6 +44,7 @@ def milzutc():
        os.system("python MBF.V2.py")
     else:
        sys.exit("\n\033[1;97m [\033[1;91m♡\033[1;97m] \033[1;91mTerima kasih :')")
+
 def mbfv2():
     time.sleep(0.1)
     print(" \x1b[00m──────────────────────────────────────────────")
