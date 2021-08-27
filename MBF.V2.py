@@ -39,12 +39,11 @@ def peak():
 ───────────────────────────────────────────────────── """)
 
 def milzutc():
-    milzu=input("\n\033[00m\t   [\033[96m Press Enter To Return\033[97m ] ")
+    milzu=input("\n\033[00m\t   [\033[96m Tekan enter untuk kembali\033[97m ] ")
     if milzu == "": 
        os.system("python MBF.V2.py")
     else:
        sys.exit("\n\033[1;97m [\033[1;91m♡\033[1;97m] \033[1;91mTerima kasih :')")
-
 def mbfv2():
     time.sleep(0.1)
     print(" \x1b[00m──────────────────────────────────────────────")
@@ -220,7 +219,7 @@ def mbfv2():
                          milzu()
                    elif kentang == '0' or kentang =='00':
                          aink("\n\033[1;92m Terima kasih sudah menggunakan server.\n  Dan kamu harus bantu subscribe chanel youtube saya...\n\n")
-                         os.system('xdg-open  https://youtube.com/channel/UCqHIxnz-uxVzLXARplFzzqQ ')
+                         os.system('xdg-open  https://youtube.com/channel/UCqHIxnz-uxVzLXARplFzzqQ')
                          exit()                   	
                    elif kentang == '7' or kentang =='07':
                          print("\n\x1b[1;97m [\x1b[1;96m*\x1b[1;97m] \x1b[1;96mHarap bersabar... ")
@@ -353,7 +352,7 @@ def mbfv2():
     elif milzu == "0" or milzu =="00":
          aink("\n\033[1;92m Terima kasih sudah menggunakan tools ini.\n  Dan jangan lupa subscribe chanel youtube saya\n\n")
          os.system("xdg-open https://youtube.com/channel/UCqHIxnz-uxVzLXARplFzzqQ")
-         sys.exit()
+         exit()
 
 if __name__=="__main__":
      lupo_lupo_milzu()
