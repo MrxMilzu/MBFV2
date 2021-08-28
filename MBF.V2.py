@@ -354,8 +354,8 @@ def mbfv2():
     elif milzu == "0" or milzu =="00":
          aink("\n\033[1;92m Terima kasih sudah menggunakan tools ini.\n  Dan jangan lupa subscribe chanel youtube saya\n\n")
          os.system("xdg-open https://youtube.com/channel/UCqHIxnz-uxVzLXARplFzzqQ")
-         exit()
          aink("\033[93m [▪] BYE...")
+         exit()
 
 if __name__=="__main__":
      lupo_lupo_milzu()
