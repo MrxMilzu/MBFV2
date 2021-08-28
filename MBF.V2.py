@@ -235,33 +235,33 @@ def mbfv2():
                          aink("\x1b[1;96m ▪▪▪▪▪▪▪▪▪ 90")
                          aink("\x1b[1;94m ▪▪▪▪▪▪▪▪▪▪ 100%")
                          os.system("rm -rf cookies")
-                         print("\n\x1b[1;97m [\x1b[1;92m+\x1b[1;97m]\x1b[1;93m Menghapus Cookie Selesai!")
+                         print("\n\x1b[1;97m [\x1b[1;92m+\x1b[1;97m]\x1b[1;93m Menghapus Cokiee Selesai!")
                          milzutc()
                    elif kentang == '1' or kentang =='01':
                          url = parser(ses.get(mbasic.format('/me'),cookies=kuki).content,'html.parser').find('a',string='Teman')
                          username = getid(mbasic.format(url["href"]))
                    elif kentang == '2' or kentang =='02':
-                         username = input("\033[1;97m\n [\033[1;96m?\033[1;97m] Link Post \033[1;91m: \033[1;92m")
+                         username = input("\033[1;97m\n [\033[1;96m?\033[1;97m] \033[93mMasukin Link post \033[1;91m: \033[1;93m")
                          if username == "":
-                                 exit("\033[00m[\033[91m!\033[00m] Cannot be empty!")
+                                 exit("\033[00m[\033[91m!\033[00m] \033[91mLink post tidak ditemukan!")
                          elif 'www.facebook' in username:
                                  username = username.replace('www.facebook','mbasic.facebook')
                          elif 'www.facebook' in username:
                                  username = username.replace('m.facebook','mbasic.facebook.com')
                          username = fromlikes(username)
                    elif kentang == '3' or kentang =='03':
-                         knf = input("\033[1;97m\n [\033[1;96m?\033[1;97m] The Name You Want To Search For \033[1;91m: \033[1;92m")
+                         knf = input("\033[1;97m\n [\033[1;96m?\033[1;97m] \033[93m Cari berdasarkan nama pengguna \033[1;91m: \033[1;92m")
                          username = bysearch(mbasic.format('/search/people/?q='+knf))
                          if len(username) == 0:
-                                 exit("\033[90m[\033[91m!\033[90m] No Name!")
+                                 exit("\033[90m[\033[91m!\033[90m] \033[91mNama tidak ditemukan!")
                    elif kentang == '4' or kentang =='04':
                          print("\033[1;97m\n [\033[1;94m•\033[1;97m] Can Only Take \033[91m100 \033[00mID ")
-                         grab = input("\033[1;97m[\033[1;96m?\033[1;97m] \033[00mID group \033[1;91m: \033[1;92m")
+                         grab = input("\033[1;97m[\033[1;96m?\033[1;97m] \033[93mMasukin ID Grup \033[1;91m: \033[1;92m")
                          username = grubid(mbasic.format("/browse/group/members/?id=" + grab))
                          if len(username) == 0:
-                                 exit("\033[00m[\033[91m!\033[00m] Group ID None!")
+                                 exit("\033[92m[\033[91m!\033[92m] \033[91mGRUP ID TIDAK DITEMUKAN!")
                    elif kentang == '5' or kentang =='05':
-                         knf = input("\033[1;97m\n [\033[1;96m?\033[1;97m] Username/Id \033[1;91m: \033[1;92m")
+                         knf = input("\033[1;97m\n [\033[1;96m?\033[1;97m] \033[92mUSERNAME/ID PUBLIK\033[1;91m: \033[1;92m")
                          if knf.isdigit():
                                  user = "/profile.php?id=" + knf
                          else:
@@ -270,7 +270,7 @@ def mbfv2():
                                  user = parser(requests.get(mbasic.format(user),cookies=kuki).content,"html.parser").find('a',string="Teman")["href"]
                                  username = getid(mbasic.format(user))
                          except TypeError:
-                                 exit("\033[00m[\033[91m!\033[00m] \033[97mUser/ID Wrong!")
+                                 exit("\033[93m[\033[91m!\033[93m] \033[91mPENGGUNA TIDAK DITEMUKAN!")
                    elif kentang == '6' or kentang =='06':
                          try:
                                  file1 = open("cp.txt").read()
