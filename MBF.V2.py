@@ -346,7 +346,7 @@ def mbfv2():
          os.system('xdg-open https://chat.whatsapp.com/EEl2Erzh6jkEahbYE3QMu2')
          milzutc()
     elif milzu == "5" or milzu =="05":
-         print("\n\n\x1b[1;97m      [ \x1b[1;92mPlease Wait... \x1b[1;97m]\n")
+         print("\n\n\x1b[1;97m      [ \x1b[1;92m[▪]Tunggu sebentar... \x1b[1;97m]\n")
          os.system("git pull")
          print("\n \x1b[1;97m[\x1b[1;92m+\x1b[1;97m]\x1b[1;93m Sudah di update !!\n ")
          milzutc()
