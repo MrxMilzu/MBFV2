@@ -346,14 +346,16 @@ def mbfv2():
          os.system('xdg-open https://chat.whatsapp.com/EEl2Erzh6jkEahbYE3QMu2')
          milzutc()
     elif milzu == "5" or milzu =="05":
-         print("\n\n\x1b[1;97m      [ \x1b[1;92m[▪]Tunggu sebentar... \x1b[1;97m]\n")
+         print("\n\n\x1b[1;97m      [ \x1b[1;92m[▪] Tunggu sebentar... \x1b[1;97m ]\n")
+         print("\033[93m [~] PROSES SEDANG BERJALAN ")
          os.system("git pull")
-         print("\n \x1b[1;97m[\x1b[1;92m+\x1b[1;97m]\x1b[1;93m Sudah di update !!\n ")
+         print("\n \x1b[1;97m[\x1b[1;92m+\x1b[1;97m]\x1b[1;93m Sudah di update.!!\n ")
          milzutc()
     elif milzu == "0" or milzu =="00":
          aink("\n\033[1;92m Terima kasih sudah menggunakan tools ini.\n  Dan jangan lupa subscribe chanel youtube saya\n\n")
          os.system("xdg-open https://youtube.com/channel/UCqHIxnz-uxVzLXARplFzzqQ")
          exit()
+         aink("\033[93m [▪] BYE...")
 
 if __name__=="__main__":
      lupo_lupo_milzu()
