@@ -251,6 +251,7 @@ def mbfv2():
                          username = fromlikes(username)
                    elif kentang == '3' or kentang =='03':
                          knf = input("\033[1;97m\n [\033[1;96m?\033[1;97m] \033[93m Cari berdasarkan nama pengguna \033[1;91m: \033[1;92m")
+                         print('[~] Harap bersabar Pengguna sedang dicari...')
                          username = bysearch(mbasic.format('/search/people/?q='+knf))
                          if len(username) == 0:
                                  exit("\033[90m[\033[91m!\033[90m] \033[91mNama tidak ditemukan!")
