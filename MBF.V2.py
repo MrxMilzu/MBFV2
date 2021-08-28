@@ -4,6 +4,7 @@
 #Created 1-8-2021
 #fb = MÎŁŽÛ ŤČ
 #JANGAN DI RECODE YA NGENTOD
+
 import os,sys,re,time,json,random,requests
 from bs4 import BeautifulSoup as parser
 from concurrent.futures import ThreadPoolExecutor
@@ -17,6 +18,8 @@ def aink(s):
         sys.stdout.write(c)
         sys.stdout.flush()
         time.sleep(1./300)
+
+IP = requests.get('http://ip-api.com/json').json()['query']
 def peak():
     time.sleep(0.1)
     print("""
@@ -33,6 +36,7 @@ def peak():
 \033[92m•\033[91m_\033[93mMBF\033[91m_
 \033[92m•\033[93mSubscribe\033[91m:\033[92mMILZU-TC TUTORIAL77
 \033[94m────────────────────────────────────────────────
+\033[96m{▪}\033[93mIP ANDA:%s'%(IP)
 \033[94m────────────────────────────────────────────────
 \033[92m[\033[91m+\033[92m]\033[92mxAuthor  \033[91m: \033[92mMilzu TC
 \033[93m[\033[92m+\033[93m]\033[93mInstagram\033[91m: \033[93m-
@@ -328,10 +332,10 @@ def mbfv2():
                                                   ex.submit(login,(users[1]),(passw))
                    if check != 0 or result != 0:
                            time.sleep(0.1)
-                           print("\n\n\x1b[1;92m  *\x1b[1;97m selesai.")
+                           print("\n\n\x1b[1;92m  *\033[92m Selesai...")
      
                    else:
-                           print("\n\n\x1b[1;96m  *\x1b[1;97m kamu tidak memiliki hasil apapun:(")
+                           print("\n\n\x1b[1;96m  *\033[91m kamu tidak memiliki hasil apapun:(")
                except (KeyboardInterrupt,EOFError):
                        exit()
                except requests.exceptions.ConnectionError:
