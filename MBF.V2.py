@@ -18,7 +18,7 @@ def aink(s):
         sys.stdout.write(c)
         sys.stdout.flush()
         time.sleep(1./300)
-def menu():
+def IP():
     os.system("clear")
     a=requests.get("http://ip-api.com/json/",headers={"Referer":"http://ip-api.com/","Content-Type":"application/json; charset=utf-8","User-Agent":"Mozilla/5.0 (Linux; Android 10; Mi 9T Pro Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/88.0.4324.181 Mobile Safari/537.36[FBAN/EMA;FBLC/it_IT;FBAV/239.0.0.10.109;]"}).json()
     try:
@@ -67,8 +67,6 @@ def menu():
     print("Mata Uang : " + cr)
     print("Provider : " + sp)
 
-if __name__=="__main__":
-	menu()
 def peak():
     time.sleep(0.1)
     print("""
@@ -85,7 +83,7 @@ def peak():
 \033[92m•\033[91m_\033[93mMBF\033[91m_
 \033[92m•\033[93mSubscribe\033[91m:\033[92mMILZU-TC TUTORIAL77
 \033[94m────────────────────────────────────────────────
-\033[94m print("IP Kamu : " + ip)
+        IP()
 \033[94m────────────────────────────────────────────────
 \033[92m[\033[91m+\033[92m]\033[92mxAuthor  \033[91m: \033[92mMilzu TC
 \033[93m[\033[92m+\033[93m]\033[93mInstagram\033[91m: \033[93m-
@@ -417,6 +415,7 @@ if __name__=="__main__":
      lupo_lupo_milzu()
      mulai()
      lupo_lupo_milzu()
+     IP()
      peak()
      mbfv2()
      milzutc()
