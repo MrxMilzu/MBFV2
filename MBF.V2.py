@@ -26,10 +26,6 @@ def IP():
     except KeyError:
         ip = " "
     try:
-        bn = a["continent"]
-    except KeyError:
-        bn = " "
-    try:
         ng = a["country"]
     except KeyError:
         ng = " "
@@ -42,30 +38,19 @@ def IP():
     except KeyError:
         kt = " "
     try:
-        kb = a["district"]
-    except KeyError:
-        kb = " "
-    try:
         tz = a["timezone"]
     except KeyError:
         tz = " "
     try:
-        cr = a["currency"]
-    except KeyError:
-        cr = " "
-    try:
         sp = a["isp"]
     except KeyError:
         sp = " "
-    print("IP Kamu : " + ip)
-    print("Benua : " + bn)
-    print("Negara : " + ng)
+    print("\033[93mIP Kamu : " + ip)
+    print("\033[93mNegara : " + ng)
     print("Provinsi : " + pr)
     print("Kota : " + kt)
-    print("Kabupaten : " + kb)
-    print("Zona Waktu : " + tz)
-    print("Mata Uang : " + cr)
-    print("Provider : " + sp)
+    print("\033[93mZona Waktu : " + tz)
+    print("\033[92mKartu Yang Anda Gunakan : " + sp)
 
 def peak():
     time.sleep(0.1)
