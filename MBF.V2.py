@@ -19,7 +19,7 @@ def aink(s):
         sys.stdout.flush()
         time.sleep(1./300)
 def IPAND():
-    IP = requests.get('http://ip-api.com/json').json()['query']
+    IP = requests.get('http://ip-api.com/xml').xml <query>
 def peak():
     time.sleep(0.1)
     print("""
