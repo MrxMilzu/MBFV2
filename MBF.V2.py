@@ -23,6 +23,7 @@ IP = requests.get('http://ip-api.com/json').json()['query']
 def peak():
     time.sleep(0.1)
     print("""
+IP = requests.get('http://ip-api.com/json').json()['query']
 \033[94m────────────────────────────────────────────────
 \033[94m────────────────────────────────────────────────
 \033[35m  \033[93m__________________
