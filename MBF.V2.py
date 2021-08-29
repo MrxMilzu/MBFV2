@@ -63,7 +63,7 @@ def menu():
         sp = " "
     print("\033[93m[▪]IP ANDA\033[96m= " + ip)
     print("\033[93m[▪]Status \033[96m= " + sc)
-    print("\033[96m[▪]Negara \033[96m= " + ng)
+    print("\033[93m[▪]Negara \033[96m= " + ng)
     print("\033[93m[▪]Asal \033[96m= " + rg)
     print("\033[93m[▪]Provinsi \033[96m= " + pr)
     print("\033[92m[▪]Kota \033[96m= " + kt)
