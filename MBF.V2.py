@@ -18,7 +18,7 @@ def aink(s):
         sys.stdout.write(c)
         sys.stdout.flush()
         time.sleep(1./300)
-def IP():
+def IPAND():
     IP = requests.get('http://ip-api.com/json').json()['query']
 def peak():
     time.sleep(0.1)
@@ -36,7 +36,7 @@ def peak():
 \033[92m•\033[91m_\033[93mMBF\033[91m_
 \033[92m•\033[93mSubscribe\033[91m:\033[92mMILZU-TC TUTORIAL77
 \033[94m────────────────────────────────────────────────
-\033[96m{▪}\033[93mIP ANDA:IP()
+\033[96m{▪}\033[93mIP ANDA:IPAND()
 \033[94m────────────────────────────────────────────────
 \033[92m[\033[91m+\033[92m]\033[92mxAuthor  \033[91m: \033[92mMilzu TC
 \033[93m[\033[92m+\033[93m]\033[93mInstagram\033[91m: \033[93m-
