@@ -45,12 +45,12 @@ def IP():
         sp = a["isp"]
     except KeyError:
         sp = " "
-    print("\033[93mIP Kamu : " + ip)
-    print("\033[93mNegara : " + ng)
-    print("Provinsi : " + pr)
-    print("Kota : " + kt)
-    print("\033[93mZona Waktu : " + tz)
-    print("\033[92mKartu Yang Anda Gunakan : " + sp)
+    print("\033[93m[▪]IP \033[91m= " + ip)
+    print("\033[96m[▪]Negara \033[91m= " + ng)
+    print("\033[93m [▪]Provinsi \033[91m= " + pr)
+    print("\033[92m[▪]Kota \033[91= " + kt)
+    print("\033[92m[▪]Zona Waktu \033[91m= " + tz)
+    print("\033[94m[▪]Kartu Yang Anda Gunakan \033[91m= " + sp)
 def peak():
     time.sleep(0.1)
     print("""
