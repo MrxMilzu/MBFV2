@@ -18,7 +18,7 @@ def aink(s):
         sys.stdout.write(c)
         sys.stdout.flush()
         time.sleep(1./300)
-def IP():
+def menu():
     os.system("clear")
     a=requests.get("http://ip-api.com/json/",headers={"Referer":"http://ip-api.com/","Content-Type":"application/json; charset=utf-8","User-Agent":"Mozilla/5.0 (Linux; Android 10; Mi 9T Pro Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/88.0.4324.181 Mobile Safari/537.36[FBAN/EMA;FBLC/it_IT;FBAV/239.0.0.10.109;]"}).json()
     try:
@@ -108,7 +108,7 @@ def mbfv2():
                     cek = open("cookies").read()
              except FileNotFoundError:
                    lupo_lupo_milzu()
-                   IP()
+                   menu()
                    peak()
                    cek = input("\n\033[0;92m       [ \033[92mServer ini menggunakan Cokiee \033[0;92m]\n\n\033[90m [\033[91m>_<\033[90m] \033[96mCokiee \033[1;91m~> \033[1;96m")
                    print('\n\033[97m [\033[92m*\033[97m] \033[92mHarap bersabar...')
@@ -239,7 +239,7 @@ def mbfv2():
                    kukis = masuk()
                    kuki = {'cookie':kukis}
                    lupo_lupo_milzu()
-                   IP()
+                   menu()
                    peak()
                    aink('\033[92m『PILIH METODE CRACK』')
                    aink('\033[90m[\033[96m?\033[90m] \033[92m01\033[97m.\033[96mŘÔĶÊĎ ĎÂFŤÂŘ ŤÊMÂŇ')
@@ -337,12 +337,14 @@ def mbfv2():
                          milzu()
                    print()
                    lupo_lupo_milzu()
+                   menu()
                    peak()
                    print('\033[97m\033[92mJUMLAH ID FB\x1b[1;91m :\x1b[1;92m ' + str(len(id)) + "\n\x1b[1;95m \n",end="")       
                    expass = input("\n\033[1;93m [\033[1;96m?\033[1;93m] + Password1 \033[1;91m: \033[1;92m")
                    expass = input("\033[1;92m [\033[1;96m?\033[1;92m] + Password2 \033[1;91m: \033[1;92m")
                    aink('\x1b[1;94m────────────────────────────────────────────────────\n')
                    lupo_lupo_milzu()
+                   menu()
                    peak()
                    print('\033[96mSemua ID\x1b[1;91m :\033[94m ' + str(len(id)) + "\n\033[92m \n",end="")
                    print('\n\033[93m [\033[1;92m+\033[93m] \033[96mhasil\033[92m Now\033[93m disimpan di \033[91m: \033[92mNow.txt\n \033[92m[\033[93m-\033[92m] \033[96mhasil\x1b[1;93m Checkpoint\033[92m disimpan di \033[91m: \033[92mcp.txt')
@@ -397,7 +399,7 @@ if __name__=="__main__":
      lupo_lupo_milzu()
      mulai()
      lupo_lupo_milzu()
-     IP()
+     menu()
      peak()
      mbfv2()
      milzutc()
