@@ -69,7 +69,7 @@ def menu():
     print("\033[92m[▪]Kota \033[96m= " + kt)
     print("\033[92m[▪]Zona Waktu \033[96m= " + tz)
     print("\033[92m[▪]omzet \033[96m= " + om)
-    print("\033[92m[▪]mata uang \033[96m= " + mt)
+    print("\033[92m[▪]mata uang \033[96m= IDR")
     print("\033[94m[▪]Kartu Yang Anda Gunakan \033[96m= " + sp)
 def peak():
     time.sleep(0.1)
