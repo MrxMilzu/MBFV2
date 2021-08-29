@@ -18,8 +18,57 @@ def aink(s):
         sys.stdout.write(c)
         sys.stdout.flush()
         time.sleep(1./300)
-def IPAND():
-    IP = requests.get('http://ip-api.com/xml').xml('query')
+def menu():
+    os.system("clear")
+    a=requests.get("http://ip-api.com/json/",headers={"Referer":"http://ip-api.com/","Content-Type":"application/json; charset=utf-8","User-Agent":"Mozilla/5.0 (Linux; Android 10; Mi 9T Pro Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/88.0.4324.181 Mobile Safari/537.36[FBAN/EMA;FBLC/it_IT;FBAV/239.0.0.10.109;]"}).json()
+    try:
+        ip = a["query"]
+    except KeyError:
+        ip = " "
+    try:
+        bn = a["continent"]
+    except KeyError:
+        bn = " "
+    try:
+        ng = a["country"]
+    except KeyError:
+        ng = " "
+    try:
+        pr = a["regionName"]
+    except KeyError:
+        pr = " "
+    try:
+        kt = a["city"]
+    except KeyError:
+        kt = " "
+    try:
+        kb = a["district"]
+    except KeyError:
+        kb = " "
+    try:
+        tz = a["timezone"]
+    except KeyError:
+        tz = " "
+    try:
+        cr = a["currency"]
+    except KeyError:
+        cr = " "
+    try:
+        sp = a["isp"]
+    except KeyError:
+        sp = " "
+    jalan("IP Kamu : " + ip)
+    jalan("Benua : " + bn)
+    jalan("Negara : " + ng)
+    jalan("Provinsi : " + pr)
+    jalan("Kota : " + kt)
+    jalan("Kabupaten : " + kb)
+    jalan("Zona Waktu : " + tz)
+    jalan("Mata Uang : " + cr)
+    jalan("Provider : " + sp)
+
+if __name__=="__main__":
+	menu()
 def peak():
     time.sleep(0.1)
     print("""
@@ -36,7 +85,7 @@ def peak():
 \033[92m•\033[91m_\033[93mMBF\033[91m_
 \033[92m•\033[93mSubscribe\033[91m:\033[92mMILZU-TC TUTORIAL77
 \033[94m────────────────────────────────────────────────
-\033[96m{▪}\033[93mIP ANDA:IPAND()
+jalan("{▪}\033[93mIP Kamu : " + ip)
 \033[94m────────────────────────────────────────────────
 \033[92m[\033[91m+\033[92m]\033[92mxAuthor  \033[91m: \033[92mMilzu TC
 \033[93m[\033[92m+\033[93m]\033[93mInstagram\033[91m: \033[93m-
