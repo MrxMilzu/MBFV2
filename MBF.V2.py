@@ -36,7 +36,7 @@ def menu():
     try:
         rg = a["region"]
     except KeyError:
-        rg = a["region"]
+        rg = " "
     try:
         pr = a["regionName"]
     except KeyError:
