@@ -50,7 +50,7 @@ def IP():
     print("Provinsi : " + pr)
     print("Kota : " + kt)
     print("\033[93mZona Waktu : " + tz)
-
+    print("\033[92mKartu Yang Anda Gunakan : " + sp)
 def peak():
     time.sleep(0.1)
     print("""
@@ -67,7 +67,7 @@ def peak():
 \033[92m•\033[91m_\033[93mMBF\033[91m_
 \033[92m•\033[93mSubscribe\033[91m:\033[92mMILZU-TC TUTORIAL77
 \033[94m────────────────────────────────────────────────
-    print("\033[92mKartu Yang Anda Gunakan : " + sp)
+\033[93m•Tahun Pembuatan server:2021
 \033[94m────────────────────────────────────────────────
 \033[92m[\033[91m+\033[92m]\033[92mxAuthor  \033[91m: \033[92mMilzu TC
 \033[93m[\033[92m+\033[93m]\033[93mInstagram\033[91m: \033[93m-
@@ -241,6 +241,7 @@ def mbfv2():
                    kuki = {'cookie':kukis}
                    lupo_lupo_milzu()
                    peak()
+                   IP()
                    aink('\033[92m『PILIH METODE CRACK』')
                    aink('\033[90m[\033[96m?\033[90m] \033[92m01\033[97m.\033[96mŘÔĶÊĎ ĎÂFŤÂŘ ŤÊMÂŇ')
                    aink('\033[90m[\033[96m?\033[90m] \033[92m02\033[97m.\033[96mŘÔĶÊĎ ĎÂŘÎ ŁÎĶÊ PÔŠŠŤÎŇĞÂŇ')
