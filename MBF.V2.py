@@ -240,8 +240,8 @@ def mbfv2():
                    kukis = masuk()
                    kuki = {'cookie':kukis}
                    lupo_lupo_milzu()
-                   peak()
                    IP()
+                   peak()
                    aink('\033[92m『PILIH METODE CRACK』')
                    aink('\033[90m[\033[96m?\033[90m] \033[92m01\033[97m.\033[96mŘÔĶÊĎ ĎÂFŤÂŘ ŤÊMÂŇ')
                    aink('\033[90m[\033[96m?\033[90m] \033[92m02\033[97m.\033[96mŘÔĶÊĎ ĎÂŘÎ ŁÎĶÊ PÔŠŠŤÎŇĞÂŇ')
