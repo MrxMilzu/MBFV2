@@ -46,10 +46,6 @@ def menu():
     except KeyError:
         kt = " "
     try:
-        lt = a["lat"]
-    except KeyError:
-        lt = " "
-    try:
         tz = a["timezone"]
     except KeyError:
         tz = " "
@@ -71,7 +67,6 @@ def menu():
     print("\033[93m[▪]Asal \033[96m= " + rg)
     print("\033[93m[▪]Provinsi \033[96m= " + pr)
     print("\033[92m[▪]Kota \033[96m= " + kt)
-    print("\033[92m[▪]bertahun-tahun \033[96m= " + lt) 
     print("\033[92m[▪]Zona Waktu \033[96m= " + tz)
     print("\033[92m[▪]omzet \033[96m= " + om)
     print("\033[92m[▪]mata uang \033[96m= " + mt)
