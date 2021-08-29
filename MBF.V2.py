@@ -57,15 +57,15 @@ def menu():
         sp = a["isp"]
     except KeyError:
         sp = " "
-    jalan("IP Kamu : " + ip)
-    jalan("Benua : " + bn)
-    jalan("Negara : " + ng)
-    jalan("Provinsi : " + pr)
-    jalan("Kota : " + kt)
-    jalan("Kabupaten : " + kb)
-    jalan("Zona Waktu : " + tz)
-    jalan("Mata Uang : " + cr)
-    jalan("Provider : " + sp)
+    print("IP Kamu : " + ip)
+    print("Benua : " + bn)
+    print("Negara : " + ng)
+    print("Provinsi : " + pr)
+    print("Kota : " + kt)
+    print("Kabupaten : " + kb)
+    print("Zona Waktu : " + tz)
+    print("Mata Uang : " + cr)
+    print("Provider : " + sp)
 
 if __name__=="__main__":
 	menu()
