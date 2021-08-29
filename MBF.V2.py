@@ -45,7 +45,7 @@ def IP():
         sp = a["isp"]
     except KeyError:
         sp = " "
-    print("\033[93m[▪]IP \033[91m= " + ip)
+    print("\033[93m[▪]IP ANDA\033[91m= " + ip)
     print("\033[96m[▪]Negara \033[91m= " + ng)
     print("\033[93m[▪]Provinsi \033[91m= " + pr)
     print("\033[92m[▪]Kota \033[91m= " + kt)
