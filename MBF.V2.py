@@ -50,7 +50,6 @@ def IP():
     print("Provinsi : " + pr)
     print("Kota : " + kt)
     print("\033[93mZona Waktu : " + tz)
-    print("\033[92mKartu Yang Anda Gunakan : " + sp)
 
 def peak():
     time.sleep(0.1)
@@ -68,7 +67,7 @@ def peak():
 \033[92m•\033[91m_\033[93mMBF\033[91m_
 \033[92m•\033[93mSubscribe\033[91m:\033[92mMILZU-TC TUTORIAL77
 \033[94m────────────────────────────────────────────────
-        IP()
+    print("\033[92mKartu Yang Anda Gunakan : " + sp)
 \033[94m────────────────────────────────────────────────
 \033[92m[\033[91m+\033[92m]\033[92mxAuthor  \033[91m: \033[92mMilzu TC
 \033[93m[\033[92m+\033[93m]\033[93mInstagram\033[91m: \033[93m-
