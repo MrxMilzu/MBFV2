@@ -143,7 +143,7 @@ def mbfv2():
              for i in list('□■■■-■□■■-■■□■-■■■□'):
                             print(f"\r\033[00m [\033[1;91m{i}\033[00m] \033[96mokay \033[91m: \033[90m(\033[1;92m{str(result)}\033[90m)")
                             print("\033[93mcheckpoint \033[91m: \033[90m(\033[1;93m{str(check)}\033[90m)")
-                            print("\033[91mProses : \033[90m(\033[1;94m{str(die)}\033[90m)\033[00m",end=")
+                            print("\033[91mProses : \033[90m(\033[1;94m{str(die)}\033[90m)\033[00m",end="")
                             time.sleep(0.2)
          def getid(url):
              raw = requests.get(url,cookies=kuki).content
