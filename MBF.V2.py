@@ -258,14 +258,6 @@ def mbfv2():
              if "Lihat Selengkapnya" in str(grab):
                  grubid(mbasic.format(parser(grab,"html.parser").find("a",string="Lihat Selengkapnya")["href"]))
              return id
-         if __name__ == '__main__':
-               try:
-                   ses = requests.Session()
-                   kukis = masuk()
-                   kuki = {'cookie':kukis}
-                   lupo_lupo_milzu()
-                   menu()
-                   peak()
          def asu():
              global ua
              try:
@@ -282,6 +274,14 @@ def mbfv2():
                  id = a["id"]
              except KeyError:
                  id = " "
+         if __name__ == '__main__':
+               try:
+                   ses = requests.Session()
+                   kukis = masuk()
+                   kuki = {'cookie':kukis}
+                   lupo_lupo_milzu()
+                   menu()
+                   peak()
                    print(" Welcome User \033[1;32m" + nama)
                    print(" ID Kamu : \033[1;32m" + id)
                    print(" Tanggal lahir kamu     : \033[1;32m" + ttl)
