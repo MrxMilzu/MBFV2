@@ -266,6 +266,7 @@ def mbfv2():
                  nama = a["first_name"]
                  ttl = a["birthday"]
                  id = a["id"]
+             return id
          if __name__ == '__main__':
                try:
                    ses = requests.Session()
