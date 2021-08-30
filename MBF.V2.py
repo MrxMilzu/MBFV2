@@ -258,15 +258,6 @@ def mbfv2():
              if "Lihat Selengkapnya" in str(grab):
                  grubid(mbasic.format(parser(grab,"html.parser").find("a",string="Lihat Selengkapnya")["href"]))
              return id
-         def asu():
-             global ua
-             try:
-                 cek = open("cookies").read()
-                 response = requests.get(api, params=params)
-                 nama = a["first_name"]
-                 ttl = a["birthday"]
-                 id = a["id"]
-             return id
          if __name__ == '__main__':
                try:
                    ses = requests.Session()
@@ -275,6 +266,22 @@ def mbfv2():
                    lupo_lupo_milzu()
                    menu()
                    peak()
+         def asu():
+             global ua
+             try:
+                 cek = open("cookies").read()
+                 response = requests.get(api, params=params)
+                 nama = a["first_name"]
+             except KeyError:
+                 nama = " "
+             try:
+                 ttl = a["birthday"]
+             except KeyError:
+                 ttl = " "
+             try:
+                 id = a["id"]
+             except KeyError:
+                 id = " "
                    aink(' Welcome User \033[1;32m"+nama))
                    aink(' ID Kamu : \033[1;32m"+id))
                    aink(' Tanggal lahir kamu     : \033[1;32m"+ttl))
