@@ -282,10 +282,10 @@ def mbfv2():
                  id = a["id"]
              except KeyError:
                  id = " "
-                   aink(' Welcome User \033[1;32m"+nama))
-                   aink(' ID Kamu : \033[1;32m"+id))
-                   aink(' Tanggal lahir kamu     : \033[1;32m"+ttl))
-                   aink(' Kamu Join  : \033[1;32m"+durasi))
+                   print(' Welcome User \033[1;32m"+nama))
+                   print(' ID Kamu : \033[1;32m"+id))
+                   print(' Tanggal lahir kamu     : \033[1;32m"+ttl))
+                   print(' Kamu Join  : \033[1;32m"+durasi))
                    aink('\033[92m『PILIH METODE CRACK』')
                    aink('\033[90m[\033[96m?\033[90m] \033[92m01\033[97m.\033[96mŘÔĶÊĎ ĎÂFŤÂŘ ŤÊMÂŇ')
                    aink('\033[90m[\033[96m?\033[90m] \033[92m02\033[97m.\033[96mŘÔĶÊĎ ĎÂŘÎ ŁÎĶÊ PÔŠŠŤÎŇĞÂŇ')
