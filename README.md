@@ -1,3 +1,2 @@
-# MBFV2
-## Server Terbaru 2021
-[![ReadmeCard](https://github-readme-stats.vercel.app/api/pin/?username=MrxMilzu-ryu&repo=MBFV2&theme=chartreuse-dark)]( https://github.com/MrxMilzu/MBFV2)
+##### CARA INSTALL HUBUNGI AUTHOR
+[![](https://img.shields.io/badge/Whatsapp-CHAT-red?logo=Whatsapp&logoColor=Brightgreen&labelColor=white)](https://wa.me/6283127768957?text=Halo+bang)
