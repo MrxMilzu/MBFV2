@@ -282,6 +282,7 @@ def mbfv2():
                    lupo_lupo_milzu()
                    menu()
                    peak()
+                   asu()
                    print(" Welcome User \033[1;32m" + nama)
                    print(" ID Kamu : \033[1;32m" + id)
                    print(" Tanggal lahir kamu     : \033[1;32m" + ttl)
