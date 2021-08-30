@@ -263,14 +263,14 @@ def mbfv2():
                    ses = requests.Session()
                    kukis = masuk()
                    kuki = {'cookie':kukis}
-         def asu():
-             global ua
-             try:
-                 cek = open("cookies").read()
-                 response = requests.get(api, params=params)
-                 nama = a["first_name"]
-                 ttl = a["birthday"]
-                 id = a["id"]
+def asu():
+    global ua
+    try:
+        cek = open("cookies").read()
+        response = requests.get(api, params=params)
+        nama = a["first_name"]
+        ttl = a["birthday"]
+        id = a["id"]
                    lupo_lupo_milzu()
                    menu()
                    peak()
