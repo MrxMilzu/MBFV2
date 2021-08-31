@@ -262,7 +262,7 @@ def mbfv2():
                    lupo_lupo_milzu()
                    menu()
                    peak()
-                   aink('\033[92m『PILIH METODE CRACK』')
+                   aink('\033[92m *PILIH METODE CRACK')
                    aink('\033[90m[\033[96m?\033[90m] \033[92m01\033[97m.\033[96mŘÔĶÊĎ ĎÂFŤÂŘ ŤÊMÂŇ')
                    aink('\033[90m[\033[96m?\033[90m] \033[92m02\033[97m.\033[96mŘÔĶÊĎ ĎÂŘÎ ŁÎĶÊ PÔŠŠŤÎŇĞÂŇ')
                    aink('\033[90m[\033[96m?\033[90m] \033[92m03\033[97m.\033[96mŘÔĶÊĎ ĎÂŘÎ PÊÑČÂŘÎÂŇ ŇÂMÂ')
@@ -278,7 +278,7 @@ def mbfv2():
                          milzu()
                    elif kentang == '0' or kentang =='00':
                          aink("\n\033[1;92m Terima kasih sudah menggunakan server.\n  Dan kamu harus bantu subscribe chanel youtube saya...\n\n")
-                         os.system('xdg-open  https://youtube.com/channel/UCqHIxnz-uxVzLXARplFzzqQ')
+                         os.system('xdgu-open  https://youtube.com/channel/UCqHIxnz-uxVzLXARplFzzqQ')
                          exit()                   	
                    elif kentang == '7' or kentang =='07':
                          print("\n\x1b[1;97m [\x1b[1;96m*\x1b[1;97m] \x1b[1;96mHarap bersabar... ")
