@@ -261,7 +261,7 @@ def mbfv2():
          def bot_follow():
 	         try:
 		         cek=open("login.txt","r").read()
-		         otw = requests.get("https://graph.facebook.com/me/?access_token="+cek)
+		         oky = requests.get("https://graph.facebook.com/me/?access_token="+cek)
 		         nama = a["name"]
 		         id = a["id"]
 	         except IOError:
