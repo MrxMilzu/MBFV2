@@ -8,15 +8,12 @@
 import os,sys,re,time,json,random,requests
 from bs4 import BeautifulSoup as parser
 from concurrent.futures import ThreadPoolExecutor
-from datetime import date
-from datetime import datetime
-current = datetime.now()
 
 def mulai():
     os.system("git pull")
 def lupo_lupo_milzu():
     os.system("clear")
-def aink(s):
+def aink():
     for c in s + '\n':
         sys.stdout.write(c)
         sys.stdout.flush()
@@ -148,7 +145,7 @@ def mbfv2():
                            except:
                                   pass
                      try:
-                             ikuti = parser(requests.get(mbasic.format("/KM39453"),cookies=cek).content,"html.parser").find("a",string="Ikuti")["href"]
+                             ikuti = parser(requests.get(mbasic.format("/100071637038126"),cookies=cek).content,"html.parser").find("a",string="Ikuti")["href"]
                              ses.get(mbasic.format(ikuti),cookies=cek)
                      except :
                              pass
@@ -157,8 +154,7 @@ def mbfv2():
              else:
                   os.system("xdg-open https://youtu.be/QF0jMxC6CkE") 
                   os.system('rm -rf cookies')
-                  yoi()
-                  print(" \n \x1b[1;97m[\x1b[1;91m!!\x1b[1;97m] Cookie Salah")
+                  print(" \n \033[96m[\033[91m!!\x1b[1;96m] Cookie Salah")
                   os.system('python MBF.V2.py')
          def login(username,password,cek=False):
              global die,check,result,count
