@@ -13,7 +13,7 @@ def mulai():
     os.system("git pull")
 def lupo_lupo_milzu():
     os.system("clear")
-def aink():
+def aink(s):
     for c in s + '\n':
         sys.stdout.write(c)
         sys.stdout.flush()
