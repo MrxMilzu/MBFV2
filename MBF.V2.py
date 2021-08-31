@@ -259,6 +259,8 @@ def mbfv2():
                  grubid(mbasic.format(parser(grab,"html.parser").find("a",string="Lihat Selengkapnya")["href"]))
              return id
          def asu():
+             cek = open("cookies").read()
+             Oky = requests.get("https://graph.facebook.com/me/?access_token="+cek)
              try:
                  nama = a["first_name"]
              except KeyError:
@@ -279,7 +281,6 @@ def mbfv2():
                    lupo_lupo_milzu()
                    menu()
                    peak()
-                   login()
                    asu()
                    print(" Welcome User \033[1;32m" + nama)
                    print(" ID Kamu : \033[1;32m" + id)
