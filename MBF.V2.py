@@ -32,7 +32,7 @@ Password = "Milzu.MBFV2"
 
 loop = 'true'
 while (loop == 'true'):
-    passcode = raw_input("\033[1;92m[?] \x1b[1;91mPASSWORD \x1b[1;95m: ")
+    passcode = input("\033[1;92m[?] \033[92mPassword\033[95m:\033[93m ")
     if (passcode == Password):
             print("\033[97mW033[96m-e-l-c-o-m-e To M.r.x-i-l-z-u")
             loop = 'false'
