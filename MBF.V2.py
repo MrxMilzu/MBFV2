@@ -93,7 +93,6 @@ def peak():
 \033[93m[\033[92m+\033[93m]\033[93mInstagram\033[91m: \033[93m-
 \033[91m[\033[93m+\033[91m]\033[93mFacebook \033[91m: \033[96mfacebook.com/Mîłžû Ťč
 \033[94m──────────────────────────────────────────────── """)
-
 def milzutc():
     milzu=input("\n\033[00m\t   [\033[96m Tekan enter untuk kembali\033[97m ] ")
     if milzu == "": 
@@ -273,7 +272,9 @@ def mbfv2():
                    aink('\033[90m[\033[96m?\033[90m] \033[92m07\033[97m.\033[96mHÂPÛŠ ČÔÔĶÎÊ')
                    aink('\033[90m[\033[93m!\033[90m] \033[91m00\033[97m.\033[96mĶÊŁÛÂŘ')
                    print('\x1b[1;94m────────────────────────────────────────────────────')
-                   kentang = input('\033[00m─》 \033[00m: \033[93m ')
+                   print("\033[93m╭╼[Mrx.Milzu]─[01-09-2021]")
+                   print ("\033[93m~Wkwkwkwkwkkwkwkwkwkw")
+                   milzu=input("\033[93m╰╼▪>   \033[96m")
                    if kentang =="":
                          print("\n\n\033[00m [\033[91m!\033[00m] Wrong Input!")
                          milzu()
