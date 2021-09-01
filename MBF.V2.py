@@ -34,7 +34,7 @@ loop = 'true'
 while (loop == 'true'):
     passcode = raw_input("\033[1;92m[?] \x1b[1;91mPASSWORD \x1b[1;95m: ")
     if (passcode == Password):
-            print("\033[1;92m"\033[97mW033[96mW-e-l-c-o-m-e"T-o"M.r.x"M-i-l-z-u")
+            print("\033[97mW033[96m-e-l-c-o-m-e To M.r.x-i-l-z-u")
             loop = 'false'
     else:
             print("\033[93m Salah")
