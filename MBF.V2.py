@@ -114,7 +114,7 @@ def mbfv2():
 
     print("\033[93m╭╼[Mrx.Milzu]─[01-09-2021]")
     print ("\033[93m~")
-    milzu=input("\n\033[93m╰╼▪>   \033[96m")
+    milzu=input("\033[93m╰╼▪>   \033[96m")
     if milzu== "1" or milzu =="01":
          mbasic = 'https://mbasic.facebook.com{}'
          global die,check,result, count
