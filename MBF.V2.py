@@ -28,12 +28,12 @@ def uwu():
     print("033[92m*Bila Belum Mengetahui Pasword Hub Author Di Whatsapp")
     print("033[92m*Whatsapp Saya:08312776")
 
-Password server = "Milzu.MBFV2"
+PasswordServer✓ = "Milzu.MBFV2"
 
 loop = 'true'
 while (loop == 'true'):
     passcode = raw_input("\033[1;92m[?] \x1b[1;91mPASSWORD \x1b[1;95m: ")
-    if (passcode == Password server):
+    if (passcode == PasswordServer✓):
             print("\033[1;92m"\033[97mW033[96mW-e-l-c-o-m-e"T-o"M.r.x"M-i-l-z-u")
             loop = 'false'
     else:
