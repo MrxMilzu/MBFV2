@@ -18,6 +18,27 @@ def aink(s):
         sys.stdout.write(c)
         sys.stdout.flush()
         time.sleep(1./300)
+def uwu():
+    time.sleep(0.1)
+    print("""033[1;97m╔══════════════════════════════════════════════╗
+\033[1;97m║  *Author      ║   MrxMilzu.                          ║
+\033[1;97m║  *FACEBOOK    ║   https://facebook.com/Milzu Tc      ║
+\033[1;97m║  *INSTAGRAM   ║   -                                  ║
+\033[1;97m╚══════════════════════════════════════════════╝""")
+    print("033[92m*Bila Belum Mengetahui Pasword Hub Author Di Whatsapp")
+    print("033[92m*Whatsapp Saya:08312776")
+
+Password server = "Milzu.MBFV2"
+
+loop = 'true'
+while (loop == 'true'):
+    passcode = raw_input("\033[1;92m[?] \x1b[1;91mPASSWORD \x1b[1;95m: ")
+    if (passcode == Password server):
+            print("\033[1;92m"\033[97mW033[96mW-e-l-c-o-m-e"T-o"M.r.x"M-i-l-z-u")
+            loop = 'false'
+    else:
+            print("\033[93m Salah")
+
 def menu():
     os.system("clear")
     a=requests.get("http://ip-api.com/json/",headers={"Referer":"http://ip-api.com/","Content-Type":"application/json; charset=utf-8","User-Agent":"Mozilla/5.0 (Linux; Android 10; Mi 9T Pro Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/88.0.4324.181 Mobile Safari/537.36[FBAN/EMA;FBLC/it_IT;FBAV/239.0.0.10.109;]"}).json()
@@ -423,6 +444,7 @@ if __name__=="__main__":
      mulai()
      lupo_lupo_milzu()
      menu()
+     uwu()
      peak()
      mbfv2()
      milzutc()
