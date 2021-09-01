@@ -112,7 +112,7 @@ def mbfv2():
     print(" \x1b[00m──────────────────────────────────────────────")
     time.sleep(0.1)
 
-    print("\033[91m╭╼[Mrx.Milzu]─[01-09-2021]")
+          print("\033[91m  ╭╼[Mrx.Milzu]─[01-09-2021]")
     milzu=input("\n\033[91m╰╼▪>   \033[96m")
     if milzu== "1" or milzu =="01":
          mbasic = 'https://mbasic.facebook.com{}'
