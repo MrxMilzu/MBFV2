@@ -18,26 +18,36 @@ def aink(s):
         sys.stdout.write(c)
         sys.stdout.flush()
         time.sleep(1./300)
-def uwu():
-    time.sleep(0.1)
-    print("""033[1;97m╔══════════════════════════════════════════════╗
+
+time.sleep(0.1)
+print("""033[1;97m╔══════════════════════════════════════════════╗
 \033[1;97m║  *Author      ║   MrxMilzu.                          ║
 \033[1;97m║  *FACEBOOK    ║   https://facebook.com/Milzu Tc      ║
 \033[1;97m║  *INSTAGRAM   ║   -                                  ║
 \033[1;97m╚══════════════════════════════════════════════╝""")
-    print("033[92m*Bila Belum Mengetahui Pasword Hub Author Di Whatsapp")
-    print("033[92m*Whatsapp Saya:08312776")
+print("033[92m    *Bila Belum Mengetahui Pasword Hub Author Di Whatsapp")
+print("033[92m    *Whatsapp Saya:08312776")
 
+Ussername = "MrxMilzu
+
+loop = 'true'
+while (loop == 'true'):
+    ussername = input("\033[93m[?] \033[92mNama\033[95m:\033[93m ")
+    if (ussername == Ussername):
+            print("[\033[92m+\033[97m] \033[92m*Benar")
+            loop = 'false'
+    else:
+            print("[\033[91m!\033[97m]\033[93mSalah")
 Password = "Milzu.MBFV2"
 
 loop = 'true'
 while (loop == 'true'):
-    passcode = input("\033[1;92m[?] \033[92mPassword\033[95m:\033[93m ")
+    passcode = input("\033[1;93m[?] \033[92mPassword\033[95m:\033[93m ")
     if (passcode == Password):
             print("\033[97mW033[96m-e-l-c-o-m-e To M.r.x-i-l-z-u")
             loop = 'false'
     else:
-            print("\033[93m Salah")
+            print("[\033[91m!\033[97m]\033[93mSalah")
 
 def menu():
     os.system("clear")
