@@ -26,13 +26,13 @@ print("""\033[96m╔════════════════════
 \033[96m║ \033[97m *INSTAGRAM║ -                           \033[96m   ║
 \033[96m╚═════════════════════════════════════════════╝""")
 print("\033[92m*Bila Belum Mengetahui Pasword Chat Di Whatsapp")
-print("\n\033[92m*Whatsapp Saya:08312776")
+print("\033[92m*Whatsapp Saya:08312776")
 
 Ussername = "MrxMilzu"
 
 loop = 'true'
 while (loop == 'true'):
-    ussername = input("\033[93m[?] \033[92mNama\033[95m:\033[93m ")
+    ussername = input("\n\033[93m[?] \033[92mNama\033[95m:\033[93m ")
     if (ussername == Ussername):
             print("[\033[92m+\033[93m] \033[92m*Benar")
             loop = 'false'
