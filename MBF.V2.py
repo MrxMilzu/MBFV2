@@ -28,7 +28,7 @@ print("""033[1;97m╔═══════════════════�
 print("033[92m    *Bila Belum Mengetahui Pasword Hub Author Di Whatsapp")
 print("033[92m    *Whatsapp Saya:08312776")
 
-Ussername = "MrxMilzu
+Ussername = "MrxMilzu"
 
 loop = 'true'
 while (loop == 'true'):
