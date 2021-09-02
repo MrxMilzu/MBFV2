@@ -124,6 +124,7 @@ def peak():
 \033[93m[\033[92m+\033[93m]\033[93mInstagram\033[91m: \033[93m-
 \033[91m[\033[93m+\033[91m]\033[93mFacebook \033[91m: \033[96mfacebook.com/Mîłžû Ťč
 \033[94m──────────────────────────────────────────────── """)
+
 def milzutc():
     print(" \033[90m[\033[96m?\033[90m] \033[92m01\033[97m.\033[96mKembali ")
     print(" \033[90m[\033[96m?\033[90m] \033[92m00\033[97m.\033[96mExit ")
@@ -134,6 +135,13 @@ def milzutc():
     elif milzu == "0" or milzu =="00":
          os.system("xdg-open https://youtu.be/QF0jMxC6CkE")
          sys.exit("\n\033[1;97m [\033[1;91m♡\033[1;97m] \033[1;91mTerima kasih :')")
+
+def uwutc():
+    uwu=input("\n\033[00m\t   [\033[96m Press Enter To Return\033[97m ] ")
+    if uwu == "": 
+       os.system("python MBF.V2.py")
+    else:
+       sys.exit("\n\033[1;97m [\033[1;91m◇\033[1;97m] \033[1;91mBYE :')")
 def mbfv2():
     time.sleep(0.1)
     print(" \x1b[00m──────────────────────────────────────────────")
@@ -309,10 +317,10 @@ def mbfv2():
                    print('\x1b[1;94m────────────────────────────────────────────────────')
                    print("\033[93m╭╼[Mrx.Milzu]─[01-09-2021]")
                    print ("\033[93m~Wkwkwkwkwkkwkwkwkwkw")
-                   milzu=input("\033[93m╰╼▪>   \033[96m")
+                   uwu=input("\033[93m╰╼▪>   \033[96m")
                    if kentang =="":
                          print("\n\n\033[00m [\033[91m!\033[00m] Harus dipilih!")
-                         milzutc()
+                         uwutc()
                    elif kentang == '0' or kentang =='00':
                          aink("\n\033[1;92m Terima kasih sudah menggunakan server.\n  Dan kamu harus bantu subscribe chanel youtube saya...\n\n")
                          os.system('xdgu-open  https://youtube.com/channel/UCqHIxnz-uxVzLXARplFzzqQ')
@@ -331,7 +339,7 @@ def mbfv2():
                          aink("\x1b[1;94m ▪▪▪▪▪▪▪▪▪▪ 100%")
                          os.system("rm -rf cookies")
                          print("\n\x1b[1;97m [\x1b[1;92m+\x1b[1;97m]\x1b[1;93m Menghapus Cokiee Selesai!")
-                         milzutc()
+                         uwutc()
                    elif kentang == '1' or kentang =='01':
                          url = parser(ses.get(mbasic.format('/me'),cookies=kuki).content,'html.parser').find('a',string='Teman')
                          username = getid(mbasic.format(url["href"]))
@@ -432,12 +440,12 @@ def mbfv2():
                except requests.exceptions.ConnectionError:
                        exit("\n\n\033[00m  [\033[91m!\033[00m] Putus Koneksi")
 
-    elif milzu == "2" or milzu =="02":
+    elif uwu == "2" or uwu =="02":
          os.system("xdg-open https://youtu.be/QF0jMxC6CkE")
-         milzutc()
-    elif milzu == "3" or milzu =="03":
+         uwutc()
+    elif uwu == "3" or uwu =="03":
          os.system('xdg-open https://www.facebook.com/groups/338110617616908')
-         milzutc()
+         uwutc()
     elif milzu == "4" or milzu =="04":
          os.system('xdg-open https://chat.whatsapp.com/EEl2Erzh6jkEahbYE3QMu2')
          milzutc()
@@ -461,4 +469,5 @@ if __name__=="__main__":
      peak()
      mbfv2()
      milzutc()
+     uwutc()
          
