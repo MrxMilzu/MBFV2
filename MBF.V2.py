@@ -130,10 +130,10 @@ def milzutc():
     print("\033[93m╭╼[Mrx.Milzu]─[01-09-2021]")
     milzu = input("\033[93m╰╼▪>   \033[96m")
     if milzu == "1" or milzu =="01":
-       os.system("python MBF.V2.py")
+         os.system("python MBF.V2.py")
     elif milzu == "0" or milzu =="00":
-    os.system("xdg-open https://youtu.be/QF0jMxC6CkE")
-    sys.exit("\n\033[1;97m [\033[1;91m♡\033[1;97m] \033[1;91mTerima kasih :')")
+         os.system("xdg-open https://youtu.be/QF0jMxC6CkE")
+         sys.exit("\n\033[1;97m [\033[1;91m♡\033[1;97m] \033[1;91mTerima kasih :')")
 def mbfv2():
     time.sleep(0.1)
     print(" \x1b[00m──────────────────────────────────────────────")
