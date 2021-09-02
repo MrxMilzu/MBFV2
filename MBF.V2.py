@@ -20,13 +20,13 @@ def aink(s):
         time.sleep(1./300)
 
 time.sleep(0.1)
-print("""033[1;97m╔══════════════════════════════════════════════╗
-\033[1;97m║  *Author      ║   MrxMilzu.                          ║
-\033[1;97m║  *FACEBOOK    ║   https://facebook.com/Milzu Tc      ║
-\033[1;97m║  *INSTAGRAM   ║   -                                  ║
-\033[1;97m╚══════════════════════════════════════════════╝""")
-print("033[92m    *Bila Belum Mengetahui Pasword Hub Author Di Whatsapp")
-print("033[92m    *Whatsapp Saya:08312776")
+print("""\033[96m╔══════════════════════════════════╗
+\033[96m║ \033[97m *Author      ║   MrxMilzu.                       \033[96m   ║
+\033[96m║ \033[97m *FACEBOOK    ║   https://facebook.com/Milzu Tc   \033[96m   ║
+\033[96m║ \033[97m *INSTAGRAM   ║   -                               \033[96m   ║
+\033[96m╚══════════════════════════════════╝""")
+print("\033[92m    *Bila Belum Mengetahui Pasword Hub Author Di Whatsapp")
+print("\033[92m    *Whatsapp Saya:08312776")
 
 Ussername = "MrxMilzu"
 
