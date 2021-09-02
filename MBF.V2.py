@@ -21,9 +21,9 @@ def aink(s):
 
 time.sleep(0.1)
 print("""\033[96m╔════════════════════════════════════════════╗
-\033[96m║ \033[97m *Author   ║MrxMilzu.                    \033[96m║
-\033[96m║ \033[97m *FACEBOOK ║https://facebook.com/Milzu Tc\033[96m║
-\033[96m║ \033[97m *INSTAGRAM║ -                           \033[96m║
+\033[96m║ \033[97m *Author   ║MrxMilzu.                    \033[96m ║
+\033[96m║ \033[97m *FACEBOOK ║https://facebook.com/Milzu Tc\033[96m ║
+\033[96m║ \033[97m *INSTAGRAM║ -                           \033[96m ║
 \033[96m╚════════════════════════════════════════════╝""")
 print("\033[92m*Bila Belum Mengetahui Pasword Chat Di Whatsapp")
 print("\033[92m*Whatsapp Saya:08312776")
