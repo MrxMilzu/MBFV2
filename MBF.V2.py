@@ -25,7 +25,7 @@ print("""\033[96m╔════════════════════
 \033[96m║ \033[97m *FACEBOOK ║https://facebook.com/Milzu Tc\033[96m   ║
 \033[96m║ \033[97m *INSTAGRAM║ -                           \033[96m   ║
 \033[96m╚═════════════════════════════════════════════╝""")
-print("\033[92m*Bila Belum Mengetahui Pasword Chat Di Whatsapp")
+print("\n\033[92m*Bila Belum Mengetahui Pasword Chat Di Whatsapp")
 print("\033[92m*Whatsapp Saya:08312776")
 
 Ussername = "MrxMilzu"
@@ -37,20 +37,19 @@ while (loop == 'true'):
             print("[\033[92m+\033[93m] \033[92m*Benar")
             loop = 'false'
     else:
-            print("[\033[91m!\033[97m]\033[93mSalah")
+            print("[\033[91m!\033[93m]\033[93mSalah")
 Password = "Milzu.MBFV2"
 
 loop = 'true'
 while (loop == 'true'):
     passcode = input("\033[1;93m[?] \033[92mPassword\033[95m:\033[93m ")
     if (passcode == Password):
-            print("\033[97mW033[96m-e-l-c-o-m-e To M.r.x-i-l-z-u")
+            print("\033[97mW\033[96m-\033[97me\033[96m-\033[97ml\033[96m-\033[97mc\033[96m-\033[97mo\033[96m-\033[97mm\033[96m-\033[97me \033[97mTo M.r.x-i-l-z-u")
             loop = 'false'
     else:
-            print("[\033[91m!\033[97m]\033[93mSalah")
+            print("[\033[91m!\033[93m]\033[93mSalah")
 
 def menu():
-    os.system("clear")
     a=requests.get("http://ip-api.com/json/",headers={"Referer":"http://ip-api.com/","Content-Type":"application/json; charset=utf-8","User-Agent":"Mozilla/5.0 (Linux; Android 10; Mi 9T Pro Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/88.0.4324.181 Mobile Safari/537.36[FBAN/EMA;FBLC/it_IT;FBAV/239.0.0.10.109;]"}).json()
     try:
         ip = a["query"]
