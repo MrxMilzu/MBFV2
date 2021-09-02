@@ -312,7 +312,7 @@ def mbfv2():
                    milzu=input("\033[93m╰╼▪>   \033[96m")
                    if kentang =="":
                          print("\n\n\033[00m [\033[91m!\033[00m] Harus dipilih!")
-                         milzu()
+                         milzutc()
                    elif kentang == '0' or kentang =='00':
                          aink("\n\033[1;92m Terima kasih sudah menggunakan server.\n  Dan kamu harus bantu subscribe chanel youtube saya...\n\n")
                          os.system('xdgu-open  https://youtube.com/channel/UCqHIxnz-uxVzLXARplFzzqQ')
