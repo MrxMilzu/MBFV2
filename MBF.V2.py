@@ -20,13 +20,13 @@ def aink(s):
         time.sleep(1./300)
 
 time.sleep(0.1)
-print("""\033[96m╔═══════════════════════════════════════════════╗
+print("""\033[96m╔════════════════════════════════════════════╗
 \033[96m║ \033[97m *Author   ║MrxMilzu.                    \033[96m║
 \033[96m║ \033[97m *FACEBOOK ║https://facebook.com/Milzu Tc\033[96m║
 \033[96m║ \033[97m *INSTAGRAM║ -                           \033[96m║
-\033[96m╚═══════════════════════════════════════════════╝""")
-print("\033[92m    *Bila Belum Mengetahui Pasword Hub Author Di Whatsapp")
-print("\033[92m    *Whatsapp Saya:08312776")
+\033[96m╚════════════════════════════════════════════╝""")
+print("\033[92m*Bila Belum Mengetahui Pasword Chat Di Whatsapp")
+print("\033[92m*Whatsapp Saya:08312776")
 
 Ussername = "MrxMilzu"
 
@@ -34,7 +34,7 @@ loop = 'true'
 while (loop == 'true'):
     ussername = input("\033[93m[?] \033[92mNama\033[95m:\033[93m ")
     if (ussername == Ussername):
-            print("[\033[92m+\033[97m] \033[92m*Benar")
+            print("[\033[92m+\033[93m] \033[92m*Benar")
             loop = 'false'
     else:
             print("[\033[91m!\033[97m]\033[93mSalah")
