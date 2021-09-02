@@ -454,7 +454,6 @@ if __name__=="__main__":
      mulai()
      lupo_lupo_milzu()
      menu()
-     uwu()
      peak()
      mbfv2()
      milzutc()
