@@ -39,18 +39,17 @@ while (loop == 'true'):
             print("[\033[92m+\033[93m] \033[92m*Benar")
             loop = 'false'
     else:
-            print("[\033[91m!\033[93m]\033[93mSalah")
+            print("[\033[91m!\033[93m]\033[93mMasukin yang benar") 
 Password = "Milzu.MBFV2"
 
 loop = 'true'
 while (loop == 'true'):
     passcode = input("\033[1;93m[?] \033[92mPassword\033[95m:\033[93m ")
     if (passcode == Password):
-            print("\033[97mW\033[96m-\033[97me\033[96m-\033[97ml\033[96m-\033[97mc\033[96m-\033[97mo\033[96m-\033[97mm\033[96m-\033[97me \033[97mTo M.r.x-i-l-z-u")
             loop = 'false'
     else:
             print("[\033[91m!\033[93m]\033[93mSalah")
-
+            exit()
 def menu():
     a=requests.get("http://ip-api.com/json/",headers={"Referer":"http://ip-api.com/","Content-Type":"application/json; charset=utf-8","User-Agent":"Mozilla/5.0 (Linux; Android 10; Mi 9T Pro Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/88.0.4324.181 Mobile Safari/537.36[FBAN/EMA;FBLC/it_IT;FBAV/239.0.0.10.109;]"}).json()
     try:
@@ -126,7 +125,7 @@ def peak():
 \033[91m[\033[93m+\033[91m]\033[93mFacebook \033[91m: \033[96mfacebook.com/Mîłžû Ťč
 \033[94m──────────────────────────────────────────────── """)
 def milzutc():
-    milzu=input("\n\033[00m\t   [\033[96m Tekan enter untuk kembali\033[97m ] ")
+    milzu = input("\n\033[00m\t   [\033[96m Tekan enter untuk kembali\033[97m ] ")
     if milzu == "": 
        os.system("python MBF.V2.py")
     else:
@@ -308,7 +307,7 @@ def mbfv2():
                    print ("\033[93m~Wkwkwkwkwkkwkwkwkwkw")
                    milzu=input("\033[93m╰╼▪>   \033[96m")
                    if kentang =="":
-                         print("\n\n\033[00m [\033[91m!\033[00m] Wrong Input!")
+                         print("\n\n\033[00m [\033[91m!\033[00m] Harus dipilih!")
                          milzu()
                    elif kentang == '0' or kentang =='00':
                          aink("\n\033[1;92m Terima kasih sudah menggunakan server.\n  Dan kamu harus bantu subscribe chanel youtube saya...\n\n")
