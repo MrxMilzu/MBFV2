@@ -129,12 +129,7 @@ def uwutc():
     uwu = input("\n\033[00m\t   [\033[96m Press Enter To Return\033[97m ] ")
     if uwu == "": 
        os.system("python MBF.V2.py")
-
-def milzuu():
-    print(" \033[90m[\033[96m?\033[90m] \033[92m00\033[97m.\033[96mExit ")
-    print("\033[93m╭╼[Mrx.Milzu]─[01-09-2021]")
-    milzu = input("\033[93m╰╼▪>   \033[96m")
-    if milzu == "0" or milzu =="00":
+    else:
        os.system("xdg-open https://youtu.be/QF0jMxC6CkE")
        sys.exit("\n\033[1;97m [\033[1;91m♡\033[1;97m] \033[1;91mTerima kasih :')")
 def mbfv2():
