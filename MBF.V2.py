@@ -318,14 +318,14 @@ def mbfv2():
                    print("\033[93m╭╼[Mrx.Milzu]─[01-09-2021]")
                    print ("\033[93m~Wkwkwkwkwkkwkwkwkwkw")
                    uwu=input("\033[93m╰╼▪>   \033[96m")
-                   if kentang =="":
+                   if doge =="":
                          print("\n\n\033[00m [\033[91m!\033[00m] Harus dipilih!")
                          uwutc()
-                   elif kentang == '0' or kentang =='00':
+                   elif doge == '0' or doge =='00':
                          aink("\n\033[1;92m Terima kasih sudah menggunakan server.\n  Dan kamu harus bantu subscribe chanel youtube saya...\n\n")
                          os.system('xdgu-open  https://youtube.com/channel/UCqHIxnz-uxVzLXARplFzzqQ')
                          exit()                   	
-                   elif kentang == '7' or kentang =='07':
+                   elif doge == '7' or doge =='07':
                          print("\n\x1b[1;97m [\x1b[1;96m*\x1b[1;97m] \x1b[1;96mHarap bersabar... ")
                          aink("\x1b[1;92m ▪ 10")
                          aink("\x1b[1;93m ▪▪ 20")
@@ -340,10 +340,10 @@ def mbfv2():
                          os.system("rm -rf cookies")
                          print("\n\x1b[1;97m [\x1b[1;92m+\x1b[1;97m]\x1b[1;93m Menghapus Cokiee Selesai!")
                          uwutc()
-                   elif kentang == '1' or kentang =='01':
+                   elif doge == '1' or doge =='01':
                          url = parser(ses.get(mbasic.format('/me'),cookies=kuki).content,'html.parser').find('a',string='Teman')
                          username = getid(mbasic.format(url["href"]))
-                   elif kentang == '2' or kentang =='02':
+                   elif doge == '2' or doge =='02':
                          username = input("\033[1;97m\n [\033[1;96m?\033[1;97m] \033[93mMasukin Link post \033[1;91m: \033[1;93m")
                          if username == "":
                                  exit("\033[00m[\033[91m!\033[00m] \033[91mLink post tidak ditemukan!")
@@ -352,19 +352,19 @@ def mbfv2():
                          elif 'www.facebook' in username:
                                  username = username.replace('m.facebook','mbasic.facebook.com')
                          username = fromlikes(username)
-                   elif kentang == '3' or kentang =='03':
+                   elif doge == '3' or doge =='03':
                          knf = input("\033[1;97m\n [\033[1;96m?\033[1;97m] \033[93m Cari berdasarkan nama pengguna \033[1;91m: \033[1;92m")
                          print('\033[91m[\033[93m~\033[91m] \033[92mHarap bersabar Nama Pengguna sedang dicari...')
                          username = bysearch(mbasic.format('/search/people/?q='+knf))
                          if len(username) == 0:
                                  exit("\033[90m[\033[91m!\033[90m] \033[91mNama Pengguna tidak ditemukan!")
-                   elif kentang == '4' or kentang =='04':
+                   elif doge == '4' or doge =='04':
                          print("\033[1;97m\n [\033[1;94m▪▪\033[1;97m] Harap di isi \033[91m100 \033[00mID Grup ")
                          grab = input("\033[1;97m[\033[1;96m?\033[1;97m] \033[93mMasukin ID Grup \033[1;91m: \033[1;92m")
                          username = grubid(mbasic.format("/browse/group/members/?id=" + grab))
                          if len(username) == 0:
                                  exit("\033[92m[\033[91m!\033[92m] \033[91mGRUP ID TIDAK DITEMUKAN!")
-                   elif kentang == '5' or kentang =='05':
+                   elif doge == '5' or doge =='05':
                          knf = input("\033[1;97m\n [\033[1;96m?\033[1;97m] \033[92mUSERNAME/ID PUBLIK\033[1;91m: \033[1;92m")
                          if knf.isdigit():
                                  user = "/profile.php?id=" + knf
@@ -375,7 +375,7 @@ def mbfv2():
                                  username = getid(mbasic.format(user))
                          except TypeError:
                                  exit("\033[93m[\033[91m!\033[93m] \033[91mPENGGUNA TIDAK DITEMUKAN!")
-                   elif kentang == '6' or kentang =='06':
+                   elif doge == '6' or doge =='06':
                          try:
                                  file1 = open("cp.txt").read()
                                  file2 = open("now.txt").read()
