@@ -125,23 +125,18 @@ def peak():
 \033[91m[\033[93m+\033[91m]\033[93mFacebook \033[91m: \033[96mfacebook.com/Mîłžû Ťč
 \033[94m──────────────────────────────────────────────── """)
 
-def milzutc():
-    print(" \033[90m[\033[96m?\033[90m] \033[92m01\033[97m.\033[96mKembali ")
+def uwutc():
+    uwu = input("\n\033[00m\t   [\033[96m Press Enter To Return\033[97m ] ")
+    if uwu == "": 
+       os.system("python MBF.V2.py")
+
+def milzuu():
     print(" \033[90m[\033[96m?\033[90m] \033[92m00\033[97m.\033[96mExit ")
     print("\033[93m╭╼[Mrx.Milzu]─[01-09-2021]")
     milzu = input("\033[93m╰╼▪>   \033[96m")
-    if milzu == "1" or milzu =="01":
-         os.system("python MBF.V2.py")
-    elif milzu == "0" or milzu =="00":
-         os.system("xdg-open https://youtu.be/QF0jMxC6CkE")
-         sys.exit("\n\033[1;97m [\033[1;91m♡\033[1;97m] \033[1;91mTerima kasih :')")
-
-def uwutc():
-    uwu=input("\n\033[00m\t   [\033[96m Press Enter To Return\033[97m ] ")
-    if uwu == "": 
-       os.system("python MBF.V2.py")
-    else:
-       sys.exit("\n\033[1;97m [\033[1;91m◇\033[1;97m] \033[1;91mBYE :')")
+    if milzu == "0" or milzu =="00":
+       os.system("xdg-open https://youtu.be/QF0jMxC6CkE")
+       sys.exit("\n\033[1;97m [\033[1;91m♡\033[1;97m] \033[1;91mTerima kasih :')")
 def mbfv2():
     time.sleep(0.1)
     print(" \x1b[00m──────────────────────────────────────────────")
@@ -156,8 +151,8 @@ def mbfv2():
 
     print("\033[93m╭╼[Mrx.Milzu]─[01-09-2021]")
     print ("\033[93m~")
-    milzu=input("\033[93m╰╼▪>   \033[96m")
-    if milzu== "1" or milzu =="01":
+    uwu=input("\033[93m╰╼▪>   \033[96m")
+    if uwu == "1" or uwu =="01":
          mbasic = 'https://mbasic.facebook.com{}'
          global die,check,result, count
          id = []
@@ -400,7 +395,7 @@ def mbfv2():
                                  exit("\n\033[00m[\033[91m!\033[00m] You Didn't Get Results")
                    else:
                          print("\n\n \033[00m[\033[91m😣\033[00m] Harus dipillih!")
-                         milzu()
+                         uwu()
                    print()
                    lupo_lupo_milzu()
                    menu()
@@ -446,15 +441,15 @@ def mbfv2():
     elif uwu == "3" or uwu =="03":
          os.system('xdg-open https://www.facebook.com/groups/338110617616908')
          uwutc()
-    elif milzu == "4" or milzu =="04":
+    elif uwu == "4" or uwu =="04":
          os.system('xdg-open https://chat.whatsapp.com/EEl2Erzh6jkEahbYE3QMu2')
-         milzutc()
-    elif milzu == "5" or milzu =="05":
+         uwutc()
+    elif uwu == "5" or uwu =="05":
          print("\n\n\x1b[1;97m      [ \x1b[1;92m[▪] Tunggu sebentar... \x1b[1;97m ]\n")
          print("\033[93m [~] PROSES SEDANG BERJALAN ")
          os.system("git pull")
          print("\n \x1b[1;97m[\x1b[1;92m+\x1b[1;97m]\x1b[1;93m Sudah di update.!!\n ")
-         milzutc()
+         uwutc()
     elif milzu == "0" or milzu =="00":
          aink("\n\033[1;92m Terima kasih sudah menggunakan tools ini.\n  Dan jangan lupa subscribe chanel youtube saya\n\n")
          os.system("xdg-open https://youtube.com/channel/UCqHIxnz-uxVzLXARplFzzqQ")
@@ -468,6 +463,6 @@ if __name__=="__main__":
      menu()
      peak()
      mbfv2()
-     milzutc()
      uwutc()
+     milzuu()
          
