@@ -7,3 +7,7 @@
 
 # Bantu Subscribe Author
 [![](https://img.shields.io/badge/YouTube-SUBSCRIBE-red?logo=&logoColor=Brightred&labelColor=white)](https://youtube.com/channel/UCqHIxnz-uxVzLXARplFzzqQ)
+
+### [+]Andiroid Termux ScreenShot
+<img width="200px" src="/Screenshot_2021-09-04-02-36-29-44_84d3000e3f4017145260f7618db1d683.png">
+
