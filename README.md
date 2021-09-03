@@ -6,7 +6,7 @@
 [![](https://img.shields.io/badge/Instagram-red?logo=Instagram&logoColor=red&labelColor=white)](https://www.instagram.com/milzu_tc_hacker/)
 
 # [+] Bantu Donate
-[![](https://img.shields.io/badge/Facebook-blue?logo=Facebook&logoColor=blue&labelColor=black)](https://link.dana.id/qr/3u8s8cbp)
+[![](https://img.shields.io/badge/DANA-blue?logo=DANA&logoColor=blue&labelColor=black)](https://link.dana.id/qr/3u8s8cbp)
 
 # [+] Bantu Subscribe Author
 [![](https://img.shields.io/badge/YouTube-SUBSCRIBE-red?logo=&logoColor=Brightred&labelColor=white)](https://youtube.com/channel/UCqHIxnz-uxVzLXARplFzzqQ)
