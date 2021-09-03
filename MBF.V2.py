@@ -4,6 +4,7 @@
 #Created 1-8-2021
 #fb = MÎŁŽÛ ŤČ
 #JANGAN DI RECODE YA NGENTOD
+#JANGAN DIJUAL BELIKAN JUGA ASU
 
 import os,sys,re,time,json,random,requests
 from bs4 import BeautifulSoup as parser
