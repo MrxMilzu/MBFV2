@@ -459,5 +459,3 @@ if __name__=="__main__":
      peak()
      mbfv2()
      uwutc()
-     milzuu()
-         
