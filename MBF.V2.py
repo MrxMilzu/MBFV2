@@ -168,7 +168,7 @@ def mbfv2():
                    lupo_lupo_milzu()
                    menu()
                    peak()
-                   cek = input("\n\033[0;92m       [ \033[92mServer ini menggunakan Cokiee \033[0;92m]\n\n\033[90m [\033[91m>_<\033[90m] \033[96mCokiee \033[1;91m~> \033[1;96m")
+                   cek = input("\n\033[0;92m╔═══════════════════════║\n[ \033[92mServer ini menggunakan Cokiee \033[0;92m]\n\033[90m ║[\033[91m>_<\033[90m] \033[96mCokiee \033[1;91m~> \033[1;96m")
                    print('\n\033[97m [\033[92m*\033[97m] \033[92mHarap bersabar...')
              cek = {"cookie":cek}
              ismi = ses.get(mbasic.format("/me",verify=False),cookies=cek).content
