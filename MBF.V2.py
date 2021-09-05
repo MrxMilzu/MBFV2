@@ -133,7 +133,7 @@ def peak():
 \033[94m ║═════════════════════════════════════════════════ """)
 
 def uwutc():
-    uwu = input("\n\033[00m\t   [\033[96m Press Enter To Return\033[97m ] ")
+    uwu = input("\n\033[00m\t   [\033[96m Tekan Enter Untuk kembali\033[97m ] ")
     if uwu == "": 
        os.system("python MBF.V2.py")
     else:
@@ -294,7 +294,7 @@ def mbfv2():
                          id.append(user[1] + "|" + re.findall('id=(\d*)',str(user[0]))[0])
                  else:
                          id.append(user[1] + "|" + user[0])
-                 print(f"\r\033[1;97m [\033[1;94m•\033[1;97m] \033[1;96m{str(len(id))} \033[1;97mProcess Of Retrieving ID... ",end="")
+                 print(f"\r\033[1;97m [\033[1;92m+\033[1;97m] \033[1;96m{str(len(id))} \033[1;97mProses mengambil ID... ",end="")
              if "Lihat Selengkapnya" in str(grab):
                  grubid(mbasic.format(parser(grab,"html.parser").find("a",string="Lihat Selengkapnya")["href"]))
              return id
@@ -306,6 +306,7 @@ def mbfv2():
                    lupo_lupo_milzu()
                    menu()
                    peak()
+                   os.system("git pull")
                    aink("\033[92m *PILIH METODE CRACK")
                    aink(" \x1b[92m║═╔═══════════════════════════════════════════════╗")
                    aink(" \033[92m║═╚═>[\033[96m?\033[90m] \033[92m01\033[97m.\033[96mCRECK DAFTAR TEMAN                  \033[92m~═║")
