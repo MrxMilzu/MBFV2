@@ -1,10 +1,18 @@
 #!/usr/bin/python
 # -*- coding: utf-8 
+
 # coding by Milzu TC 
-#Created 1-8-2021
-#fb = MÎŁŽÛ ŤČ
-#JANGAN DI RECODE YA NGENTOD
-#JANGAN DIJUAL BELIKAN JUGA ASU
+
+#fb = MÎŁŽÛ Ťč
+
+#JANGAN DI RECODE YA BABI
+
+#~═║CREATED║~═
+#~═║1-8-2021║~═
+
+#UPDATE~═║05-09-2021║~═BY~═║ MILZU TAMVAN║~═
+
+#_CRACKER_~═║BISKUIT║~═YANG~═LEZAT~═║
 
 import os,sys,re,time,json,random,requests
 from bs4 import BeautifulSoup as parser
@@ -15,7 +23,7 @@ def mulai():
 def lupo_lupo_milzu():
     os.system("clear")
 def aink(s):
-    for c in s + '\n':
+    for c in s + '\n'
         sys.stdout.write(c)
         sys.stdout.flush()
         time.sleep(1./300)
