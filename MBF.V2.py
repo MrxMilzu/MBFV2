@@ -23,7 +23,7 @@ def mulai():
 def lupo_lupo_milzu():
     os.system("clear")
 def aink(s):
-    for c in s + '\n'
+    for c in s + '\n':
         sys.stdout.write(c)
         sys.stdout.flush()
         time.sleep(1./300)
