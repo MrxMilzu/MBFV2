@@ -1,17 +1,11 @@
 #!/usr/bin/python
 # -*- coding: utf-8 
-
 # coding by Milzu TC 
-
 #fb = MÎŁŽÛ Ťč
-
 #JANGAN DI RECODE YA BABI
-
 #~═║CREATED║~═
 #~═║1-8-2021║~═
-
 #UPDATE~═║05-09-2021║~═BY~═║ MILZU TAMVAN║~═
-
 #_CRACKER_~═║BISKUIT║~═YANG~═LEZAT~═║
 
 import os,sys,re,time,json,random,requests
