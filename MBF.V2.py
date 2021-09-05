@@ -136,6 +136,7 @@ def uwutc():
     uwu = input("\n\033[00m\t   [\033[96m Press Enter To Return\033[97m ] ")
     if uwu == "": 
        os.system("python MBF.V2.py")
+       os.system ("git pull")
     else:
        sys.exit("\n\033[1;97m [\033[1;91m♡\033[1;97m] \033[1;91mTerima kasih :')")
 def mbfv2():
@@ -461,7 +462,7 @@ def mbfv2():
     elif uwu == "5" or uwu =="05":
          print("\n\n\x1b[1;97m      [ \x1b[1;92m[▪] Tunggu sebentar... \x1b[1;97m ]\n")
          print("\033[93m [~] PROSES SEDANG BERJALAN ")
-         os.system("git pull")
+         os.system("clear")
          print("\n \x1b[1;97m[\x1b[1;92m+\x1b[1;97m]\x1b[1;93m Sudah di update.!!\n ")
          uwutc()
     elif milzu == "0" or milzu =="00":
