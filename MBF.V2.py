@@ -6,6 +6,8 @@
 
 #JANGAN DI RECODE YA BABI
 
+#ASU KANG RECODE 
+
 #~═║CREATED║~═
 
 #~═║1-8-2021║~═
