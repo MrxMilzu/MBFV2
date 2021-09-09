@@ -14,9 +14,9 @@ git clone https://github.com/MrxMilzu/MBFV2
 ```
 cd MBFV2
 ```
-'''
+```
 python MBF.V2.py
-'''
+```
 ### [✓] Bantu follow Author👇
 [![](https://img.shields.io/badge/Facebook-blue?logo=Facebook&logoColor=blue&labelColor=white)](https://www.facebook.com/100071637038126)
 [![](https://img.shields.io/badge/Instagram-red?logo=Instagram&logoColor=red&labelColor=white)](https://www.instagram.com/milzu_tc_hacker/)
