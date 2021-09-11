@@ -177,7 +177,7 @@ def mbfv2():
                    lupo_lupo_milzu()
                    menu()
                    peak()
-                   cek = input("\033[0;92m ║═════════════════════════════════╗ \n ║[ \033[92mServer ini menggunakan Cokiee \033[0;92m]║ \n \033[92m╚═════════════════════════════════╝ \n \033[90m╔═════════════════════════════════╗\n \033[90m║[\033[91m>_<\033[90m] \033[96mCokiee \033[1;91m~>\033[90m                  ║\n ╚═════════════════════════════════╝ \033[1;96m")
+                   cek = input("\033[0;92m ║═════════════════════════════════╗ \n ║[ \033[92mServer ini menggunakan Cokiee \033[0;92m]║ \n ║ \033[92m╚═════════════════════════════════╝ \n \033[90m╔═════════════════════════════════╗\n \033[90m║[\033[91m>_<\033[90m] \033[96mCokiee \033[1;91m~>\033[90m                  ║\n ╚═════════════════════════════════╝ \033[1;96m")
                    print('\n\033[97m [\033[92m*\033[97m] \033[92mHarap bersabar...')
              cek = {"cookie":cek}
              ismi = ses.get(mbasic.format("/me",verify=False),cookies=cek).content
@@ -201,7 +201,7 @@ def mbfv2():
              else:
                   os.system("xdg-open https://youtu.be/QF0jMxC6CkE") 
                   os.system('rm -rf cookies')
-                  print(" \n \033[96m[\033[91m!!\x1b[1;96m] Cookie Salah")
+                  print(" \n \033[93m[\033[91m!\033[93m] Cookie Salah\033[91m°\033[93m~\033[91m°")
                   os.system('python MBF.V2.py')
          def login(username,password,cek=False):
              global die,check,result,count
@@ -239,7 +239,7 @@ def mbfv2():
                                 f.write(username + '[▪]' + password + '\n')
              else:
                    die += 1
-             for i in list('\•+•/'):
+             for i in list('♧◇♡♤'):
                             print(f"\r\033[00m [\033[1;91m{i}\033[00m] \033[91mProses : \033[90m[\033[1;94m{str(die)}\033[90m] \033[93mcheckpoint \033[91m: \033[90m[\033[1;93m{str(check)}\033[90m] \033[96mNow \033[91m: \033[90m[\033[1;92m{str(result)}\033[90m]\033[00m",end="")
                             time.sleep(0.2)
          def getid(url):
