@@ -17,7 +17,7 @@
 - [x] Support python3
 - [x] Support Login Cookie
 - [x] Support IP
-- [y] note
+- [-] note
 
 #### Masukin code 
 ```
