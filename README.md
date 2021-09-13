@@ -20,6 +20,9 @@
 
 ####  CRACK
 - [x] ID + Password
+</h1>
+</div>
+- [x] Creck ID Teman,Like post,Publik,Grup,Pencarian Nama.
 
 #### >>>INSTALL
 ```
