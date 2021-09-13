@@ -1,9 +1,12 @@
 <h1 align="center">
-  MBFV2
+  ★MBFV2
 </h1>
 </div>
 <p align="center">
-  by: <a href="https://www.facebook.com/100071637038126">~MrxMilzu•••</a>
+# by: 
+```
+<a href="https://www.facebook.com/100071637038126">~MrxMilzu•••</a>
+```
 </p>
 <p align="center">
  
@@ -23,7 +26,7 @@ pkg install git
 ```
 git clone https://github.com/MrxMilzu/MBFV2
 ```
-#### run to skrip
+#### 
 ```
 cd MBFV2
 ```
