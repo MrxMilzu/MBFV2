@@ -20,9 +20,10 @@
 
 ##  CRACK
 #### Pilihan Creck
+```
 - [x] ID + Password
 - [x] Creck ID Teman,Like post,Publik,Grup,Pencarian Nama.
-
+```
 #### >>>INSTALL
 ```
 pkg update && upgrade
