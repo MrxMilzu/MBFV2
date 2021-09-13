@@ -3,7 +3,7 @@
 </h1>
 </div>
 <p align="center">
-# by: 
+  by : 
 ```
 <a href="https://www.facebook.com/100071637038126">~MrxMilzu•••</a>
 ```
