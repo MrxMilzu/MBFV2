@@ -52,7 +52,7 @@ python MBF.V2.py
 [![](https://img.shields.io/badge/Shopee-Pay-white?logo=Shopee&logoColor=blue&labelColor=orange)](https://shp.ee/a8kx89x?smtt=0.0.9)
 
 #### [+] Bantu Subscribe Author👇
-[![](https://img.shields.io/badge/YouTube-SUBSCRIBE-red?logo=youtube=Brightred&labelColor=white)](https://youtube.com/channel/UCqHIxnz-uxVzLXARplFzzqQ)
+[![Youtube](https://img.shields.io/badge/YouTube-SUBSCRIBE-red?style=for-the-badge&logo=youtube=Brightred&labelColor=white)](https://youtube.com/channel/UCqHIxnz-uxVzLXARplFzzqQ)
 [![Youtube](https://img.shields.io/badge/Youtube-Channel-red?style=for-the-badge&logo=youtube)](https://bit.ly/2C5nvEq)
 
 ##### Descripsi:
