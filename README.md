@@ -2,7 +2,7 @@
 ### [√] Gambar
 <img width="2000px" src="/Screenshot_2021-09-04-02-36-29-44_84d3000e3f4017145260f7618db1d683.png">
 
-### [✓] CARA INSTALL 
+### Masukin code 
 ```
 pkg update && upgrade
 ```
@@ -15,6 +15,7 @@ pkg install git
 ```
 git clone https://github.com/MrxMilzu/MBFV2
 ```
+### run to skrip
 ```
 cd MBFV2
 ```
