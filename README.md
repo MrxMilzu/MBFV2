@@ -25,6 +25,9 @@ git clone https://github.com/MrxMilzu/MBFV2
 ```
 #### run to skrip
 ```
+bash setup.sh
+```
+```
 cd MBFV2
 ```
 ```
