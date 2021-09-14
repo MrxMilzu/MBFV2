@@ -459,7 +459,7 @@ def mbfv2():
          print("\033[93m [~] PROSES SEDANG BERJALAN ")
          os.system("git pull")
          print("\n \x1b[1;97m[\x1b[1;92m+\x1b[1;97m]\x1b[1;93m Sudah di update.!!\n ")
-         os.system("python MBF.V2.py
+         os.system("python MBF.V2.py")
     elif uwu == "0" or uwu =="00":
          aink("\n\033[1;92m Terima kasih sudah menggunakan tools ini.\n  Dan jangan lupa subscribe chanel youtube saya\n\n")
          os.system("xdg-open https://youtube.com/channel/UCqHIxnz-uxVzLXARplFzzqQ")
