@@ -43,7 +43,7 @@ git clone https://github.com/MrxMilzu/MBFV2
 cd MBFV2
 ```
 ```
-bash setup.sh
+bash ctrl-y-FB.sh
 ```
 ```
 python MBF.V2.py
