@@ -62,14 +62,12 @@ echo "        |  |  | |   /  \ /    MILZU "
 echo "  ______|_____|_|___\__/_\__●________________________ "
 echo
 gem install lolcat
-clear
 echo
 echo "         ______       _         " | lolcat
 echo "        |_____  |     |   \ /   " | lolcat
 echo "        |       |____ |   / \   " | lolcat
 echo "  ______|____________________________________________ " | lolcat
 echo "    FLIX            YOUTUBE MILZU-TC TOTORIAL77       " | lolcat
-echo
 echo
 echo "       [√] install commando done..."
 echo
