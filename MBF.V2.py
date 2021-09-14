@@ -447,20 +447,20 @@ def mbfv2():
 
     elif uwu == "2" or uwu =="02":
          os.system("xdg-open https://youtu.be/QF0jMxC6CkE")
-         uwutc()
+         exit()
     elif uwu == "3" or uwu =="03":
          os.system('xdg-open https://www.facebook.com/groups/338110617616908')
-         uwutc()
+         exit()
     elif uwu == "4" or uwu =="04":
          os.system('xdg-open https://chat.whatsapp.com/EEl2Erzh6jkEahbYE3QMu2')
-         uwutc()
+         exit()
     elif uwu == "5" or uwu =="05":
          print("\n\n\x1b[1;97m      [ \x1b[1;92m[▪] Tunggu sebentar... \x1b[1;97m ]\n")
          print("\033[93m [~] PROSES SEDANG BERJALAN ")
          os.system("git pull")
          print("\n \x1b[1;97m[\x1b[1;92m+\x1b[1;97m]\x1b[1;93m Sudah di update.!!\n ")
-         uwutc()
-    elif milzu == "0" or milzu =="00":
+         os.system("python MBF.V2.py
+    elif uwu == "0" or uwu =="00":
          aink("\n\033[1;92m Terima kasih sudah menggunakan tools ini.\n  Dan jangan lupa subscribe chanel youtube saya\n\n")
          os.system("xdg-open https://youtube.com/channel/UCqHIxnz-uxVzLXARplFzzqQ")
          aink("\033[93m [▪] BYE...")
