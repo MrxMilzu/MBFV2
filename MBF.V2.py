@@ -134,12 +134,6 @@ def peak():
 \033[94m ║\033[91m[\033[93m+\033[91m]\033[93mFacebook \033[91m: \033[96mfacebook.com/Mîłžû Ťč
 \033[94m ║═════════════════════════════════════════════════ """)
 
-def uwutc():
-    uwu = input("\n\033[00m\t   [\033[96m Tekan Enter Untuk kembali\033[97m ] ")
-    if uwu == "": 
-       os.system("python MBF.V2.py")
-    else:
-       sys.exit("\n\033[1;97m [\033[1;91m♡\033[1;97m] \033[1;91mTerima kasih :')")
 def mbfv2():
     time.sleep(0.1)
     print(" \x1b[92m║═╔═══════════════════════════════════════════════╗")
@@ -479,4 +473,3 @@ if __name__=="__main__":
      menu()
      peak()
      mbfv2()
-     uwutc()
