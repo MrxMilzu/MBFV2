@@ -278,7 +278,7 @@ def mbfv2():
                          id.append(user[1] + "|" + re.findall("=(\d*)",str(user[0]))[0])
                   else:
                          id.append(user[1] + "|" + user[0].split("?")[0])
-                  print(f"\r\033[1;97m [\033[1;94m•\033[1;97m] \033[1;96m{str(len(id))} \033[1;97mProcess Of Retrieving ID... ",end="")
+                  print(f"\r \033[1;96m{str(len(id))} \033[1;97mSEARCH ID... ",end="")
              if "Lihat Hasil Selanjutnya" in str(search):
                   bysearch(parser(search,'html.parser').find("a",string="Lihat Hasil Selanjutnya")["href"])
              return id
@@ -358,11 +358,10 @@ def mbfv2():
                                  username = username.replace('m.facebook','mbasic.facebook.com')
                          username = fromlikes(username)
                    elif doge == '3' or doge =='03':
-                         knf = input("\033[1;97m\n [\033[1;96m?\033[1;97m] \033[93m Cari berdasarkan nama pengguna \033[1;91m: \033[1;92m")
-                         print('\033[91m[\033[93m~\033[91m] \033[92mHarap bersabar Nama Pengguna sedang dicari...')
-                         username = bysearch(mbasic.format('/search/people/?q='+knf))
+                         lol = input("\n lookat: ")
+                         username = bysearch(mbasic.format('/search/people/?q='+lol))
                          if len(username) == 0:
-                                 exit("\033[90m[\033[91m!\033[90m] \033[91mNama Pengguna tidak ditemukan!")
+                                 exit("! Nama tidak ditemukan!")
                    elif doge == '4' or doge =='04':
                          print("\033[1;97m\n [\033[1;94m▪▪\033[1;97m] Harap di isi \033[91m100 \033[00mID Grup ")
                          grab = input("\033[1;97m[\033[1;96m?\033[1;97m] \033[93mMasukin ID Grup \033[1;91m: \033[1;92m")
