@@ -41,7 +41,7 @@ print("|_|_|_|_|_|_|_| || |.|.| |_|_|_|_| ")
 print("\033[92m*Bila Belum Mengetahui Pasword Chat Di Whatsapp")
 print("\033[92m*Whatsapp Saya:0831-2776-8957")
 
-Ussername = "MrxMilzu"
+Ussername =
 
 loop = 'true'
 while (loop == 'true'):
