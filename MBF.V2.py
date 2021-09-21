@@ -41,16 +41,7 @@ print("|_|_|_|_|_|_|_| || |.|.| |_|_|_|_| ")
 print("\033[92m*Bila Belum Mengetahui Pasword Chat Di Whatsapp")
 print("\033[92m*Whatsapp Saya:0831-2776-8957")
 
-Ussername = ""
-
-loop = 'true'
-while (loop == 'true'):
-    ussername = input("\n\033[93m[?] \033[92mNama\033[95m:\033[93m ")
-    if (ussername == Ussername):
-            print("[\033[92m+\033[93m] \033[92m*Benar")
-            loop = 'false'
-    else:
-            print("[\033[91m!\033[93m]\033[93mMasukin yang benar") 
+input("\n\033[93m[?] \033[92mNama\033[95m:\033[93m ")
 Password = "Milzu.MBFV2"
 
 loop = 'true'
