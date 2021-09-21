@@ -41,12 +41,12 @@ print("|_|_|_|_|_|_|_| || |.|.| |_|_|_|_| ")
 print("\033[92m*Bila Belum Mengetahui Pasword Chat Di Whatsapp")
 print("\033[92m*Whatsapp Saya:0831-2776-8957")
 
-input("\n\033[93m[?] \033[92mNama\033[95m:\033[93m ")
+input("\n\033[93m[?] \033[92mNama Anda\033[95m:\033[93m ")
 Password = "Milzu.MBFV2"
 
 loop = 'true'
 while (loop == 'true'):
-    passcode = input("\033[1;93m[?] \033[92mPassword\033[95m:\033[93m ")
+    passcode = input("\033[1;93m[?] \033[92mPassword Tools\033[95m:\033[93m ")
     if (passcode == Password):
             loop = 'false'
     else:
