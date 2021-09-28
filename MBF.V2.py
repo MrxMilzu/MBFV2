@@ -418,9 +418,6 @@ def mbfv2():
                                                   str(x) + '1',
                                                   str(x) + '12',
                                                   str(x) + '123',
-                                                  str(x) + '1234',
-                                                  str(x) + '12345',
-                                                  str(x) + '123456',
                                                   ]
                                           listpass.append(expass)
                                           for passw in set(listpass):
