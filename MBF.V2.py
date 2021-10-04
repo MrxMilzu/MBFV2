@@ -6,7 +6,9 @@
 
 #JANGAN DI RECODE YA BABI
 
-#ASU KANG RECODE 
+#Lo Recode Kontol lo gue sumpahin pecah Mati Lo Gk selamat kecuali lo minta izin ke gue !!
+
+#Nomor Whatsapp gue 0831-2776-8957
 
 #~═║CREATED║~═
 
