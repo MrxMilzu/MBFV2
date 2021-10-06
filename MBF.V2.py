@@ -55,7 +55,7 @@ while (loop == 'true'):
             exit("Pasword salah")
 def menu():
 
-    print("Masukan Jenis Hp anda")
+    print("\033[93m        Masukan Jenis/Nama Hp anda")
     print(" \x1b[97m║═╔═══════════════════════════════════════════════╗")
     print(" \033[97m║═╚═>[\033[91m?\033[97m] \033[97m0\033[91m1\033[97m.\033[97mSamsung                             \033[91m~═\033[97m║")
     print(" \033[97m║═╔═════════════════════════════════════════════~═║")
@@ -107,7 +107,7 @@ def menu():
         peak()
         mbfv2()
     elif uwu == "2" or uwu =="02":
-         print("Sabar Masih Proses Kontol")
+         print("\033[93m      Sabar Masih Proses Kontol  !!")
          exit()
     elif uwu == "3" or uwu =="03":
         a=requests.get("http://ip-api.com/json/",headers={"Referer":"http://ip-api.com/","Content-Type":"application/json; charset=utf-8","userAgent":"Mozilla/5.0 (Linux; Android 10; Mi 9T Pro Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/88.0.4324.181 Mobile Safari/537.36[FBAN/EMA;FBLC/it_IT;FBAV/239.0.0.10.109;]"}).json()
