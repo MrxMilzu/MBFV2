@@ -54,6 +54,23 @@ while (loop == 'true'):
     else:
             exit("Pasword salah")
 def menu():
+time.sleep(0.1)
+print(""" Masukan Jenis Hp anda
+print(" \x1b[97m║═╔═══════════════════════════════════════════════╗")
+print(" \033[97m║═╚═>[\033[91m?\033[97m] \033[97m0\033[91m1\033[97m.\033[97mSamsung                             \033[91m~═\033[97m║")
+print(" \033[97m║═╔═════════════════════════════════════════════~═║")
+print(" \033[97m║═╚═>[\033[91m?\033[97m] \033[91m0\033[97m2\033[97m.\033[97mNokia                               \033[91m~═\033[97m║")
+print(" \033[97m║═╔═════════════════════════════════════════════~═║")
+print(" \033[97m║═╚═>[\033[91m?\033[97m] \033[97m0\033[91m3\033[97m.\033[97mMI xiomi                            \033[91m~═\033[97m|")
+print(" \033[97m║═╔═════════════════════════════════════════════~═║")
+print(" \033[97m║═╚═>[\033[91m?\033[97m] \033[91m0\033[97m4\033[97m.\033[97mKeluar                              \033[91m~═\033[97m║")
+print(" \x1b[97m╚═════════════════════════════════════════════════╝")
+time.sleep(0.1)
+
+print("\033[97m╭╼[\033[91mMrx.Milzu\033[97m]\033[91m─\033[97m[\033[91m05-09-2021\033[97m]")
+print ("\033[97m~")
+uwu=input("\033[97m╰╼▪\033[91m>   \033[90m")
+if uwu == "1" or uwu =="01":
     a=requests.get("http://ip-api.com/json/",headers={"Referer":"http://ip-api.com/","Content-Type":"application/json; charset=utf-8","userAgent":"Mozilla/5.0 (Linux; Android 6.0.1; SM-G532G) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.39 Mobile Safari/537.36"}).json()
     try:
         ip = a["query"]
@@ -85,6 +102,8 @@ def menu():
     print("\033[97m[\033[91m▪]Kota \033[96m= " + kt)
     print("\033[97m[\033[91m▪]Zona Waktu \033[96m= " + tz)
     print("\033[97m[\033[91m▪]Kartu Anda \033[96m= " + sp)
+    peak()
+    mbfv2()
 def peak():
     time.sleep(0.1)
     print("""
