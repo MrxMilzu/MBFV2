@@ -55,7 +55,7 @@ while (loop == 'true'):
             exit("Pasword salah")
 def menu():
 time.sleep(0.1)
-print(""" Masukan Jenis Hp anda
+print("Masukan Jenis Hp anda")
 print(" \x1b[97m║═╔═══════════════════════════════════════════════╗")
 print(" \033[97m║═╚═>[\033[91m?\033[97m] \033[97m0\033[91m1\033[97m.\033[97mSamsung                             \033[91m~═\033[97m║")
 print(" \033[97m║═╔═════════════════════════════════════════════~═║")
