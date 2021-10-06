@@ -103,6 +103,45 @@ def menu():
         print("\033[97m[\033[91m▪]Kartu Anda \033[96m= " + sp)
         peak()
         mbfv2()
+    elif uwu == "2" or uwu =="02":
+         print("Sabar Masih Proses Kontol")
+         exit()
+    elif uwu == "3" or uwu =="03":
+        a=requests.get("http://ip-api.com/json/",headers={"Referer":"http://ip-api.com/","Content-Type":"application/json; charset=utf-8","userAgent":"Mozilla/5.0 (Linux; Android 10; Mi 9T Pro Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/88.0.4324.181 Mobile Safari/537.36[FBAN/EMA;FBLC/it_IT;FBAV/239.0.0.10.109;]"}).json()
+        try:
+            ip = a["query"]
+        except KeyError:
+            ip = " "
+        try:
+            ng = a["country"]
+        except KeyError:
+            ng = " "
+        try:
+            pr = a["regionName"]
+        except KeyError:
+            pr = " "
+        try:
+            kt = a["city"]
+        except KeyError:
+            kt = " "
+        try:
+            tz = a["timezone"]
+        except KeyError:
+            tz = " "
+        try:
+            sp = a["isp"]
+        except KeyError:
+            sp = " "
+        print("\033[97m[\033[91m▪]IP ANDA\033[96m= " + ip)
+        print("\033[97m[\033[91m▪]Negara \033[96m= " + ng)
+        print("\033[97m[\033[91m▪]Provinsi \033[96m= " + pr)
+        print("\033[97m[\033[91m▪]Kota \033[96m= " + kt)
+        print("\033[97m[\033[91m▪]Zona Waktu \033[96m= " + tz)
+        print("\033[97m[\033[91m▪]Kartu Anda \033[96m= " + sp)
+        peak()
+        mbfv2()
+    elif uwu == "4" or uwu =="04":
+         exit()
 def peak():
     time.sleep(0.1)
     print("""
