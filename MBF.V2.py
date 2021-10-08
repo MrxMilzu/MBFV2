@@ -207,10 +207,11 @@ def mbfv2():
              if cek in ('open', 'Open', 'OPEN')
                  os.system('xdg-open https://m.facebook.com/composer/ocelot/async_loader/?publisher=feed#_=_')
                  mbfv2()
-                   print('\n\033[97m [\033[92m*\033[97m] \033[92mHarap bersabar...')
+                 print('\n\033[97m [\033[92m*\033[97m] \033[92mHarap bersabar...')
              cek = {"cookie":cek}
              ismi = ses.get(mbasic.format("/me",verify=False),cookies=cek).content
-             if "mbasic_logout_button" in str(ismi):
+             try:
+                    "mbasic_logout_button" in str(ismi):
                      if "Apa yang Anda pikirkan sekarang" in str(ismi):
                              with open("cookies","w") as f:
                                      f.write(cek["cookie"])
