@@ -207,8 +207,7 @@ def mbfv2():
                    print('\n\033[97m [\033[92m*\033[97m] \033[92mHarap bersabar\033[91m.\033[93m.\033[92m.;time.sleep(2)')
              cek = {"cookie":cek}
              ismi = ses.get(mbasic.format("/me",verify=False),cookies=cek).content
-             try:
-                    "mbasic_logout_button" in str(ismi):
+             if "mbasic_logout_button" in str(ismi):
                      if "Apa yang Anda pikirkan sekarang" in str(ismi):
                              with open("cookies","w") as f:
                                      f.write(cek["cookie"])
