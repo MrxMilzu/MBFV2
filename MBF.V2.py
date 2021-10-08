@@ -53,26 +53,8 @@ while (loop == 'true'):
             loop = 'false'
     else:
             exit("Pasword salah")
-def menu():
 
-    print("\033[93m        Masukan Jenis/Nama Hp anda")
-    print(" \x1b[97m║═╔═══════════════════════════════════════════════╗")
-    print(" \033[97m║═╚═>[\033[91m?\033[97m] \033[97m0\033[91m1\033[97m.\033[97mSamsung                             \033[91m~═\033[97m║")
-    print(" \033[97m║═╔═════════════════════════════════════════════~═║")
-    print(" \033[97m║═╚═>[\033[91m?\033[97m] \033[91m0\033[97m2\033[97m.\033[97mNokia                               \033[91m~═\033[97m║")
-    print(" \033[97m║═╔═════════════════════════════════════════════~═║")
-    print(" \033[97m║═╚═>[\033[91m?\033[97m] \033[97m0\033[91m3\033[97m.\033[97mMI xiomi                            \033[91m~═\033[97m|")
-    print(" \033[97m║═╔═════════════════════════════════════════════~═║")
-    print(" \033[97m║═╚═>[\033[91m?\033[97m] \033[91m0\033[97m4\033[97m.\033[97mKeluar                              \033[91m~═\033[97m║")
-    print(" \x1b[97m╚═════════════════════════════════════════════════╝")
-
-    print("\033[97m╭╼[\033[91mMrx.Milzu\033[97m]\033[91m─\033[97m[\033[91m05-09-2021\033[97m]")
-    print ("\033[97m~")
-    uwu=input("\033[97m╰╼▪\033[91m>   \033[90m")
-    if uwu =="":
-       print("\n\n\033[00m [\033[91m!\033[00m] Harus dipilih!")
-       menu()
-    if uwu == "1" or uwu =="01":
+def fail():
         a=requests.get("http://ip-api.com/json/",headers={"Referer":"http://ip-api.com/","Content-Type":"application/json; charset=utf-8","userAgent":"Mozilla/5.0 (Linux; Android 6.0.1; SM-G532G) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.39 Mobile Safari/537.36"}).json()
         try:
             ip = a["query"]
@@ -104,47 +86,6 @@ def menu():
         print("\033[97m[\033[91m▪]Kota \033[96m= " + kt)
         print("\033[97m[\033[91m▪]Zona Waktu \033[96m= " + tz)
         print("\033[97m[\033[91m▪]Kartu Anda \033[96m= " + sp)
-        peak()
-        mbfv2()
-    elif uwu == "2" or uwu =="02":
-         print("\033[93m      Sabar Masih Proses Kontol  !!")
-         exit()
-    elif uwu == "3" or uwu =="03":
-        a=requests.get("http://ip-api.com/json/",headers={"Referer":"http://ip-api.com/","Content-Type":"application/json; charset=utf-8","userAgent":"Mozilla/5.0 (Linux; Android 10; Mi 9T Pro Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/88.0.4324.181 Mobile Safari/537.36[FBAN/EMA;FBLC/it_IT;FBAV/239.0.0.10.109;]"}).json()
-        try:
-            ip = a["query"]
-        except KeyError:
-            ip = " "
-        try:
-            ng = a["country"]
-        except KeyError:
-            ng = " "
-        try:
-            pr = a["regionName"]
-        except KeyError:
-            pr = " "
-        try:
-            kt = a["city"]
-        except KeyError:
-            kt = " "
-        try:
-            tz = a["timezone"]
-        except KeyError:
-            tz = " "
-        try:
-            sp = a["isp"]
-        except KeyError:
-            sp = " "
-        print("\033[97m[\033[91m▪]IP ANDA\033[96m= " + ip)
-        print("\033[97m[\033[91m▪]Negara \033[96m= " + ng)
-        print("\033[97m[\033[91m▪]Provinsi \033[96m= " + pr)
-        print("\033[97m[\033[91m▪]Kota \033[96m= " + kt)
-        print("\033[97m[\033[91m▪]Zona Waktu \033[96m= " + tz)
-        print("\033[97m[\033[91m▪]Kartu Anda \033[96m= " + sp)
-        peak()
-        mbfv2()
-    elif uwu == "4" or uwu =="04":
-         exit()
 def peak():
     time.sleep(0.1)
     print("""
@@ -201,7 +142,7 @@ def mbfv2():
                     cek = open("cookies").read()
              except FileNotFoundError:
                    lupo_lupo_milzu()
-                   menu()
+                   fail()
                    peak()
                    cek = input("\033[0;96m ║═════════════════════════════════╗ \n \033[96m║\033[90m[ \033[92mTekan open untuk membuka Cokie \033[0;90m]\033[96m║ \n \033[96m╚═════════════════════════════════╝ \n \033[96m╔═════════════════════════════════╗\n \033[96m║[\033[91m>_<\033[90m] \033[92mCokiee \033[1;91m~>\033[90m                  \033[96m║\n \033[96m╚═════════════════════════════════╝ \033[1;93m")
                    print('\n\033[97m [\033[92m*\033[97m] \033[92mHarap bersabar\033[91m.\033[93m.\033[92m.;time.sleep(2)')
@@ -501,6 +442,6 @@ if __name__=="__main__":
      lupo_lupo_milzu()
      mulai()
      lupo_lupo_milzu()
-     menu()
+     fail()
      peak()
      mbfv2()
