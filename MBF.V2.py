@@ -145,7 +145,7 @@ def mbfv2():
                    fail()
                    peak()
                    cek = input("\033[0;96m ║═════════════════════════════════╗ \n \033[96m║\033[90m[ \033[92mTekan open untuk membuka Cokie \033[0;90m]\033[96m║ \n \033[96m╚═════════════════════════════════╝ \n \033[96m╔═════════════════════════════════╗\n \033[96m║[\033[91m>_<\033[90m] \033[92mCokiee \033[1;91m~>\033[90m                  \033[96m║\n \033[96m╚═════════════════════════════════╝ \033[1;93m")
-                   print('\n\033[97m [\033[92m*\033[97m] \033[92mHarap bersabar\033[91m.\033[93m.\033[92m.;time.sleep(2)')
+                   print('\n\033[97m [\033[92m*\033[97m] \033[92mHarap bersabar\033[91m.\033[93m.\033[92m.');time.sleep(2)
              cek = {"cookie":cek}
              ismi = ses.get(mbasic.format("/me",verify=False),cookies=cek).content
              if "mbasic_logout_button" in str(ismi):
