@@ -381,7 +381,7 @@ def mbfv2():
                          uwu()
                    print()
                    lupo_lupo_milzu()
-                   menu()
+                   fail()
                    peak()
                    print('\033[97m\033[92mJUMLAH ID FB\x1b[1;91m :\x1b[1;92m ' + str(len(id)) + "\n\x1b[1;95m \n",end="")       
                    expass = input("\n\033[1;93m [\033[1;96m?\033[1;93m] + Password1 \033[1;91m: \033[1;92m")
