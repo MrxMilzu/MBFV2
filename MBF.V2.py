@@ -388,7 +388,7 @@ def mbfv2():
                    expass = input("\033[1;92m [\033[1;96m?\033[1;92m] + Password2 \033[1;91m: \033[1;92m")
                    aink('\x1b[1;94m────────────────────────────────────────────────────\n')
                    lupo_lupo_milzu()
-                   menu()
+                   fail()
                    peak()
                    print('\033[96mSemua ID\x1b[1;91m :\033[94m ' + str(len(id)) + "\n\033[92m \n",end="")
                    print('\n\033[93m [\033[1;92m+\033[93m] \033[96mhasil\033[92m Now\033[93m disimpan di \033[91m: \033[92mnow.txt\n \033[92m[\033[93m-\033[92m] \033[96mhasil\x1b[1;93m Checkpoint\033[92m disimpan di \033[91m: \033[92mcp.txt')
