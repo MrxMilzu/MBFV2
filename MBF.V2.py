@@ -274,7 +274,7 @@ def mbfv2():
                    kukis = masuk()
                    kuki = {'cookie':kukis}
                    lupo_lupo_milzu()
-                   menu()
+                   fail()
                    peak()
                    aink(" \033[92m║═*PILIH METODE CRACK")
                    aink(" \x1b[92m║═╔═══════════════════════════════════════════════╗")
