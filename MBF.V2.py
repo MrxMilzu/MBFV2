@@ -207,7 +207,7 @@ def mbfv2():
              else:
                    die += 1
              for i in list('+×'):
-                            print(f"\r\033[00m [\033[1;91m{i}\033[00m] \033[91mProses : \033[90m[\033[1;94m{str(die)}\033[90m] \033[93mcheckpoint \033[91m: \033[90m[\033[1;93m{str(check)}\033[90m] \033[96mNow \033[91m: \033[90m[\033[1;92m{str(result)}\033[90m]\033[00m",end="")
+                            print(f"\r\033[00m [\033[1;91m{i}\033[00m] \033[97mProses : \033[90m[\033[1;92m{str(die)}\033[90m] \033[93mcheckpoint \033[91m: \033[90m[\033[1;93m{str(check)}\033[90m] \033[92mNow \033[91m: \033[90m[\033[1;92m{str(result)}\033[90m]\033[00m",end="")
                             time.sleep(0.2)
          def getid(url):
              raw = requests.get(url,cookies=kuki).content
@@ -389,9 +389,9 @@ def mbfv2():
                    lupo_lupo_milzu()
                    fail()
                    peak()
-                   print('\033[96mSemua ID\x1b[1;91m :\033[94m ' + str(len(id)) + "\n\033[92m \n",end="")
-                   print('\n\033[93m [\033[1;92m+\033[93m] \033[96mhasil\033[92m Now\033[93m disimpan di \033[91m: \033[92mnow.txt\n \033[92m[\033[93m-\033[92m] \033[96mhasil\x1b[1;93m Checkpoint\033[92m disimpan di \033[91m: \033[92mcp.txt')
-                   print('\n [\x1b[1;91m▪\x1b[1;97m] \033[92mMatikan data seluler untuk menjeda proses crack\n')
+                   print('\033[92m   Semua ID\x1b[1;91m :\033[92m ' + str(len(id)) + "\n\033[92m \n",end="")
+                   print('\n\033[91m [\033[1;90m+\033[91m] \033[97mhasil\033[92m Now\033[97m di\033[92msimpan \033[97mdi \033[93m: \033[92mnow.txt\n \033[91m[\033[90m-\033[91m] \033[97mhasil\x1b[1;93m Checkpoint \033[97mdi\033[92msimpan \033[97mdi \033[91m: \033[93mcp.txt')
+                   print('\n \033[97m[\x1b[1;91m▪\x1b[1;97m] \033[91mMatikan \033[92mdata \033[97mseluler untuk menjeda proses \033[93mcrack\n')
                    with ThreadPoolExecutor(max_workers=30) as ex:
                           for user in username:
                                   users = user.split('|')
@@ -410,7 +410,7 @@ def mbfv2():
                            print("\n\n\x1b[1;92m  *\033[92m Selesai...")
      
                    else:
-                           print("\n\n\x1b[1;96m  *\033[91m kamu tidak memiliki hasil apapun:(")
+                           print("\n\n\x1b[1;91m  *\033[93m kamu tidak memiliki hasil apapun:(")
                except (KeyboardInterrupt,EOFError):
                        exit()
                except requests.exceptions.ConnectionError:
