@@ -387,7 +387,7 @@ def mbfv2():
                                  exit("\n\033[00m[\033[91m!\033[00m] Kamu tidak mendapatkan hasil")
                    else:
                          print("\n\n \033[00m[\033[91m😣\033[00m] Harus dipillih!")
-                         uwu()
+                         uwutc()
                    print()
                    lupo_lupo_milzu()
                    fail()
