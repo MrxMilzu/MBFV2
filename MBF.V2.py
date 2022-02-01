@@ -40,17 +40,19 @@ aink("""
 ...     ......       ...  ........... ...  ... \033[93m
 
 \033[96m╔═════════════════════════════════════════════╗
-║ \033[93m  *\033[94mAuthor   \033[96m:\033[94mMrxMilzu.                  \033[96m    ║
-║ \033[93m  *\033[94mFACEBOOK \033[96m: \033[94m-                         \033[96m    ║
-║ \033[93m  *\033[94mINSTAGRAM\033[96m: \033[93m-                         \033[96m    ║
+║ \033[91m *\033[93mYoutube  \033[96m:\033[92mDarkKingMilzu               \033[96m   ║
+║ \033[91m *\033[93mFacebook \033[96m: \033[92mMilzu-Tc                   \033[96m   ║
+║ \033[91m *\033[93minstagram\033[96m: \033[92mstraight_milz4             \033[96m   ║
 ╚═════════════════════════════════════════════╝""")
 aink("\033[97mW\033[96m-\033[97me\033[96m-\033[97ml\033[96m-\033[97ml\033[96m-\033[97mc\033[96m-\033[97mo\033[96m-\033[97mm\033[96m-\033[97me \033[97mTo M.r.x \033[96mM\033[97m-\033[96mi\033[97m-\033[96ml\033[97m-\033[96mz\033[97m-\033[96mu")
 aink("|_|_|_|_|_|_|_| || |.|.| |_|_|_|_| ")
-aink("\033[92m*Bila Belum Mengetahui Pasword Chat Di Whatsapp")
-aink("\033[92m*Whatsapp Saya:0831-2776-8957")
+aink("\033[92m*Password Login With Whatsapp")
+aink("\033[92m*Whatsapp Me:0831-2776-8957")
 
-input("\n\033[93m[?] \033[92mNama Anda\033[95m:\033[93m ")
-Password = "Milzu.MBFV2"
+input("\n\033[93m[?] \033[92mFirst Name\033[95m:\033[93m ")
+input("\n\033[93m[?] \033[92mLast Name\033[95m:\033[93m ")
+input("\n\033[93m[?] \033[92mWhere Do You Life??\033[95m:\033[93m ")
+Password = "hack"
 
 loop = 'true'
 while (loop == 'true'):
