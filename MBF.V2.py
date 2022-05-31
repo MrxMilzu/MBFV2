@@ -213,8 +213,8 @@ def mbfv2():
                                 f.write(username + '|' + password + '\n')
              else:
                    die += 1
-             for i in list('\033[91m•\033[93m•\033[92m•\033[96m•'):
-                            print(f"\r\033[00m [\033[1;91m{i}\033[00m] \033[97mProses : \033[90m[\033[1;92m{str(die)}\033[90m] \033[93mcheckpoint \033[91m: \033[90m[\033[1;93m{str(check)}\033[90m] \033[92mNow \033[91m: \033[90m[\033[1;92m{str(result)}\033[90m]\033[00m",end="")
+             for i in list('•|\|/|•'):
+                            print(f"\r\033[00m [\033[96m{i}\033[00m] \033[97mProses : \033[90m[\033[1;92m{str(die)}\033[90m] \033[93mcheckpoint \033[91m: \033[90m[\033[1;93m{str(check)}\033[90m] \033[92mNow \033[91m: \033[90m[\033[1;92m{str(result)}\033[90m]\033[00m",end="")
                             time.sleep(5.0)
          def getid(url):
              raw = requests.get(url,cookies=kuki).content
