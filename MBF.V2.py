@@ -447,18 +447,18 @@ def mbfv2():
          mbfv2()
     elif uwu == "5" or uwu =="05":
          time.sleep(0.1)
-         aink(" [\033[93m Sabar om sedang di update... \x1b[1;97m ]")
-         aink("\033[93m [~] update Process ")
+         aink(" [\033[97m Sabar om sedang di update... \033[97m ]")
+         aink("\033[97m [~] update Process ")
          os.system("git pull")
          aink(" Sudah di update om.!! ")
          aink(" Silahkan Mulai Ulang... ")
-         aink("untuk menjalankan proses update => python MBF.V2.py")
+         aink(" untuk menjalankan proses update => python MBF.V2.py")
          exit()
     elif uwu == "0" or uwu =="00":
          time.sleep(0.1)
          aink("\n\033[1;92m Terima kasih sudah menggunakan tools ini.\n  Dan jangan lupa subscribe chanel youtube saya\n\n")
          os.system("xdg-open https://youtube.com/channel/UCqHIxnz-uxVzLXARplFzzqQ")
-         aink("\033[93m Sampai ketemu dimasa depan ya om...")
+         aink("\033[97m Sampai ketemu dimasa depan ya om...")
          exit()
 
 if __name__=="__main__":
