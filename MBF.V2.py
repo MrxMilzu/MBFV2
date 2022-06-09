@@ -141,7 +141,7 @@ def mbfv2():
 
     aink("\033[97m╭╼[\033[93mCyber Multi Brute Force\033[97m]\033[97m─\033[97m[\033[93mPrenflix\033[97m]")
     aink ("\033[97m~")
-    uwu=input("\033[97m╰╼▪\033[93m>   \033[90m")
+    uwu=input("\033[97m╰╼▪\033[93m>   \033[97m")
     if uwu == "1" or uwu =="01":
          mbasic = 'https://mbasic.facebook.com{}'
          global die,check,result, count
