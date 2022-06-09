@@ -388,7 +388,7 @@ def mbfv2():
                    lupo_lupo_milzu()
                    fail()
                    peak()
-                   print('\033[97m\033[92mJUMLAH ID FB\x1b[1;91m :\x1b[1;92m ' + str(len(id)) + \n",end="")       
+                   print('\033[97m\033[92mJUMLAH ID FB\x1b[1;91m :\x1b[1;92m ' + str(len(id)) + "\n\x1b[1;95m \n",end="")       
                    expass = input("\n\033[1;93m [\033[1;96m?\033[1;93m] + Password1 \033[1;91m: \033[1;92m")
                    expass = input("\033[1;92m [\033[1;96m?\033[1;92m] + Password2 \033[1;91m: \033[1;92m")
                    expass = input("\033[1;92m [\033[1;96m?\033[1;92m] + Password3 \033[1;91m: \033[1;92m")
@@ -396,7 +396,7 @@ def mbfv2():
                    lupo_lupo_milzu()
                    fail()
                    peak()
-                   print('\033[92m   Semua ID\x1b[1;91m :x1b[1;92m ' + str(len(id)) + \n",end="")
+                   print('\033[92m   Semua ID\x1b[1;91m :x1b[1;92m ' + str(len(id)) + "\n\x1b[1;97m \n",end="")
                    print('\n\033[91m [\033[1;90m+\033[91m] \033[97mhasil\033[92m Now\033[97m di\033[92msimpan \033[97mdi \033[93m: \033[92mnow.txt\n \033[91m[\033[90m-\033[91m] \033[97mhasil\x1b[1;93m Checkpoint \033[97mdi\033[92msimpan \033[97mdi \033[91m: \033[93mcp.txt')
                    print('\n \033[97m[\x1b[1;91m▪\x1b[1;97m] \033[91mMatikan \033[92mdata \033[97mseluler untuk menjeda proses \033[93mcrack\n')
                    with ThreadPoolExecutor(max_workers=30) as ex:
