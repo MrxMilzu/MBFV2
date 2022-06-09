@@ -439,11 +439,11 @@ def mbfv2():
          mbfv2()
     elif uwu == "5" or uwu =="05":
          time.sleep(0.1)
-         print("\n\n\x1b[1;97m      [\033[93m Sabar om sedang di update... \x1b[1;97m ]")
-         print("\n\033[93m [~] update Process ")
+         print(" [\033[93m Sabar om sedang di update... \x1b[1;97m ]")
+         print("\033[93m [~] update Process ")
          os.system("git pull")
-         print("\n\ Sudah di update om.!! ")
-         print("\n\ Silahkan Mulai Ulang... ")
+         print(" Sudah di update om.!! ")
+         print(" Silahkan Mulai Ulang... ")
          print("untuk menjalankan proses update => python MBF.V2.py")
          exit()
     elif uwu == "0" or uwu =="00":
