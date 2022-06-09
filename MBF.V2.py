@@ -60,7 +60,7 @@ while (loop == 'true'):
             loop = 'false'
     else:
             os.system('xdg-open https://chat.wa.me/6285264641929?text=*Asalamualaikum+bang+Minta+Pasword+Scnya+Bang😅*')
-            aink('Yang Bener Masukin ya Kontol !!')
+            aink('Yang Bener Masukin nya Kontol !!')
             exit('paswordnya salah goblok')
 def fail():
         a=requests.get("http://ip-api.com/json/",headers={"Referer":"http://ip-api.com/","Content-Type":"application/json; charset=utf-8","userAgent":"Mozilla/5.0 (Linux; Android 6.0.1; SM-G532G) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.39 Mobile Safari/537.36"}).json()
