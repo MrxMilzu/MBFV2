@@ -22,7 +22,7 @@ def aink(s):
     for c in s + '\n':
         sys.stdout.write(c)
         sys.stdout.flush()
-        time.sleep(1./10)
+        time.sleep(1./9)
 
 time.sleep(0.1)
 mil("""
@@ -45,8 +45,8 @@ aink("* Pergunakanlah dengan bijak...")
 aink("* gue sumpahin yang Recode GK akan selamat")
 aink("* Mau make Sc bilang dulu Tod")
 
-mil(" \033[92m*Password Login With Whatsapp")
-mil(" \033[97m*Whatsapp Me:\033[92m+6283182713104")
+mil("\033[92m* Password Login With Whatsapp")
+mil("\033[97m* Whatsapp Me:\033[92m+6283182713104")
 
 input("\n\033[93m[?] \033[92mFrist Name/Nama Depan\033[95m:\033[93m ")
 input("\033[93m[?] \033[92mLast Name/Nama Belakang\033[95m:\033[93m ")
