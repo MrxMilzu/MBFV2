@@ -281,7 +281,7 @@ def mbfv2():
                          id.append(user[1] + "|" + re.findall('id=(\d*)',str(user[0]))[0])
                  else:
                          id.append(user[1] + "|" + user[0])
-                 print(f"\r\033[1;97m [\033[1;92m+\033[1;97m] \033[1;96m{str(len(id))} \033[1;97mProses mengambil ID... ",end="")
+                 mil(f"\r\033[1;97m [\033[1;92m+\033[1;97m] \033[1;96m{str(len(id))} \033[1;97mProses mengambil ID... ",end="")
              if "Lihat Selengkapnya" in str(grab):
                  grubid(mbasic.format(parser(grab,"html.parser").find("a",string="Lihat Selengkapnya")["href"]))
              return id
@@ -396,7 +396,7 @@ def mbfv2():
                    else:
                          mil("\n\n \033[00m[\033[91m😣\033[00m] Must choose!")
                          uwutc()
-                   mil()
+                   print()
                    lupo_lupo_milzu()
                    fail()
                    peak()
