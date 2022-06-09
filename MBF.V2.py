@@ -41,7 +41,9 @@ mil("""
 ║ \033[91m *\033[93minstagram\033[96m: \033[92mstraight_milz4                       \033[92m   ║
 ╚══════════════════════════════════════════════════════╝""")
 aink("Welcome to this tool...")
-aink("* Pergunakanlah dengan bijak...)
+aink("* Pergunakanlah dengan bijak...")
+aink("* gue sumpahin yang Recode GK akan selamat")
+aink("* Mau make Sc bilang dulu Tod")
 
 mil("\033[92m*Password Login With Whatsapp")
 mil("\033[97m*Whatsapp Me:\033[92m+6283182713104")
