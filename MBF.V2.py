@@ -17,7 +17,7 @@ def aink(s):
     for c in s + '\n':
         sys.stdout.write(c)
         sys.stdout.flush()
-        time.sleep(1./600)
+        time.sleep(1./10)
 
 time.sleep(0.1)
 aink("""
