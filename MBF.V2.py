@@ -232,7 +232,7 @@ def mbfv2():
                    die += 1
              for i in list('\|/-•'):
                             print(f"\r\033[00m [\033[96m{i}\033[00m] \033[97mProses : \033[90m[\033[1;92m{str(die)}\033[90m] \033[93mcheckpoint \033[91m: \033[90m[\033[1;93m{str(check)}\033[90m] \033[92mNow \033[91m: \033[90m[\033[1;92m{str(result)}\033[90m]\033[00m",end="")
-                            time.sleep(5.0)
+                            time.sleep(0.1)
                             pro()
          def getid(url):
              raw = requests.get(url,cookies=kuki).content
@@ -404,6 +404,7 @@ def mbfv2():
                    else:
                          mil("\n\n \033[00m[\033[91m😣\033[00m] Must choose!")
                          uwutc()
+                   time.sleep(1./8)
                    print()
                    lupo_lupo_milzu()
                    fail()
@@ -417,7 +418,6 @@ def mbfv2():
                    fail()
                    peak()
                    print('\033[92m   Semua ID\x1b[1;91m : ' + str(len(id)) + "\n\x1b[1;97m \n",end="")
-                   pro()
                    aink('\n\033[91m [\033[1;90m+\033[91m] \033[97mhasil\033[92m Now\033[97m di\033[92msimpan \033[97mdi \033[93m: \033[92mnow.txt\n \033[91m[\033[90m-\033[91m] \033[97mhasil\x1b[1;93m Checkpoint \033[97mdi\033[92msimpan \033[97mdi \033[91m: \033[93mcp.txt')
                    aink('\n \033[97m[\x1b[1;91m▪\x1b[1;97m] \033[91mMatikan \033[92mdata \033[97mseluler untuk menjeda proses \033[93mcrack\n')
                    with ThreadPoolExecutor(max_workers=30) as ex:
