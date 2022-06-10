@@ -245,6 +245,7 @@ def mbfv2():
                  else:
                         id.append(x[1] + '|' + x[0].split('/')[1].split('?')[0])
                  print('\r\033[1;97m [\033[1;94m+\033[1;97m] \033[1;96m' + str(len(id)) + " \033[1;93m ID retrieval process... ",end="")
+                 pro()
              if 'Lihat Teman Lain' in str(raw):
                  getid(mbasic.format(parser(raw,'html.parser').find('a',string='Lihat Teman Lain')['href']))
              return id
@@ -288,7 +289,8 @@ def mbfv2():
                          id.append(user[1] + "|" + re.findall('id=(\d*)',str(user[0]))[0])
                  else:
                          id.append(user[1] + "|" + user[0])
-                 mil(f"\r\033[1;97m [\033[1;92m+\033[1;97m] \033[1;96m{str(len(id))} \033[1;97mProses mengambil ID... ",end="")
+                 print(f"\r\033[1;97m [\033[1;92m+\033[1;97m] \033[1;96m{str(len(id))} \033[1;97mProses mengambil ID... ",end="")
+                 pro()
              if "Lihat Selengkapnya" in str(grab):
                  grubid(mbasic.format(parser(grab,"html.parser").find("a",string="Lihat Selengkapnya")["href"]))
              return id
@@ -416,8 +418,9 @@ def mbfv2():
                    fail()
                    peak()
                    print('\033[92m   Semua ID\x1b[1;91m : ' + str(len(id)) + "\n\x1b[1;97m \n",end="")
-                   mil('\n\033[91m [\033[1;90m+\033[91m] \033[97mhasil\033[92m Now\033[97m di\033[92msimpan \033[97mdi \033[93m: \033[92mnow.txt\n \033[91m[\033[90m-\033[91m] \033[97mhasil\x1b[1;93m Checkpoint \033[97mdi\033[92msimpan \033[97mdi \033[91m: \033[93mcp.txt')
-                   mil('\n \033[97m[\x1b[1;91m▪\x1b[1;97m] \033[91mMatikan \033[92mdata \033[97mseluler untuk menjeda proses \033[93mcrack\n')
+                   pro()
+                   aink('\n\033[91m [\033[1;90m+\033[91m] \033[97mhasil\033[92m Now\033[97m di\033[92msimpan \033[97mdi \033[93m: \033[92mnow.txt\n \033[91m[\033[90m-\033[91m] \033[97mhasil\x1b[1;93m Checkpoint \033[97mdi\033[92msimpan \033[97mdi \033[91m: \033[93mcp.txt')
+                   aink('\n \033[97m[\x1b[1;91m▪\x1b[1;97m] \033[91mMatikan \033[92mdata \033[97mseluler untuk menjeda proses \033[93mcrack\n')
                    with ThreadPoolExecutor(max_workers=30) as ex:
                           for user in username:
                                   users = user.split('|')
