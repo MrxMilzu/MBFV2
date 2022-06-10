@@ -245,7 +245,6 @@ def mbfv2():
                  else:
                         id.append(x[1] + '|' + x[0].split('/')[1].split('?')[0])
                  print('\r\033[1;97m [\033[1;94m+\033[1;97m] \033[1;96m' + str(len(id)) + " \033[1;93m ID retrieval process... ",end="")
-                 pro()
              if 'Lihat Teman Lain' in str(raw):
                  getid(mbasic.format(parser(raw,'html.parser').find('a',string='Lihat Teman Lain')['href']))
              return id
