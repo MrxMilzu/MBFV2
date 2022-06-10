@@ -23,6 +23,12 @@ def aink(s):
         sys.stdout.write(c)
         sys.stdout.flush()
         time.sleep(1./9)
+def pro(s):
+    for c in s + '\n':
+        sys.stdout.write(c)
+        sys.stdout.flush()
+        time.sleep(1./80)
+
 
 time.sleep(0.1)
 lupo_lupo_milzu()
@@ -227,6 +233,7 @@ def mbfv2():
              for i in list('\|/-•'):
                             print(f"\r\033[00m [\033[96m{i}\033[00m] \033[97mProses : \033[90m[\033[1;92m{str(die)}\033[90m] \033[93mcheckpoint \033[91m: \033[90m[\033[1;93m{str(check)}\033[90m] \033[92mNow \033[91m: \033[90m[\033[1;92m{str(result)}\033[90m]\033[00m",end="")
                             time.sleep(5.0)
+                            pro()
          def getid(url):
              raw = requests.get(url,cookies=kuki).content
              getuser = re.findall('middle"><a class=".." href="(.*?)">(.*?)</a>',str(raw))
