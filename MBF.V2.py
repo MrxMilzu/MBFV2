@@ -27,7 +27,7 @@ def pro(s):
     for c in s + '\n':
         sys.stdout.write(c)
         sys.stdout.flush()
-        time.sleep(1./80)
+        time.sleep(1./3)
 
 
 time.sleep(0.1)
