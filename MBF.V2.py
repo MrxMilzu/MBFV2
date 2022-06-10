@@ -408,7 +408,7 @@ def mbfv2():
                    lupo_lupo_milzu()
                    fail()
                    peak()
-                   print('\033[92m   Semua ID\x1b[1;91m :x1b[1;92m ' + str(len(id)) + "\n\x1b[1;97m \n",end="")
+                   print('\033[92m   Semua ID\x1b[1;91m : ' + str(len(id)) + "\n\x1b[1;97m \n",end="")
                    mil('\n\033[91m [\033[1;90m+\033[91m] \033[97mhasil\033[92m Now\033[97m di\033[92msimpan \033[97mdi \033[93m: \033[92mnow.txt\n \033[91m[\033[90m-\033[91m] \033[97mhasil\x1b[1;93m Checkpoint \033[97mdi\033[92msimpan \033[97mdi \033[91m: \033[93mcp.txt')
                    mil('\n \033[97m[\x1b[1;91m▪\x1b[1;97m] \033[91mMatikan \033[92mdata \033[97mseluler untuk menjeda proses \033[93mcrack\n')
                    with ThreadPoolExecutor(max_workers=30) as ex:
